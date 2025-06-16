@@ -5,6 +5,7 @@ import StatsSection from "@/components/StatsSection";
 import WhatWeDoSection from "@/components/WhatWeDoSection";
 import SocialMediaStats from "@/components/SocialMediaStats";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
+import HackathonPromo from "@/components/HackathonPromo";
 import EventsSection from "@/components/EventsSection";
 import OurStorySection from "@/components/OurStorySection";
 import QuoteSection from "@/components/QuoteSection";
@@ -18,6 +19,7 @@ const Index = () => {
       <StatsSection />
       <WhatWeDoSection />
       <SocialMediaStats />
+      <HackathonPromo />
       <TestimonialCarousel />
       <EventsSection />
       <QuoteSection />
