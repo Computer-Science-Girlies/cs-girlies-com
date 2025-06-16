@@ -1,0 +1,1967 @@
+Github Copilot for free if you're a student
+laura hates web dev (i am laura)
+OP
+ — 25/01/2024, 10:02
+I'm always talking about Github Copilot (the AI programming Assistant) because it really cut down my programming time by soooooo much. But, it's paid by default, ...unless you are currently a student with a school email and school id.
+
+https://www.youtube.com/watch?v=4QAYC1M0epA
+
+Shared by @michellexcomputer
+
+Roadmaps or paths to follow
+laura hates web dev (i am laura)
+OP
+ — 25/01/2024, 10:06
+Various options to follow: https://roadmap.sh/
+Linux: https://linuxjourney.com/
+IT Paths: https://www.youtube.com/watch?v=XmWkcePhf84
+Software engineer: https://github.com/jwasham/coding-interview-university
+
+Shared by @laura hates web dev (i am laura) 
+
+Portfolio build
+laura hates web dev (i am laura)
+OP
+ — 25/01/2024, 10:17
+This section is supposed to be the standard option but everything it's really up to how comfy are you showcasing your portfolio.
+
+Most people showcase their portfolio using a 
+"self-hosted" webpage but others, like game devs, use existing pages or even go hybrid using both options.
+
+Free hosting:
+https://pages.github.com/
+https://surge.sh/
+
+Paid hosting:
+https://www.heroku.com/pricing (very cheap btw)
+https://www.namecheap.com/ (nice deals)
+
+Usually used for game dev (but it's not limited to that, tools and sprites are also uploaded here, etc, etc):
+https://itch.io/docs/creators/pricing
+
+Shared by @laura hates web dev (i am laura)
+
+Python resources
+laura hates web dev (i am laura)
+OP
+ — 25/01/2024, 10:28
+⁠🐍-python-girlies⁠ (contains videos for beginners and advanced learners, including a roadpmap)
+
+⁠🐍-python-girlies⁠ (contains online courses and webpages with valuable info)
+
+https://youtu.be/_uQrJ0TkZlc (Full course for beginners shared by @michellexcomputer )
+
+https://www.loom.com/share/ad69e941ee00436c870bca159a7c1b97?sid=bf97f14e-2c2b-415d-9070-c08d1de85f80 (phonebook project by @riri using OOP, this includes a tutorial)
+Blue (ping/tag me!) — 29/02/2024, 16:56
+I also highly recommend Core Schafer. He was recommended to me by another student in the CS programand I learned the beginnings of Python from him:
+https://youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&si=GMhXPOIzP2w9ImcH
+YouTube
+Python Programming Beginner Tutorials
+In these Python Beginner Tutorials, we will be learning the fundamentals of Python programming from the ground up. We will be learning how to: install/setup ...
+Image
+Image
+Image
+Image
+wry
+[ATL]
+ — 22/03/2024, 20:27
+text-based python3 tutorial that I found recently: https://docs.python.org/3/tutorial/index.html
+some parts could be explained better, but it goes through a lot of imporant concepts.
+laura hates web dev (i am laura)
+OP
+ — 23/03/2024, 20:36
+tkinter theme to make it look less ugly https://github.com/rdbende/Sun-Valley-ttk-theme
+shared by @wry
+GitHub
+GitHub - rdbende/Sun-Valley-ttk-theme: A gorgeous theme for Tkinter...
+A gorgeous theme for Tkinter/ttk, based on the Sun Valley visual style ✨ - rdbende/Sun-Valley-ttk-theme
+GitHub - rdbende/Sun-Valley-ttk-theme: A gorgeous theme for Tkinter...
+bea — 24/04/2024, 08:38
+https://youtube.com/@PythonSimplified?si=7G6pnvn7ayqIElv6
+
+
+My fav python programmer so farr<33 she's a life saver!! Least i can do for her is to share her videos
+YouTube
+Python Simplified
+Hi everyone! My name is Mariya and I'm a software developer from Vancouver, British Columbia.
+I film simple programming tutorials about Computer Science Concepts, GUI Applications, Machine Learning and Artificial Intelligence, Automation and Web Scraping, Data Science and even Math! 🤓
+I'm here to help you with your programming journey (in partic...
+Image
+laura hates web dev (i am laura)
+OP
+ — 05/05/2024, 02:15
+Python Sequences: A Comprehensive Guide https://realpython.com/python-sequences/
+Python Sequences: A Comprehensive Guide – Real Python
+This tutorial dives into Python sequences, which is one of the main categories of data types. You'll learn about the properties that make an object a sequence and how to create user-defined sequences.
+Python Sequences: A Comprehensive Guide – Real Python
+Angela — 08/05/2024, 01:56
+Hey guys,I was just wondering if anyone knows what website i can learn data structures in python precisely
+bea — 21/05/2024, 05:32
+Geeksforgeeks ,w3school
+Angela — 21/05/2024, 16:04
+Thank you so much!!
+EMarieHasADHD — 04/06/2024, 10:27
+Free Python for Everybody book and lessons https://www.py4e.com/book
+Cookie
+[OSDV]
+ — 25/12/2024, 16:24
+Programming books -https://github.com/EbookFoundation/free-programming-books
+GitHub
+GitHub - EbookFoundation/free-programming-books: :books: Freely ava...
+:books: Freely available programming books. Contribute to EbookFoundation/free-programming-books development by creating an account on GitHub.
+GitHub - EbookFoundation/free-programming-books: :books: Freely ava...
+
+Java Resources for everyone
+John
+OP
+ — 01/02/2024, 21:09
+Hi friends!
+
+Below is a curated compilation of helpful java resources for ya. 
+
+Feel free to add any additional java resources here. This server is from the community to the community. ❤️
+
+Core Java 
+Main playlist: https://www.youtube.com/watch?v=eTXd89t8ngI&list=PLd3UqWTnYXOmx_J1774ukG_rvrpyWczm0
+Separate OOP Concepts playlist https://www.youtube.com/watchv=DaAJIMakWKU&list=PLd3UqWTnYXOkwluXExifmJWKkvGa1ywWp
+Separate constructors playlist https://www.youtube.com/watch?v=9wZYkfnkW2c&list=PLd3UqWTnYXOkNiAs0KGdz2V-349MG1iyR
+Collections https://www.youtube.com/watch?v=rI3VkItC0eA&list=PLd3UqWTnYXOkVR3OR9UZGyEt9RFUbaTMZ
+Collections framework https://www.youtube.com/watch?v=Bqv4At5vHVQ&list=PLd3UqWTnYXOklywocjGz7Z02rqbLegX22
+
+Advanced Java 
+Main playlist: https://www.youtube.com/watch?v=GWMcla-I-_Y&list=PLd3UqWTnYXOniKfYRNY___weULTRd9Co0
+
+Data structures and algorithms
+Main playlist: https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d
+
+Springboot
+Main playlist: https://www.youtube.com/watch?v=YpsFT50mths&list=PLd3UqWTnYXOlyAjYLwPflpu3yqH_vAY8x
+
+Java DSA, Certification, and Interviews 
+Playlist 1: https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ
+Playlist 2: https://leetcode.com/problemset/
+Playlist 3: https://www.youtube.com/watch?v=P5tFJ9umhvk&pp=ygUNZHVyZ2FzaXIgamF2YQ%3D%3D
+ 
+Cally — 12/02/2024, 06:45
+DSA: https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/?no-filter=true#sequence-3
+Google Tech Dev Guide
+Data Structures & Algorithms – Google Tech Dev Guide
+Need to brush up on data structures & algorithms? Try out these resources hand-picked by Google engineers. Jump into any resource to get started!
+Image
+Core Java:https://java-programming.mooc.fi/part-1
+Part 1 - Java Programming
+Helsingin yliopiston kaikille avoin ja ilmainen ohjelmoinnin perusteet opettava verkkokurssi. Kurssilla perehdytään nykyaikaisen ohjelmoinnin perusideoihin sekä ohjelmoinnissa käytettävien työvälineiden lisäksi algoritmien laatimiseen. Kurssille osallistuminen ei vaadi ennakkotietoja ohjelmoinnista.
+DSA: https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLAXnLdrLnQpRcveZTtD644gM9uzYqJCwr
+YouTube
+Abdul Bari
+1. Introduction to Algorithms
+Image
+Cally — 14/02/2024, 09:25
+Algorithm Visualizer: https://algorithm-visualizer.org/
+Algorithm Visualizer
+Algorithm Visualizer
+Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.
+Image
+laura hates web dev (i am laura) — 05/04/2024, 20:19
+shared by @Annabelle
+
+https://youtu.be/A74TOX803D0?si=WY0LFgjYOLYoQHwt
+
+This youtube video helped me a lot with learning java in my freshman year of my CS major. Everything is explained in the video and you can try everything on your own as the video goes on.
+ 
+Cool websites / repos
+laura hates web dev (i am laura)
+OP
+ — 03/02/2024, 23:30
+https://www.30secondsofcode.org/js/p/1/ (The JavaScript snippet collection contains a wide variety of ES6 helper functions. It includes helpers for dealing with primitives, arrays and objects, as well as algorithms, DOM manipulation functions and Node.js utilities.)
+
+https://github.com/EbookFoundation/free-programming-books (This project lists books/ebooks and other resources grouped by genres and languages, all free*)
+
+https://github.com/codecrafters-io/build-your-own-x (This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch.)
+
+https://www.doppler.com/ (Doppler’s developer-first security platform empowers teams to seamlessly manage, orchestrate, and govern secrets at scale.)
+
+https://ohmygit.org/ (An open source game about learning Git)
+
+https://www.codedex.io/ (Codédex game to how to code for kids and adults alike. Aimed for Python, HTML/CSS, JavaScript, Command Line, Git and Github)
+
+https://github.com/yangshun/tech-interview-handbook (Curated coding interview preparation materials for software engineers)
+
+*can't fully confirm 
+laura hates web dev (i am laura)
+OP
+ — 12/03/2024, 03:10
+https://paperswithcode.com/ (The mission of Papers with Code is to create a free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables)
+laura hates web dev (i am laura)
+ changed the post title: Cool websites / repos — 05/04/2024, 20:15
+laura hates web dev (i am laura)
+OP
+ — 05/04/2024, 20:16
+https://overapi.com/ (Collects cheat sheets)
+https://www.codecademy.com/resources/cheatsheets/all (This page appears to be a collection of course titles or topics related to various subjects all as cheat sheets)
+laura hates web dev (i am laura)
+OP
+ — 05/04/2024, 20:26
+https://github.com/maiobarbero/docker_compose_cheatsheet (A cheet sheat to create you docker-compose.yml)
+
+Computer Science 1: What is the smallest unit of information in computing?
+John
+OP
+ — 10/02/2024, 21:50
+A bit is the smallest unit of information in computing. It has either the value 0 or the value 1. If a bit has the value 0, then it is in the off state. On the other hand, if a bit has the value 1, then it is in the on state.
+
+Any piece of data can be represented as a sequence of bits on a computer (i.e. text, numbers, symbols, images, sounds, programs, emojis, etc). This means that computers can be used to send and receive data.
+
+Cryptography is in essence the art and study of the methods and techniques used to securely encrypt and decrypt private data and messages. Let's suppose that we have two people who want to communicate with one another. Person 1 is John Doe and Person 2 is Jane Doe. So, John Doe sends the message BANK, in plain text, that is as is without any encryption, to Jane Doe via the network or the internet. Plain-text is an insecure way of sending or receiving private data or messages as it can be clearly visible to anyone intercepting that data over the network or even across the internet. How does this work? The computer itself transmits the data as a sequence of bits and uses encoding scheme (i.e. Base64) to convert binary-to-text (Ref: "What is Base64 encoding" or IETF RFC-4648). The result is plain-text. Plain-text message: B A N K [000001] [000000] [001101] [001010] Binary representation of message ^ How can John Doe make sure that that Jane Doe gets the message BANK in a more secure way? He can use encrypt the message using a cryptographic key. Encryption is a way to make the data unreadable or difficult to read, for everyone except for the sender (John) and receiver (Jane). The message is encrypted using a cryptographic key - a private key that John shares with Jane through a private or secure way at some point prior to encrypting the message. This cryptographic key must be random and have the exact same number of bits that the binary representation of the plain-text message does. BANK has 4 bits so the cryptographic key should have 4 bits. Let's suppose that the cryptographic key that John shared with Jane is S8+v. Plain-text representation of Cryptographic key: S 8 + v [010010] [111100] [111110] [101111] Binary representation of cryptographic key ^ [NEXT: Please see Computer Science 1: Basics of Cryptography Part 2] 
+Base64 encoding is a 6-bit binary-to-text encoding scheme limited to just 64 specific characters on a computer. These characters are A-Z, a, z, 0-9, +, and /. What does bit mean? (Refer to thread: What is the smallest unit of information in computing?). So, Base64 is 6-bit which means that we have a sequence of 6 bits wherein each bit in the sequence has a value of either 0 or 1 (i.e. 000000, 000001, etc). It is by historical design 6-bit instead of 2-bit, 4-bit, 5,bit, or n-bit. There were already Base4 (2-bit), Base8 (3-bit), Base16 (4-bit), Base32(5-bit), and such before Base64(6 bit). Now, with Base64 (6-bit), we can encode binary to text for 64 predefined characters, and this is especially useful for the accuracy of data transmission through older systems and email software. It is limited to 64 predefined characters because that's the max # of characters that can be represented by 6 bits. Let's take 111111 for example. That is the largest binary number that can be encoded by Base64. 1 1 1 1 1 1 1 [2^6] [2^5] [2^4] [2^3] [2^2] [2^1] [2^0] [64] [32] [16] [8] [4] [2] [1] Base64 Encoding Scheme Table with my notes (Ref: IETF RFC-4648) Note: Start from 000000 (A). Then count up using only 0's and 1's, all the way to the end. End at 111111 (/). (A-Z) 000000 A (Start) 000001 B 000010 C 000011 D 000100 E 000101 F 000110 G 000111 H 001000 I 001001 J 001010 K 001011 L 001100 M 001101 N 001110 O 001111 P 010000 Q 010001 R 010010 S 010011 T 010100 U 010101 V 010110 W 010111 X 011000 Y 011001 Z (a-z) 011010 a 011011 b 011100 c 011101 d 011110 e 011111 f 100000 g 100001 h 100010 i 100011 j 100100 k 100101 l 100110 m 100111 n 101000 o 101001 p 101010 q 101011 r 101100 s 101101 t 101110 u 101111 v 110000 w 110001 x 110010 y 110011 z (0-9) 110100 0 110101 1 110110 2 110111 3 111000 4 111001 5 111010 6 111011 7 111100 8 111101 9 (+) 111110 + (/) 111111 / (end) 
+A bit is the smallest unit of information in computing. It has either the value 0 or the value 1. If a bit has the value 0, then it is in the off state. On the other hand, if a bit has the value 1, then it is in the on state. Any piece of data can be represented as a sequence of bits on a computer (i.e. text, numbers, symbols, images, sounds, programs, emojis, etc). This means that computers can be used to send and receive data.
+https://www.30secondsofcode.org/js/p/1/ (The JavaScript snippet collection contains a wide variety of ES6 helper functions. It includes helpers for dealing with primitives, arrays and objects, as well as algorithms, DOM manipulation functions and Node.js utilities.) https://github.com/EbookFoundation/free-programming-books (This project lists books/ebooks and other resources grouped by genres and languages, all free*) https://github.com/codecrafters-io/build-your-own-x (This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch.) https://www.doppler.com/ (Doppler’s developer-first security platform empowers teams to seamlessly manage, orchestrate, and govern secrets at scale.) https://ohmygit.org/ (An open source game about learning Git) https://www.codedex.io/ (Codédex game to how to code for kids and adults alike. Aimed for Python, HTML/CSS, JavaScript, Command Line, Git and Github) https://github.com/yangshun/tech-interview-handbook (Curated coding interview preparation materials for software engineers) *can't fully confirm 
+Hi friends! Below is a curated compilation of helpful java resources for ya. Feel free to add any additional java resources here. This server is from the community to the community. ❤️ Core Java Main playlist: https://www.youtube.com/watch?v=eTXd89t8ngI&list=PLd3UqWTnYXOmx_J1774ukG_rvrpyWczm0Separate OOP Concepts playlist https://www.youtube.com/watchv=DaAJIMakWKU&list=PLd3UqWTnYXOkwluXExifmJWKkvGa1ywWpSeparate constructors playlist https://www.youtube.com/watch?v=9wZYkfnkW2c&list=PLd3UqWTnYXOkNiAs0KGdz2V-349MG1iyRCollections https://www.youtube.com/watch?v=rI3VkItC0eA&list=PLd3UqWTnYXOkVR3OR9UZGyEt9RFUbaTMZCollections framework https://www.youtube.com/watch?v=Bqv4At5vHVQ&list=PLd3UqWTnYXOklywocjGz7Z02rqbLegX22 Advanced Java Main playlist: https://www.youtube.com/watch?v=GWMcla-I-_Y&list=PLd3UqWTnYXOniKfYRNY___weULTRd9Co0 Data structures and algorithms Main playlist: https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d Springboot Main playlist: https://www.youtube.com/watch?v=YpsFT50mths&list=PLd3UqWTnYXOlyAjYLwPflpu3yqH_vAY8x Java DSA, Certification, and Interviews Playlist 1: https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJPlaylist 2: https://leetcode.com/problemset/Playlist 3: https://www.youtube.com/watch?v=P5tFJ9umhvk&pp=ygUNZHVyZ2FzaXIgamF2YQ%3D%3D 
+⁠🐍-python-girlies⁠ (contains videos for beginners and advanced learners, including a roadpmap) ⁠🐍-python-girlies⁠ (contains online courses and webpages with valuable info) https://youtu.be/_uQrJ0TkZlc (Full course for beginners shared by @michellexcomputer ) https://www.loom.com/share/ad69e941ee00436c870bca159a7c1b97?sid=bf97f14e-2c2b-415d-9070-c08d1de85f80 (phonebook project by @riri using OOP, this includes a tutorial)
+This section is supposed to be the standard option but everything it's really up to how comfy are you showcasing your portfolio. Most people showcase their portfolio using a "self-hosted" webpage but others, like game devs, use existing pages or even go hybrid using both options. Free hosting: https://pages.github.com/ https://surge.sh/ Paid hosting: https://www.heroku.com/pricing (very cheap btw) https://www.namecheap.com/ (nice deals) Usually used for game dev (but it's not limited to that, tools and sprites are also uploaded here, etc, etc): https://itch.io/docs/creators/pricing Shared by @laura hates web dev (i am laura)
+Various options to follow: https://roadmap.sh/ Linux: https://linuxjourney.com/ IT Paths: https://www.youtube.com/watch?v=XmWkcePhf84 Software engineer: https://github.com/jwasham/coding-interview-university Shared by @laura hates web dev (i am laura) 
+> I'm always talking about Github Copilot (the AI programming Assistant) because it really cut down my programming time by soooooo much. But, it's paid by default, ...unless you are currently a student with a school email and school id. https://www.youtube.com/watch?v=4QAYC1M0epA Shared by @michellexcomputer
+Image
+Computer Science 1: What is Base64 encoding?
+John
+OP
+ — 10/02/2024, 23:33
+Base64 encoding is a 6-bit binary-to-text encoding scheme limited to just 64 specific characters on a computer. These characters are A-Z, a, z, 0-9, +, and /. 
+
+What does bit mean? (Refer to thread: What is the smallest unit of information in computing?). So, Base64 is 6-bit which means that we have a sequence of 6 bits wherein each bit in the sequence has a value of either 0 or 1 (i.e. 000000, 000001, etc). It is by historical design 6-bit instead of 2-bit, 4-bit, 5,bit, or n-bit. There were already Base4 (2-bit), Base8 (3-bit), Base16 (4-bit), Base32(5-bit), and such before Base64(6 bit). Now, with Base64 (6-bit), we can encode binary to text for 64 predefined characters, and this is especially useful for the accuracy of data transmission through older systems and email software. It is limited to 64 predefined characters because that's the max # of characters that can be represented by 6 bits.
+
+Let's take 111111 for example. That is the largest binary number that can be encoded by Base64.
+
+   1       1       1      1      1        1      1
+[2^6] [2^5] [2^4] [2^3] [2^2] [2^1] [2^0]
+ [64]   [32]   [16]   [8]    [4]     [2]     [1] 
+
+Base64 Encoding Scheme Table with my notes (Ref: IETF RFC-4648)
+
+Note: Start from 000000 (A). Then count up using only 0's and 1's, all the way to the end. End at 111111 (/).
+
+(A-Z)
+000000 A  (Start)
+000001 B
+000010 C
+000011 D
+000100 E
+000101 F
+000110 G
+000111 H
+001000 I
+001001 J
+001010 K
+001011 L
+001100 M
+001101 N
+001110 O
+001111 P
+010000 Q
+010001 R
+010010 S
+010011 T
+010100 U
+010101 V
+010110 W
+010111 X
+011000 Y
+011001 Z
+
+(a-z)
+011010 a
+011011 b
+011100 c
+011101 d
+011110 e
+011111 f
+100000 g
+100001 h
+100010 i
+100011 j
+100100 k
+100101 l
+100110 m
+100111 n
+101000 o
+101001 p
+101010 q
+101011 r
+101100 s
+101101 t
+101110 u
+101111 v
+110000 w
+110001 x
+110010 y
+110011 z
+
+(0-9)
+110100 0
+110101 1
+110110 2
+110111 3
+111000 4
+111001 5
+111010 6
+111011 7
+111100 8
+111101 9
+
+(+)
+111110 +
+
+(/)
+111111 / (end)
+
+Computer Science 1: Basics of Cryptography
+John
+OP
+ — 11/02/2024, 13:20
+Cryptography is in essence the art and study of the methods and techniques used to securely encrypt and decrypt private data and messages. 
+
+Let's suppose that we have two people who want to communicate with one another. Person 1 is John Doe and Person 2 is Jane Doe. 
+
+So, John Doe sends the message BANK, in plain text, that is as is without any encryption, to Jane Doe via the network or the internet.  Plain-text is an insecure way of sending or receiving private data or messages as it can be clearly visible to anyone intercepting that data over the network or even across the internet. 
+
+How does this work? The computer itself transmits the data as a sequence of bits and uses encoding scheme (i.e. Base64) to convert binary-to-text (Ref: "What is Base64 encoding" or IETF RFC-4648). The result is plain-text. 
+
+Plain-text message:
+B                   A               N                K
+[000001]   [000000]    [001101]    [001010]
+Binary representation of message ^
+
+How can John Doe make sure that that Jane Doe gets the message BANK in a more secure way? He can use encrypt the message using a cryptographic key. Encryption is a way to make the data unreadable or difficult to read, for everyone except for the sender (John) and receiver (Jane). The message is encrypted using a cryptographic key -  a private key that John shares with Jane through a private or secure way at some point prior to encrypting the message. This cryptographic key must be random and have the exact same number of bits that the binary representation of the plain-text message does. BANK has 4 bits so the cryptographic key should have 4 bits.
+
+Let's suppose that the cryptographic key that John shared with Jane is S8+v. 
+
+Plain-text representation of Cryptographic key:
+S                   8              +               v
+[010010]   [111100]  [111110]   [101111] 
+Binary representation of cryptographic key  ^
+
+[NEXT: Please see Computer Science 1: Basics of Cryptography Part 2] 
+John
+OP
+ — 11/02/2024, 14:15
+Part 2)
+
+Now, we can use the binary representation of the original message and the cryptographic key to encrypt the message BANK. 
+
+We do this using what is called EXCLUSIVE OR - a specific type of OR statement where JUST one of two operands in an OR statement evals to true at any given time.
+
+Note: While an EXCLUSIVE OR is an OR statement, an OR statement is not an exclusive OR statement.
+
+[NEXT: Please see Computer Science 1: Basics of Cryptography Part 3] 
+John
+ changed the post title: Computer Science 1: Basics of Cryptography (Encryption) — 11/02/2024, 14:15
+John
+OP
+ — 11/02/2024, 14:20
+Part 3)
+
+Example of "regular" OR or just OR: 
+Note: This is not a complete java program. It is a snippet of code to illustrate a point. A working java program would have a class + main.
+
+//Declare and initialize variables
+int x = 5, y= 10;
+
+//Example: Regular OR or just OR statements
+//Left operand x>4 evals to true because x=5 and 5 > 4
+//Right operand y>9 evals to true because y=10 and 10> 9
+//Since both operands evals true, OR statement evals to true
+if ((x>4)  (y>9))
+  System.out.println(x + " is greater than 4 or " + y + " is greater than 9");
+
+//Example: Regular OR or just OR statements
+//Left operand x>30 evals to false because x=5 and 5 > 30 is false
+//Right operand y>30 evals to false b/c y=10 and 10> 30 is false
+//Since both operands evalsfalse, OR statement evals to false
+if ((x>30)  (y>30))
+  System.out.println(x + " is greater than 30 or " + y + " is greater than 30");
+
+//EX: EXCLUSIVE OR 
+//Left operand x>4 evals to true b/c x=5 and 5 > 4
+//Right operand y>11 evals to false b/c y=10 and 10 is not >11.
+
+//Since the left operand evaluates to true and the right operand
+//    evals to false, we have an EXCLUSIVE OR where
+//    we exclude the operand that evals to false (right operand),
+//    and we determine that the overall statement evals to true
+if ((x>4)  (y>11))
+  System.out.println(x + " is greater than 4 or " + y + " is greater than 11");
+
+//EX: EXCLUSIVE OR 
+//Left operand x>6 evals to false because x=5 and 5 is not > 6
+//Right operand y>9 evals to true b/c y=10 and 10 > 9 is true.
+
+//Since the left operand evals to false and the right operand
+//    evals to true, we have an EXCLUSIVE OR where
+//    we exclude the operand which evals to false (left operand)
+//    and we determine that the overall statement evals to true
+if ((x>6)  (y>9))
+  System.out.println(x + " is greater than 6 or " + y + " is greater than 9");
+
+[NEXT: Please see Computer Science 1: Basics of Cryptography Part 4] 
+John
+OP
+ — 11/02/2024, 14:56
+Part 4)
+
+Now going back to encryption. We have the binary representations of the original message and of the cryptographic key.
+
+[000001]  [000000] [001101] [001010] <-- Binary original msg "BANK"
+[010010]  [111100]  [111110]  [101111]  <-- Binary crypto key "S8+v"
+
+We allow a correspondence between each bit in the binary rep of "BANK" and each bit in the binary rep of "S8+B". Then we take the EXCLUSIVE OR of each corresponding bits where 0 OR 0 = 0, 1 OR 1 = 0, 1 OR 0 = 1, 0 OR 1 = 1. 
+
+Let's start with the first sequence of bits. 
+
+[000001] - 1st sequence of bits, binary rep of msg "BANK"
+[010010]  - 1st sequence of bits, binary rep of crypto key "S9+v"
+
+1st bit in 1st binary sequence for "BANK" is 0
+1st bit in 1st binary sequence for "S9+v" is 0
+Per Exclusive OR, 0 OR 0 = 0. 
+
+2nd bit in 1st bin sequence for "BANK" is 0
+2nd bit in 1st bin sequence for "S9+v" is 1
+Per Exclusive OR, 0 OR 1 = 1. 
+
+3rd bit in 1st bin sequence for "BANK" is 0
+3rd bit in 1st bin sequence for "S9+v" is 0
+Per Exclusive OR, 0 OR 0 = 0. 
+
+4th bit in 1st bin sequence for "BANK" is 0
+4th bit in 1st bin sequence for "S9+v" is 0
+Per Exclusive OR, 0 OR 0 = 0. 
+
+5th bit in 1st bin sequence for "BANK" is 0
+5th bit in 1st bin sequence for "S9+v" is 1
+Per Exclusive OR, 0 OR 1 = 1. 
+
+6th bit in 1st bin sequence for "BANK" is 1
+6th bit in 1st bin sequence for "S9+v" is 0
+Per Exclusive OR, 1 OR 0 = 1. 
+
+Now, let's put the final value for each exclusive OR into a sequence of bits.
+
+[010011] - 1st sequence of bits, binary rep of encrypted message
+
+Now, we repeat this entire process using the 2nd, 3rd, 4th, 5th, and 6th sequences of bits using the OG message and crypto key.
+
+The complete sequence for the encrypted message is as follows.
+
+[010011]  [111100]  [110011] [100101] - Binary rep of encrypted message
+ [T]               [8]          [z]           [l]        - Plaintext rep of encrypted message 
+
+[NEXT: Please see Computer Science 1: Basics of Cryptography Part 5] 
+John
+OP
+ — 11/02/2024, 15:19
+Part 5)
+
+The encrypted message is the message that shows up for anyone who does not have the cryptographic key used to encrypt the message. It ensures secure data storage, transmission, data accuracy and reliability, and so on. This helps us build trust in using systems to manage our data.
+
+Now, going back to our Jane and John Doe example. What if Jane Doe wanted to decrypt the message, that is unhide the original message or reverse the encryption process to see the original message, that John Doe sent her? Jane can use the binary representation of the encrypted message and the binary representation of the cryptographic key to decrypt the original message. 
+
+[010011]  [111100]  [110011] [100101] - Binary encrypted message "T8zl"
+[010010]  [111100]  [111110]  [101111]  - Binary crypto key "S8+v"
+
+Now, we use exclusive OR again to decrypt the original message
+[000001]  [000000] [001101] [001010]  - Binary original msg "BANK"
+
+[Ref: "What is Base64 encoding?" or IETF 4648]
+
+The plain text version of the message that Jane Doe receives from John is
+
+B                   A               N                K
+John
+ changed the post title: Computer Science 1: Basics of Cryptography — 11/02/2024, 15:20
+John
+OP
+ — 11/02/2024, 18:06
+A few additional notes or point of clarification...The encrypted message is also known as ciphertext and the cryptographic key or encoding padding is ONE TIME use only with sufficiently random bits for making the original message unreadable or difficult to read by anyone snooping in on, intercepting, or trying to read the message or data. 
+
+Study Techniques for ADHD (and Other People)
+Blue (ping/tag me!)
+OP
+ — 13/03/2024, 23:40
+I have ADHD, and was diagnosed after my first year as a full-time college student 3 years ago. Here are some study techniques I've found helpful, although you can apply these to work and any home tasks too!
+
+There's still a lot that I'm still figuring out myself, so feel free to add your own techniques and resources below, even if they're not aimed at people with ADHD! (Just keep in mind that quite a few neurotypical study techniques won't work for neurodivergent people.)
+
+Body Doubling:
+aka accountability buddy
+you and someone else either sit next to each other or meet online with cameras on or screens shared
+you both do whatever work you need to do at the same time in front of each other
+
+Timed competition with yourself
+set a timer for 15 minutes
+compete with yourself to see how much you can get done in that timeframe
+if you still want to do more work after that, then keep it going!
+also works if you try to get as much done as possible (within safety constraints) while you're, for example, cooking dinner. I always do my dishes while cooking dinner because I have to stand there anyway to monitor the food. Just please don't wander far from the stovetop or the oven!
+
+Music:
+fast music (and I mean something between 120 and 170 beats per minute) is the best for ADHD brains
+I had an EDM phase during middle school and Teminite and TheFatRat were my favorites
+EDM is almost always that fast, and has lots of genres that you might enjoy!
+EDM is great background music
+
+I haven't tried the second one but it sounds like it would work for me haha. The first one I've found really helpful, and I do it at work all the time! I've also listened to EDM for years and have an EDM loop playlist on Spotify that I always put on whenever I need to get work done.
+mikeysslice — 19/03/2024, 11:01
+Needed this!
+Cupi — 19/03/2024, 19:32
+idk if I have ADHD, i kinda always procrastinate but slow , like raining and piano music from nobody's playlist it relax me
+
+
+C Programming Resources
+sofigzzloz
+OP
+ — 14/03/2024, 18:01
+https://codeforwin.org/c-programming
+Codeforwin
+C Programming - Codeforwin
+What is C programming language? 🧐 “C” is general-purpose procedural programming language developed by Dennis Ritchie at AT&T’s Bell laboratories in 1972. The development of C began, to re-implement the UNIX operating system. It is such a powerful language that most of the popular operating systems are completely or partially written in C. It is ...
+C Programming - Codeforwin
+Cookie
+[OSDV]
+ — 25/12/2024, 16:19
+Where to Learn C
+Learn-C
+w3schools
+FreeCodeCamp
+Course 1
+Pointers Course
+Integers
+Course 2
+Course 3
+Course 4 - Basics
+Others 
+Cookie
+[OSDV]
+ — 25/12/2024, 16:42
+https://github.com/EbookFoundation/free-programming-books
+
+
+Programming Language | Career Path Guide
+Bob
+OP
+ — 26/03/2024, 22:20
+Ever wondered what to learn in order to get a job?
+Here is my guide based on experience...
+Embedded Systems | Operating Systems | Network Engineering
+Embeded systems, operating systems, and network engineering are usually low level and this require languages that are low level. 
+
+Embedded, operating systems, and network engineering is tightly coupled. Often individuals in this line of work can bounce around in these positions but the overarching skill set is more around how software interacts with the hardware behind the scenes. 
+
+Engineers in this career path often are developing  things like military devices, medical devices, communication devices, etc. 
+
+Suggested that you should learn a bit of:
+C
+C++ | Rust
+Java | JavaScript
+Computer Architecture
+Linux
+git
+Communication Protocols
+Assembly
+Firmware
+Network Security
+Firewalls
+docker
+
+Web, Data, Cloud, DevOps & 'Traditional' Software Engineering
+Software Engineering is all about abstraction & encapsulation. (Not just woth object oriented programming). A lot of behind the scenes nitty gritty is obscucated by the use of frameworks and libraries. 
+
+The primary focus of software engineering is the end user's ability to access and communicate to a product whether thats front or back end. Of course theres more specific skills depending on whether front end, web, server side, etc but this is probably the most vast "field" 
+
+Less about the language and more about the tools. 
+
+Suggested that you should learn a bit of: 
+Java | C# | C++
+Javascript
+Python | Ruby
+Framework
+RESTful APIs
+Node & npm
+SQL/NoSQL
+git
+OOP
+virtial environment (not virtual machine)
+cloud and cloud hosting
+docker
+Testing
+
+Data Science | AI/ML | Statistical Analysis
+Data science, AI/ML and stats based jobs are all about math, statistics, and using data for engineering solutions. 
+
+These generally require you be on top of newest trends and dabbled in research as it is still a fairly new field. 
+
+Suggested that you should learn a bit of:
+python
+R
+JavaScript | C | C++
+Language Models
+Algorithms
+Advanced Statistics
+SQL/NoSQL
+Big data Analysis tool(s)
+
+UI/UX | Accessibility Engineering | Design | Scripting  | IT Systems Development | Automation
+These are all about the end user and how their experience is or speeding things up for a business. With it are more high level skills required.
+
+Suggested that you should learn a bit of:
+Javascript
+Html/CSS
+figma
+cli
+A11Y Principals (auto re
+Salesforce | ServiceNow
+
+Game Dev | Robotics| Graphics | Medical Simulation Engineering | Aerospace | Physics Engineering
+This is all about mimicking real life and real objects which means: yay math. Specifically linear algebra and geometric calculus. 
+
+Suggested that you should learn a bit of:
+C++
+C# | Python
+Game or Physics Engine
+Sockets
+Linear algebra
+Geometric Calculus
+Algorithms
+
+QE/QA, Software Engineering in test, Testing Engineer
+This is about testing and less about developing. More test more test more test. 
+
+Suggested that you should learn a bit of:
+Java | Python
+Integration Testing framework
+Unit testing Framework
+Function Testing Framework
+docker
+ 
+Bob
+ changed the post title: Programming Language | Career Path Guide — 26/03/2024, 23:06
+Faker — 19/08/2024, 10:00
+If I want to be a software developer what are the must learn programming languages please
+Bob
+OP
+ — 20/08/2024, 02:33
+I included various fields if software engineering and languages/ tech suggestions for learning above
+Faker — 20/08/2024, 02:35
+yeah got it, thanks !
+Cookie
+[OSDV]
+ — 26/12/2024, 14:49
+https://www.computerscience.org/resources/computer-programming-languages/
+ComputerScience.org
+Staff Writers
+Top 14 Best Coding Languages for Computer Programming
+Explore the top 12 coding languages. Learn when and where programmers use coding, ways to learn these languages, and their importance.
+Top 14 Best Coding Languages for Computer Programming
+em (bob enjoyer) — 16/04/2025, 14:15
+@JigglyPuff looking here might answer your question from the help forum
+but also u might wanna take a look at some of the other stuff
+the bottom line for all CS majors is that you should never attempt CS if its purely for money, there are so many of us that have passion that someone who doesnt have passion has pretty much zero chance of getting hired
+
+Coding Self-Taught
+🧚  server momma jei
+[<3?]
+
+OP
+ — 31/03/2024, 11:41
+Previously posted by: @A1.exe 
+
+As per @🧚  server momma jei  request, here's my advice on learning how to code self-taught or otherwise.
+
+The best thing you could do is try and spend some time on websites like sololearn, tutorialspoints, etc.
+
+https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm
+https://www.sololearn.com/learn/courses/le-c-plus-plus
+
+Make your primary goal, especially as a beginner, to learn and understand the basic constructs of the language. Those will be roughly the following:
+Variables and types
+How do I save something somewhere, change it, use it later
+Conditional logic
+How do I do something (branch) if some condition is true, what about otherwise
+Loops
+How do I complete iterative tasks without having to repeat code
+Function/Procedures
+How do I abstract my code into reusable bite-sized pieces that can return the result of its computation when needed
+Once you have a decent understanding of how to define a variable, branch conditionally, loop, and call functions in the language, you will be better prepared to tackle the more advanced concepts. 
+
+It also happens that these constructs are basically universally applicable across all the programming languages you will learn (the ones that matter ™️ )
+ 
+C++ Basic Syntax
+C++ Basic Syntax - When we consider a C++ program, it can be defined as a collection of objects that communicate via invoking each other's methods. Let us now briefly look into what a class, object, methods, and instant variables mean.
+Image
+Sololearn: Learn to Code
+Sololearn is the world's largest community of people learning to code. With over 25 programming courses, choose from thousands of topics to learn how to code, brush up your programming knowledge, upskill your technical ability, or stay informed about the latest trends.
+Sololearn: Learn to Code
+🧚  server momma jei
+[<3?]
+
+OP
+ — 31/03/2024, 11:42
+Continued:
+
+This is what I did when I learned my first language as a kid, and it allows me to pick up, learn, and use new languages on the fly pretty quickly.
+These days I normally skim through something like the following to pick up the fundamentals of new languages. I google for more specifics thereafter.
+https://learnxinyminutes.com/docs/c++/
+
+To speak to your experiences (this was originally intended for @Jedibatmom87#785):
+In my personal experience... Being in the classroom did more harm than good. Most courses expect you to learn the things online anyway, so I view lectures as a waste of time, but that's just me. All that to say, you can definitely be successful without being in-person, so don't let that bring you down.
+You are learning C++ as a first language, which is inherently more difficult. You are being forced to learn more about the specific implementation details of how your computer actually works, but you don't necessarily understand the abstract concepts at play. This is why people typically recommend higher level languages like Python/Lua/etc. as first languages. Things are gonna be harder because you are responsible for managing more, so give yourself grace. C++ also sucks, fight me (cough luis COUGH COUGH)
+The last thing I say is this, the things you learn in your computer science degree might not be entirely relevant to what you do in your career. Maybe this example will clarify what I mean here: Suppose you ask someone what they were studying in college and they responded medical. Your next thought would likely be to ask if they were aiming to become a doctor? If so what kind? Maybe they want to be a nurse? etc. etc. The same can be said for computer science. Someone studying computer science might be interested in writing kernels and operating systems, while others are purely interested in websites. They are two different areas of the same field. That is to say, struggling in this class and/or with the language C++ does not say much about whether you can be successful as someone in CS. Have faith in your abilities, persevere, and it will all pay off once you find your groove.
+Also, some things are not going to click the first time around. It might take implementing that specific thing yourself or coming back to it later for it to click. That happened a lot when I was first getting started. Of course it's a bit different here because you're taking a course, but it does happen, so try and take breaks where you can. 
+
+There's also AI these days. If you are googling around and you can't find an example or explanation that makes sense... Use ChatGPT or Bard. They're pretty good at breaking things down. You can also ask it questions specific to what is confusing you and they'll point you in the right direction (most of the time)
+
+Hope that helps, feel free to ask me any clarifying questions.
+ 
+Game Development Tutorials/Learning Resources
+Blue (ping/tag me!)
+OP
+ — 17/05/2024, 15:46
+Unreal Engine:
+[A playlist of tutorials we watched in my Game Programming college class. Please read the playlist description for more details.]
+(https://youtube.com/playlist?list=PL029XotiXUc-k6urJRp3rFKalsf_wU8gN&si=ZkeA_I-89BGDCVPv)
+
+Unity/C#:
+C# for Beginners
+Miscellaneous Unity Tutorials
+Unity Learn
+
+Flame Engine
+2D Mobile Game in Flutter using Flame Engine
+
+Without a Game Engine (Native):
+Make a 2D Game in Java
+Make a 2D Pixel Game in Java
+Learning C++ for Game Dev
+
+Specific Youtube Channels, Websites, etc:
+Brackeys (mostly Unity/C#, but recently also Godot)
+RyiSnow (Java game dev)
+GoGameDev (mostly Godot)
+
+Related Topics
+Math for Game Devs
+Pixel Art
+2024 Game Dev Subjects to Learn Roadmap
+ 
+YouTube
+Game Programming Class Unreal Engine Tutorials
+Turns out the entire class is tutorials because nobody in our department has actually worked in the field. Anyway, some of the videos included here are part ...
+Image
+Image
+Image
+Image
+YouTube
+C# FOR BEGINNERS
+If you want to make games with Unity, then knowing C# fundamentals is a must have tool ! Everything awesome you encounter in games is made possible thanks to...
+Image
+Image
+Image
+Image
+YouTube
+MISCELLANEOUS UNITY TUTORIALS
+Image
+Image
+Image
+Image
+Unity Learn
+Create with Code - Unity Learn
+In this official course from Unity, you will learn to Create with Code as you program your own exciting projects from scratch in C#. As you iterate with prototypes, tackle programming challenges, complete quizzes, and develop your own personal project, you will transform from an absolute beginner to a capable Unity developer. By the end of the c...
+Create with Code - Unity Learn
+YouTube
+Dino Run - Flutter Game Development Series - 2D Mobile Game (Flutte...
+An easy to follow tutorial on how to make 2D mobile game in Flutter using Flame engine.
+Image
+Image
+Image
+Image
+
+
+Technical Interview Prep with AI Coach!
+nehagur
+OP
+ — 01/06/2024, 19:10
+Hi everyone! I wanted to share something I recently found that’s been super helpful for interview prep. Even after working through LeetCode problems, I still struggled during actual interviews.         
+                                                                                                                                     
+I recently found Upsend, that has mock interviews with an AI coach. It’s been really helpful to get hands-on experience and it gives personalized feedback which has definitely helped me out. If you’re prepping for interviews, I highly recommend checking out Upsend.co!
+
+Game Development Jobs Guide from Jesse Zumstein
+Blue (ping/tag me!)
+OP
+ — 05/06/2024, 19:59
+This guide not only details the different fields within game development (producer, animator, engineer, etc) and the qualifications/skills necessary for each role, but also the game development lifecycle and what each level means (entry, senior, etc). It also shares some tips on searching for a job in the game development industry, as well as the pros and cons of self-teaching vs obtaining a degree.
+
+The document is a PDF, so if anyone has any trouble reading/accessing the document for any reason, I'm happy to send it to you directly or help find a way to make it accessible!
+
+https://www.linkedin.com/posts/nicholasgurley_game-jobs-in-2023-activity-7106238302743060481-neoO
+Nicholas Gurley on LinkedIn: Game Jobs in 2023
+If you're interested in a role in games or just want to learn more about the roles it takes to make games, check out this list and follow Jesse Zumstein!
+Nicholas Gurley on LinkedIn: Game Jobs in 2023
+
+Free Full Stack Web Development Course with Certificate and Career Support
+geekyNib | CS
+OP
+ — 20/06/2024, 11:39
+Hi Everyone, if someone looking to become Full Stack Development course in free  can register in below course:
+https://india.spartacodingclub.com/register
+Use Reference code:HCZOLZ
+
+Computer Science Exam Test for Students - Bachelor Level
+tucna
+OP
+ — 26/06/2024, 14:40
+Video on mastering multiple-choice questions in computer science for Bachelor's degree! I will walk you through a series of questions designed to test and enhance your understanding of key concepts in programming, algorithms, data structures, operating systems, and more. Whether you're preparing for an exam or just looking to sharpen your skills, this video is perfect for you.
+
+https://youtu.be/RVnCN8Ux0BA?si=jfi4HoGCga_-YqUn
+
+
+Setup For Software Developers | Visual Studio, Notepad++, Paint.NET, Git, Python
+tucna
+OP
+ — 04/07/2024, 06:50
+In this video, I'm going to walk you through the essential software you need as a software developer, whether you're just starting out, expanding your toolkit, or already earning money from your skills.
+
+https://youtu.be/utAb6Wq4XkE?si=17gLQl6Lg8QtQomj
+
+Redux toolkit (beginner friendly)
+Sky hates ux designers (im sky)
+OP
+ — 16/07/2024, 09:17
+Redux is a state management library for javascript that helped me a lot with my react project. If u want to learn it and use it for your project i highly recommend to read that blog about redux to learn how redux works and see what u can do.
+
+https://www.freecodecamp.org/news/redux-and-redux-toolkit-for-beginners/ 
+
+cpp resources
+'xi
+OP
+ — 31/07/2024, 08:17
+C++ (or “C-plus-plus”) is a general purpose coding language which has been used for game programming, software engineering, data structures, developing browsers, operating systems, applications, and more for over forty years.
+Books for C++
+
+C++ Language Program for Beginners - https://www.amazon.sg/Language-Program-Beginners-programming-fundamentals/dp/B088N615TJ/ref=asc_df_B088N615TJ/?tag=googleshoppin-22&linkCode=df0&hvadid=594377945507&hvpos=&hvnetw=g&hvrand=11990481574227825069&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062539&hvtargid=pla-1653404629435&psc=1
+
+C++ Primer - https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113
+
+C++ for dummies - https://www.amazon.com/All-One-Dummies-John-Mueller/dp/1118823788
+
+Videos for C++:
+https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=4069s&ab_channel=freeCodeCamp.org
+
+https://www.youtube.com/watch?v=8jLOx1hD3_o&ab_channel=freeCodeCamp.org
+
+https://www.youtube.com/watch?v=McojvctVsUs
+
+https://www.youtube.com/watch?v=p-sprvJX07E&ab_channel=Dave'sGarage
+
+https://www.youtube.com/watch?v=Y9Zw6xOGly0&ab_channel=NEFOS (lol)
+Projects:
+
+a number guessing game
+rock paper and scissors
+a calculator with plus, subtraction, division and multiplication
+Stopwatch
+Currency converter, include at least 10 different currencies
+
+big Project:
+>make a malware with C or C++:
+
+features:
+>remote shell
+>capture screenshot
+C++ Language Program for Beginners: A practical guide to learn C++ ...
+C++ Language Program for Beginners: A practical guide to learn C++ programming, fundamentals and code: 6
+Image
+C++ Primer (5th Edition)
+C++ Primer (5th Edition)
+Image
+C++ All-in-One for Dummies
+C++ All-in-One for Dummies
+Image
+YouTube
+freeCodeCamp.org
+C++ Tutorial for Beginners - Full Course
+Image
+YouTube
+freeCodeCamp.org
+C++ Programming Course - Beginner to Advanced
+Image
+'xi
+OP
+ — 31/07/2024, 08:18
+https://drive.google.com/drive/folders/17JuIdRSgs2VOY6IDDy3HpwUQXgJN8kt8
+books^^
+'xi
+OP
+ — 31/07/2024, 08:27
+@areugoingtoseetheroseinthevase. here u go
+areugoingtoseetheroseinthevase. — 31/07/2024, 08:47
+Thanks! I appreciate it
+'xi
+OP
+ — 03/09/2024, 10:00
+@alo here!
+alo — 03/09/2024, 19:42
+omg thank you so much!
+
+
+Notion Template - Studying accountability ( highschool / university)
+Rittzzu
+OP
+ — 31/07/2024, 18:41
+Hi ! 
+This is a notion template that I have made using the theme Dark Academia to keep accountability of yourself and track your assignments in a fun way that looks super cool ! 
+
+It’s something that I used throughout my highschool journey and hope to use it in my uni days as well ! 
+
+Feel free to duplicate and also leave feedback :) 
+
+https://fortune-deposit-25c.notion.site/ACADEMIA-4076e1c888854a0a99e09cdf9e55ede3?pvs=74
+Riddhi Chadda's Notion on Notion
+ACADEMIA | Notion
+PLEASE DUPLICATE THIS AND DO NOT EDIT THIS NOTION
+ACADEMIA | Notion
+tripta — 01/08/2024, 21:19
+this is great! thx for this
+
+
+em (bob enjoyer)
+OP
+ — 09/08/2024, 09:17
+As a forward, this post will be beneficial to those of you who have been struggling with choosing a major, feeling lost in comp sci, and a whole bunch of other tidbits of wisdom about being in this field. Bob is an experienced professional who has mentored countless students, and worked in popular and fortune 500 companies. She has real experience, so I suggest you listen to her seriously.  As always, @Bob can answer any questions that you all may have outside of this post if you still feel like you may need more guidance. 
+
+“I think you need to ask yourself the following: if you don't like coding why are you in CS?
+
+This might be old lady talk from me once again but remember that you're going to spend 40 years in this field, every day for 8-14 hours you will be doing this
+
+There are lots of job opportunities in most majors. You just need to put in work to get the job you want. There's misinformation that CS is easier to get a job you want than something like psychology. But it's not. Most CS people don't actually make the big bucks. Most CS people don't even get in to dev jobs that would make sense for their degree
+
+Its just like most majors all over the world
+No one gets paid 140k$ without earning that past a degree
+Would you hire yourself if you had 140k$ to pay someone a year?
+If no, then you need to learn the skills you need where you could say "yes"
+The people hiring are just like you, if you wouldn't spend big bucks on someone like you, they aren't likely to either. And i'm saying this while i'm at a multi billion dollar company that's really competitive, it's not coming out of nowhere. Like sure it might be old lady talk but seriously think about your future you can't half ass your future . 
+
+Don't pick a major because of what you heard briefly on the internet, investigate it. 
+You should first have a job in mind that you want, then you pick a major that applies to it and helps you get there.The issue i find a lot of young people and students do is they pick the major and then the job, that is backwards. Imagine if doctors did that. They spend 10+ years becoming a doctor and they did it on a whim because "it sounded lucrative". That's how you throw yourself into anxiety, depression, other mental health issues and struggle SIGNIFICANTLY to get goals
+
+start here: 
+"i wanna be a x or y, or z... How do i become that?"
+What do you want to do?
+What is a hobby or skill you wouldn't give up for 1 million dollars
+That was a question i was asked when I was a kid.And my answers were like my singing ability, my leading abilities, and my enjoyment of video games. People who say they don't have hobbies really mean they don't have repeatable normal hobbies. I can guarantee you do something to relax, have fun, etc. If you don't, then your future career isn't your issue lol.
+Scrolling instagram, cleaning organizing skills, talking at night with parents, eating certain foods, etc. what are things in your life that no matter how much someone paid you to stop doing and never humor ever again, you wouldn't. Like for me i'm a MASSIVE foodie, i couldn't give up eating variety of food. If someone offered to pay me 1 billion dollars to only eat cup noodles for the rest of my life i would rather kill myself
+
+It's a good exercise to find what you appreciate in life too.
+Like yea i love driving my race car. I'm a huge car fan but if someone offered me 1 billion dollars to never do it again .. i would take it in a heartbeat
+
+Like for me i love organizing things, and gathering people and helping them achieve success.
+I'm also a huge techie and love video games, so i'm working towards project management
+
+I found through research like 14 years ago maybe longer, that a CS degree could help me start. 
+
+A cs degree 
+An mba degree 
+A job as an engineer ( i chose software) 
+Project work
+Organization work
+
+It's a LOT EASIER AND MORE MENTALLY HEALTHY to have a job in mind and researching how to get that job than to instead have a broad subject matter and then try to find direction/ figure out what you want to do. And if you dabble in other things while on that journey and find that you enjoy other things more than AWESOME, but it still isn't blind exploring
+
+But my point still stands. If you don't like coding it is fine.  Join a lot of other people in the world who don't like coding. It is okay. There are other fields that pay a lot.
+
+Find a job or a few different kinds of jobs you want to do, then figure out how you can get that job. Don't go to college and get a degree for the sake of getting a degree with a vague sense of "opportunity"
+
+CS is not a job. It does not teach you how to prepare for a job. It doesn't not teach you enough marketable skills to get a job. If you go through college doing just college, you're setting yourself up for a hard reality for after you graduate
+
+All jobs have the opportunity to be a good job.
+A nurse can be a good job if you like being a nurse
+If someone is paying for the job, it can be a good job
+If you're looking for money alone some jobs are more difficult to get a lot of money but again that's a measure you need to take
+UI/UX designers don't make more than software engineers or aerospace engineers for example
+Just remember that you're Likely going to spend the next 30-45 years in that field
+
+When I interview/hire interns one of the biggest issues I find is they don't have desires, goals, or like anything in the field. Like why would i hire to pay you to teach you everything when you have 0 experience if you're not even interested in the field im hiring for. I ask them "oh what are you interested in" and they say "oh i just love programming" girl like... This is for web work, I'm investing in someone. What is the likelihood that you'll come back full time if you aren't even interested in struggling temporary.
+
+
+CS and school is not applicable knowledge for a specific job. 
+
+A college can teach every student all the basics and fundamental skills for every potential job in the industry. You need to self teach yourself. And you need to do that on the job if you join engineering anyway. You can't participate in making the future technology by doing things that have already been done before
+
+Recruiters usually don't care at all about where your projects come from Ima be honest. It's the hiring managers and the engineers they refer to for consult that care. Projects that other people don't have on their resume is the best. It needs to be interesting. Tutorial projects aren't good AT ALL. Well I take that back for generalizing. If you're trying to go into engineering, tutorial projects are AWFUL. It's not engineering to follow along. Engineering is a very very difficult field where you're innovating and discussing why,when, how, to achieve things that are likely unique to a product. If you demonstrate youtube tutorials that doesn't really tell us you're ready for engineering
+
+****
+A lot of people enter CS for money
+Look up statistics of who actually get to above 6 figures in US dollars
+If you're an architect/IC6+ you are likely going to be making 300+k
+But most people never make it to that level
+So like the guy who made python is a distinguished engineer which is IC7
+So... Invent a major technology in your free time
+The guy who made git
+The people who contribute to mass open source products
+The people that tech companies play pingpong with
+ the average salary is skewed heavily by those people
+The average joe at senior level (5-10+ years of experience) is making 130k$ in the US
+And thats with a skew of California
+Silicon valley and so cal salaries are huge skews
+
+Here is a suggestion, look at your local state college alumni statistics
+You'll find that its more like 20% get employed after getting a degree at companies in the fortune 1000. Don't pick a major off of money im telling you right now- You have to be lucky, Especially in this field where its getting more and more saturated. Find job(s) that you want to do, and pick a major to help you get those jobs. If you pick science or engineering for money you're more likely to fail and struggle to get over the 6 figure hump than others
+
+I'm not saying do something out of passion. Find jobs you want to do.If you were really about money you'd do the sewer clean up jobs, where you dig in literal shit up to your shoulders for almost 400k a year and do it only 3 times a month. But it's paying that much for a reason lol, no college needed/ look it up lol theres a lot of shitty (no pun intended) jobs that pay ridiculous amounts of money. Those crab fisherman making 200+k. 
+
+Ai has been increasing for the last 20 years and salaries go up and down
+With the boom of AI right now they are having mass layoffs. Alexa orgs for example are being destroyed, granted alexa is dying, but mass layoffs at facebook, microsoft ( they literally own a shit ton of ai companies) amazon, all major companies who can afford to invest in AI
+And many are AI centric orgs. Companies who have no business in development of AI are going to learn its a huge wasted investment.for their company, companies like oracle for example who should prioritize modernizing their shit or salesforce/servicenow where they are more for IT systems. Either way, there are SO MANY FIELDS that pay a shit ton of money, social media is lying to you. There are TONS of new grads without jobs for years.
+
+I work at a fortune 500 pretty up there in level, I have people who own their own contracting businesses making hell of a lot more money than me. For perspective, last intern season JUST FOR MY ORG we got about 3500 intern applications in the first week.I was interviewing about 3-4 interns a day from November to March. There aren't enough internships for the number of students. Most small companies don't do internships
+
+There's no easy money; the people who do only what is asked of them usually don't make it. People without passion find it VERY HARD to build skills naturally and think of innovating solutions
+
+To be an engineer instead of a dev, the engineer being the higher paid one, you need to be able to come up with solutions that no one else has
+There is no point in you existing if all you do is create and do things that has been done before
+How do you gain the experience of doing that if you don't tinker and think and dream about those things
+And even your mention of work life balance lol most of the people making the bigger bucks are working on call or on tight release schedules
+
+There's a culture in tech which includes cyber, data, ml/ai, etc. that you need to prove/invent yourself publicly to make distinguished engineer level status
+Which is where a lot of the "f u " money is
+
+A lot of CS,CE, and EE majors are hand in hand on what you learn in school
+But you don't really get a job as a software engineer strictly having a degree like you can get an electrical engineering position as an apprentice with an EE job. Software Engineering is not CS. CE is also not Software Engineering. To become a game dev, graphics engineer, systems engineer, software engineer, data and ml engineer, etc you need to learn the skills outside of school ON YOUR OWN
+
+To get an internship if you have school full time and you're studying hours for your physics exams, data structures exams, etc. you still need projects, practicing skills, certs, etc. 
+For example cyber sec its almost impossible to step into without certs
+
+Majors/degrees are not job training. If that's what you're looking for, you're doing the wrong thing.Even doctors don't learn how to be doctors in their first degrees (biology which is basically pre med). A degree alone doesn't give you anything but a degree
+
+Universities will give you projects in class.... But thats not engineering and you + 1000s of other students will have that project. Also your professors and curriculum will always be 10 or more years behind the industry. Why? Because you can't write textbooks and have people teach shit that is happening right this moment
+
+What does the industry need? People who can start working on the product right now
+
+This is 30+ years every day
+For 8-12 or more hours
+You need to pick something bearable in your eyes”
+
+ 
+Hackathon 101!
+🧚  server momma jei
+[<3?]
+
+OP
+ — 12/08/2024, 09:44
+As someone who has participated in hackathons, here are some things to keep in mind for when you do hacks:
+
+Dedicate a small portion of your time to just planning your MVP (minimum viable product). You really only need the bare bones - show the judges the core functionalities of your product: front end, back end, API (if possible). You don't need to buy a whole website for it - Github is a good place to host a temporary website.
+
+If you're in a team, communication is key. Make sure to delegate tasks to whoever can do them efficiently, and update each other on it. Remember to always check up on each other.
+
+Don't forget to rest. Drink water. Eat food. Some people hyper focus on their work that they forget to do the basic necessities.
+
+Make your pitch as you're going along the project, Don't wait last minute, it ends up being too stressful.
+
+Documentation: since you're going to be explaining to the judges what you've built, what you've used, and how you implemented it, keeping some kind of record of what you made is a good way to impress the judges.
+
+That's all I could think of at the moment. If you guys have any questions or other advice, drop them here. Just remember to have fun!
+
+bioscience python and R
+florida woman
+OP
+ — 25/08/2024, 13:38
+I am entering a taught masters for ai in bioscience and have been told the programming will mainly be in R and python. I have minimal coding experience and would like to start the course abit ahead is there any programming bootcamps or other resources yall would recommend
+eli — 26/08/2024, 21:17
+https://www.youtube.com/watch?v=XKHEtdqhLK8
+YouTube
+Bro Code
+Python Full Course for free 🐍
+Image
+Nix
+[MIT]
+ — 08/09/2024, 10:38
+@florida woman Datacamp has good R and Python courses
+
+Resume Writing Tips By Bob
+Bob
+OP
+ — 01/09/2024, 17:51
+Context: I have gotten a lot of requests for reviewing resumes in my DMs & in threads recently and wanted to give some general advice for tech resumes that I have given to people in the past. If you have further questions feel free to post here!
+
+Comprehensive List of Tips for Writing Resumes in the Tech Space.
+This is entirely Bob’s opinion and advice. It is important that you get many perspectives on your resume and things may differ depending on what country you are applying in or types of companies. This is for larger Fortune 800 level companies largely based on US employment. 
+
+Format
+Page Count: As a student or new grad, only have 1 page.
+Explanation: Imagine if you were running applications where you wanted to train someone from scratch for a role you were an expert in. Let's say middleschool/highschool aged students were applying for that position. They give you multiple pages worth of information and skills simply listed that said they were qualified. Now lets say you have to read through hundreds of them. How likely are you going to believe that highschool and middleschool aged students have two pages worth of a biography relevant to a role you would be hiring for?  This is how experienced professionals view students looking for jobs It is not expected that you know a whole lot and if you do, you're likely overqualified for internships / new grad roles. 
+Margins: Make them at the very least half an inch. Do not make margin sizes differ left/right or top/down. If you have two inch margin on the left, have a two inch margin on the right. It is disorienting and odd to view two inches on the left with a half an inch margin on the left or 2 inch on the top but half an inch on the bottom.
+Simple is Better: ATS (Applicant Tracking System) is a way that resumes get filtered. Sure they are getting better but why take the chance with a fancy formatted resume that a primitave or in-house ATS can't categorize or filter your resume appropriately? It might be less fun but simple formats in one column and with simple fonts and basic spacing is your best bet for properly passing ATS. If you NEED to demonstrate your fun self, have two resumes. One for ATS and another for in person events & networking opportunities where you KNOW a human will have it in hand.
+Make it Accessible: Will anyone have problems reading your resume under certain lighting, dimness, color contrasts, or because of disability? If your resume has color in it, make sure it doesn’t fall in the combo colors that are detrimental to color blind people for reading a resume (such as greens/reds, or Grays and blues) or that it can be read by hard of seeing individuals. Making things accessible means more eyes can view it.
+
+Overall Presentation
+Have a Purpose: What are you going to be applying to with this? If the scope is very large (from underwater basket weaving to personal financial advisor for example) , lessen the scope to be more specific or make different versions to fit different scopes.  Generalist resumes as a student is considered a RISK.
+Explanation: If you want to hire / pay someone to learn crocheting from you (an expert crochet person) for your crocheting business who would you pick:
+A. Person who has a little Crotchet interest, a little bit of retail interest, a little bit of painting, and some music making on their resume
+B. Person who has gone to knitting cons, built cosplays, participates in crochet forums, has learned basics of crocheting, has had an etsy shop around crocheting small things. 
+Obvious Answer: Person B. Why? This person is MORE likely to stick around with your business long term. They are also more likely to enjoy crocheting. Sure A might like it and may stick around but they are a risk strictly looking at their resume. Their outcome and desires are unknown which makes them riskier to employ for LEARNING (aka new grad and intern roles).
+Bob
+OP
+ — 01/09/2024, 18:16
+Education
+Placement: As a student or recent grad ALWAYS put your education first. This is important because during this time your education is the most relevant for job apps.
+Extra information: Performance, GPA, Deans/Presidents/Honors list, etc. you should include here.
+Education Levels: You don’t need to put highschool information. It is assumed you have a highschool diploma if you’re in a 4 year university getting a degree. For community colleges/trade schools, if you attended these in the past and are now at a 4-year, do not list it, it isn't needed and people who (wrongfully) view community/trade in a lesser light this can hurt you.
+Projects & Experience
+Advertise You: Your project is probably very cool I am sure but I can guarantee you that it isn't so cool that the recruiter or engineering manager are going to want to use it based on your description. You need to advertise why your experience building x is reason enough to hire you to build y at my company. Advertise your skills / expertise not the project. Listing that something is a mobile app, web app, chat bot, game, etc can be enough of a description of what it is.
+Make it Specific: Is the sentences you’re writing or bullet points a fancy way to say nothing or too complicated to say something simple? Read sentences/bullet points on their own to someone and if you have to come up with excuses or explanations for that bullet point, chances are it isn’t self explanatory/simple/useful/etc.
+Brag: Are you making your skills/knowledge seem less exciting or less important? Are you downplaying any points? The skills/knowledge/experience you place on your resume should make you look better. Do not point out faults in yourself (even if you have some) on your resume. As far as the place you’re applying to is concerned, you are perfect.  Avoid passive language like "I was given the task to do x"  vs "I did x"  or "the performance was increased" vs "I increased the performance"
+Prove Skills: Anyone can list they know something or have a quality but how can you prove that on your resume? Describe your skills used with the "how, why, what, and impact"
+Explanation: "i built a car engine software" vs "Implemented software for a car engine where I implemented the blackboard pattern in order to allow for interruption and correction from knock back and for stabilizing fuel air ratio and maintaining the Stoichiometric ratio where every 14.7 grams of air was paired with 1 gram of fuel." No one would deny that the second statement demonstrates an understanding of what they did and proves they are capable of reproducing it with ease conceptually. It also shows they know how to communicate technical concepts.
+List Relevant Items: Did you work a retail/fastfood/sales job while as a student? As cool as it might be, it can be a distraction and muddy up your resume. Recruiters & Hiring engineers don't really look for or care about your grocery store job. If you needed to hire a baby sitter, would you care about the candidate's etsy shop for cosplay props much, or their job at mcdonalds 6 years ago? Prob not, you really only care if they are cpr certified, have experience with kids, demonstrated responsibility, etc. Like at most its a "cool" moment at worse its more words to skip or make someone stop reading. This applies to irrelevant projects, club experience, etc.
+Order Appropriately: What is the most important points you want to emphasize?  For example for non-leadership roles, don't put leadership experience first on your bullet points. People often overestimate the value of leadership, collaborative, and communication skills.
+Have Substance: Consider your experience level to others at the same level. Do you have similar experience level or are you behind? Ex. By Senior year of a BS degree I expect full projects made outside of the classroom with marketable industry standard concepts & skills. If you feel you're behind, work on more skills rather than feeling bad.
+Title Appropriately: Consider your audience. If your project's name is "Red Wagon Winners" I think you and I can agree in not knowing what that means by itself. Say "Web App" or "Two Player Action Shooter Game" etc. to specify.
+ 
+Bob
+OP
+ — 01/09/2024, 18:25
+Extra Curriculars / Certifications / Activities
+Describe Non-Popularly Known Items: Lets say you partook in a hackathon called "Super Mega Fun Time" instead of listing  just "Super Mega Fun Time 2023" on your resume, describe or define it at as a swe hackathon, problem hackathon, CTF competition, etc. This is the same with certifications you want to include.
+Consider the Impact: Don't list "club memeber of computer science club". This doesn't tell us anything. A lot of clubs you don't even need to do the bare minimum of going to meetings for you to be considered a "member". What did you do as a club member that I care about? Why is it impressive that you were a club member? The same advice applies to hackathons, competitions, donations, leadership orgs, etc. If you are a participant in a hackathon that could be the same as just signing up and then ghosting.
+Is This Relevant?: Hate to beat a dead horse but ask yourself the question of "what is the likelyhood this will help me?" Meaning, does listing your cyber sec cert for a relatively focused Graphics Engineering resume help more than it takes up space & adds to a wordy resume?
+More Doesn't Mean Better: Don't add more info especially really old info simply because of the belief that you need more to sound more impressive. Just like how you most likely won't read a whole essay about a stranger that is probably not that unique on paper (and even more so 100s of strangers) the recruiters / hiring managers wont either.
+
+Social Networking 101
+Bob
+OP
+ — 16/09/2024, 21:10
+specifically making connections to people within the same industry or adjacent industries that you are in or aspire to be in. 
+
+How do you Network?
+It is easy, treat people like people. Asking "how do I network" is like asking "how do I make friends".
+
+Imagine if someone wanted to be your friend only to get something from you and use you?
+
+It feels icky right? 
+
+Because it is. By "treat people like people" I mean don't treat it like a transaction when you meet them. Show genuine interest in what they have to say, their interests, their job, etc.
+
+A good conversation leads to a friendship where a scenario like these presents itself more naturally and doesn't have the stress associated with it: 
+
+"hey I am looking for a mentor whom I can do a one on one meeting regularly with and I admire your experience and perspectives. Would you be interested in being my mentor?" 
+
+Or 
+
+"I found this role posting for the company you work at. Do you like your role at blank? Is it possible that you'd be able to refer me?" 
+
+Or 
+
+"Hi I am hiring people for a full stack web role, are you interested or do you know anyone that might be interested in this role?"
+
+
+Warnings About Networking
+Remember that who you associate with is a representation of you as well. 
+
+Connections on linkedin included. Dont add or connect with people you dont know willy nilly. If you are connected with someone who performs theft, scams, posts controversially, exposed of being a hacker, etc you can be found risky by association. This is especially true with government positions and background checks. More connections on linkedin literally does nothing for you so accepting every request that comes in isn't a good idea. 
+
+Benefits of Networking...Why?
+You should network because a solid majority of people will tell you of a story where they got their job through a referral, learned a specific hack with applying/improving themselves from someone else, worked on a project with so and so, etc. its VERY DIFFICULT to be successful on your own, not impossible but it is very difficult. 
+referrals to companies
+learning by conversing about concepts
+camaraderie through mutual struggle
+invites to events
+unexpected opportunities in pivoting roles
+contacts for new business ventures
+strong references
+mentorship/mentoring
+
+Fellowships (Most are for US people)
+SunsetRange
+OP
+ — 07/10/2024, 10:45
+Ello! I found this online :))
+
+Psa :some might be closed so save this somewhere to apply later.
+
+https://neo.com/scholars
+
+https://www.emmabowenfoundation.org/apply
+
+https://inroads.org/apply/
+
+https://codingitforward.com/fellowship
+
+https://www.8vc.com/fellowships
+
+https://fellows.kleinerperkins.com/
+
+https://hackny.org/fellows-program
+
+https://www.hackdiversity.com/
+
+https://www.bvp.com/bessemer-fellows
+
+https://susaventures.com/summer-fellows
+Neo
+Neo Scholars: Apply Now
+Are you an undergraduate who excels at CS? Apply to become a Neo Scholar.
+Neo Scholars: Apply Now
+EBF
+Apply — EBF
+INROADS
+Apply - INROADS
+Program ApplicationsCOLLEGE STUDENTSCOLLEGE INTERNSHIP PROGRAM APPLICATIONHIGH SCHOOL STUDENTSCOLLEGE LINKS PROGRAM APPLICATION
+Coding it Forward
+Coding it Forward Fellowship | Civic Tech Internship | Public Inter...
+The Coding it Forward Fellowship, America's leading civic tech internship for early-career technologists committed to public service. Formerly known as the the Civic Digital Fellowship and Civic Innovation Corps.
+Image
+Fellowship | 8VC | A different kind of VC firm.
+The 8VC Fellowship is a unique, immersive, three-month internship program that places undergraduate students in contributing roles at some of the world's most innovative startups.
+Fellowship | 8VC | A different kind of VC firm.
+Ina — 13/10/2024, 17:46
+Hi girls 🩷 hope you're doing well . I am searching for international internships. If you know any site please help me. ( except erasmus programs) I am applying all the time but nothing. No answer . I wish you will help me! God bless you 🙏🏽❤️
+
+Innovation and Technology Scholarship
+Unity143
+OP
+ — 12/10/2024, 17:36
+Link to application:
+
+https://asu.co1.qualtrics.com/jfe/form/SV_40aT3CmIQPf3aQK
+Image
+2025 Innovation and Technology Scholarship Application
+In partnership with the Mastercard Foundation, Arizona State University (ASU)
+
+Hackathon Platform:
+av
+OP
+ — 19/10/2024, 08:34
+Hey hey! I recently discovered this hackathon platform and thought it could be a valuable resource for members of this server to find upcoming hackathons easily. 
+
+Feel free to check it out: https://hack.cvrve.me/
+
+
+Computer Science from Scratch!
+ricardo.
+OP
+ — 26/10/2024, 01:04
+computer science from scratch(literally)
+from semiconductor transistors to programming in c.
+
+If you have time and wants to dive deep into computer science on how things work actually behind the scene, you should definitely try this book: 
+
+Book 1: https://icourse.club/uploads/files/96a2b94d4be48285f2605d843a1e6db37da9a944.pdf
+
+Another great resource to Build A Modern Computer from First Principles is a really great course for learning too!
+
+Part 1: https://coursera.org/learn/build-a-computer
+ 
+Part 2:
+
+https://coursera.org/learn/nand2tetris2
+
+It's project-based and comes with tools for hardware simulation. A book version is also available instead of the c 
+Coursera
+Build a Modern Computer from First Principles: From Nand to Tetris ...
+Build a modern computer from scratch in this project-centered course by Hebrew University of Jerusalem on Coursera. Learn how computers work through six hands-on projects, from logic gates to a fully functioning system. No prior knowledge required.
+Build a Modern Computer from First Principles: From Nand to Tetris ...
+Coursera
+Build a Modern Computer from First Principles: Nand to Tetris Part ...
+Offered by Hebrew University of Jerusalem. In this project-centered course you will build a modern software hierarchy, designed to enable ... Enroll for free.
+Build a Modern Computer from First Principles: Nand to Tetris Part ...
+Cookie
+[OSDV]
+ — 25/12/2024, 16:22
+Harvard - CS50 
+Harvard -CS50
+YouTube
+freeCodeCamp.org
+Harvard CS50 (2023) – Full Computer Science University Course
+Image
+YouTube
+freeCodeCamp.org
+Harvard CS50 – Full Computer Science University Course
+Image
+
+Free Web Dev and Python Courses for beginners w/ Society of Women Coders USA
+mei
+OP
+ — 27/10/2024, 23:10
+Are you ready to dive into the world of coding? Our Fall session starts on November 3rd and runs for 4 weeks, with engaging classes held once a week on Sundays at 8 PM EST. Whether you're looking to start your coding journey or build on existing skills, our classes are designed for you!
+
+Course Offerings: Intro to Python
+
+Week 1: Learn Python basics, including variables, data types, and basic syntax.
+Week 2: Dive into control flow and functions, and start writing simple programs.
+Week 3: Explore data structures like lists, dictionaries, and sets.
+Week 4: Build a small project to apply your Python skills, such as a text-based game or a simple calculator.
+
+Intro to Web Development
+
+
+Week 1: Understand HTML and CSS to build and style web pages.
+Week 2: Learn about responsive design and advanced CSS techniques.
+Week 3: Introduction to JavaScript to make your web pages interactive.
+Week 4: Create a small web project, like a personal portfolio or a simple web app.
+
+Why Join?
+
+Interactive Learning: Live classes with experienced instructors.
+Project-Based: Hands-on projects to solidify your learning.
+Supportive Community: Join a network of like-minded peers.
+Virtual Challenges: Our courses prepare you to launch a project with potential for GLOBAL IMPACT
+Ready to start your coding adventure? Sign up now to secure your spot in our exciting Fall session!
+
+For any questions or additional information, please contact us at societyofwomencodersusa@gmail.com or DM!
+
+Please share this opportunity with middle-high school students who want to learn how to code FROM SCRATCH!
+
+
+Technology Newsletter
+mehak
+[r/IG]
+
+OP
+ — 10/11/2024, 08:09
+I recently started a tech newsletter called pixel patch, mostly targetted towards teen girls interested in CS. 
+
+consider subscribing, it's free + there are really interesting and informative articles you can refer to: https://pixelpatch.substack.com/
+
+
+Flexboxes & CSS
+minipandacat
+OP
+ — 29/12/2024, 17:56
+I found that these resources were really great at helping me understand flexboxes within CSS. 
+
+Flexbox Froggy :  https://flexboxfroggy.com/
+Coding Fantasy : https://codingfantasy.com/games/flexboxadventure 
+Flexbox Froggy
+A game for learning CSS flexbox
+Image
+Play Flex Box Adventure – CSS Game to Learn Flexbox
+Learn css flexbox in a fun and easy way by playing css coding game!
+
+
+OS notes
+Jei's only pookielicious
+[CYBR]
+
+OP
+ — 24/02/2025, 22:11
+Attachment file type: document
+UNIT-I-Chapter-I.docx
+1.04 MB
+Attachment file type: document
+UNIT-I-Chapter-II.docx
+147.98 KB
+Attachment file type: document
+Unit_1_-_Chapter_3.docx
+2.08 MB
+Attachment file type: document
+UNIT-I-Chapter-IV.docx
+304.82 KB
+Attachment file type: document
+UNIT-II-Chapter-I.docx
+438.41 KB
+Attachment file type: document
+UNIT-II-Chapter-II.docx
+482.23 KB
+Attachment file type: document
+UNIT-II-Chapter-III.docx
+944.05 KB
+Jei's only pookielicious
+[CYBR]
+
+OP
+ — 24/02/2025, 22:11
+@Woroma 
+I'll also leave the other units notes one my prof gives it lol
+Woroma — 24/02/2025, 22:18
+Okie:flork_love:
+Jei's only pookielicious
+[CYBR]
+
+OP
+ — 28/04/2025, 04:47
+Attachment file type: acrobat
+3-1.pdf
+1.20 MB
+Attachment file type: acrobat
+3-2.pdf
+1.05 MB
+Attachment file type: acrobat
+3-3.pdf
+1.17 MB
+Attachment file type: acrobat
+4-1.pdf
+1.04 MB
+Attachment file type: acrobat
+4-2.pdf
+698.85 KB
+Attachment file type: acrobat
+4-3.pdf
+972.94 KB
+@Woroma
+These are all
+diva — 28/04/2025, 04:47
+<33333
+:GivesLove:
+Jei's only pookielicious
+[CYBR]
+
+OP
+ — 28/04/2025, 05:05
+Attachment file type: acrobat
+imp questions.pdf
+1.74 MB
+These are random imp questions
+
+
+For practicing programming languages!
+Lau
+OP
+ — 27/02/2025, 22:38
+100% free, forever
+https://exercism.org/
+Exercism
+Exercism
+Learn, practice and get world-class mentoring in over 50 languages. 100% free.
+Exercism
+aadhistii — 27/02/2025, 23:08
+my best place to learn as beginner 🤩
+Lau
+OP
+ — 28/02/2025, 19:39
+great to hear that ❤️  I wish it had more than SQLite in order to practice SQL
+but there's plenty of that
+
+
+Rust learning resources
+Ivy Paige
+OP
+ — 07/04/2025, 13:13
+Currently learning Rust and I've found some resources others may find helpful 
+
+Comprehensive, well planned out Rust course developed by the Android team at Google:
+https://google.github.io/comprehensive-rust/index.html
+
+Rust code snippets and examples developed by Rust team:
+https://doc.rust-lang.org/rust-by-example/index.html
+
+The Rust book, Rust docs developed by Rust team:
+https://doc.rust-lang.org/book/title-page.html
+
+For those that prefer video walk throughs, I'm currently taking this udemy course and find the instructors breakdowns incredibly helpful, it is paid but udemy does have a sale currently for anyone interested:
+https://www.udemy.com/course/learn-to-code-with-rust/
+Welcome to Comprehensive Rust 🦀 - Comprehensive Rust 🦀
+Introduction - Rust By Example
+Rust by Example (RBE) is a collection of runnable examples that illustrate various Rust concepts and standard libraries.
+The Rust Programming Language - The Rust Programming Language
+citrus5590 — 08/04/2025, 03:41
+I would like to add this in list
+https://gist.github.com/cedrickchee/f729e848b52eab8fbc88a3910072198c
+Gist
+Awesome Rust — a collection of resources for learning Rust
+Awesome Rust — a collection of resources for learning Rust - rust_resources.md
+Awesome Rust — a collection of resources for learning Rust - rust_resources.md
+
+
+Cybersecurity Resources
+🧚  server momma jei
+[<3?]
+
+OP
+ — 26/03/2024, 23:56
+Roadmap for cybersecurity:
+https://roadmap.sh/cyber-security
+roadmap.sh
+Cyber Security Roadmap: Learn to become a Cyber Security Expert
+Community driven, articles, resources, guides, interview questions, quizzes for cyber security. Learn to become a modern Cyber Security Expert by following the steps, skills, resources and guides listed in this roadmap.
+Cyber Security Roadmap: Learn to become a Cyber Security Expert
+em (bob enjoyer) — 26/03/2024, 23:56
+when i get back on my computer i’ll put stuff here tomorrow!
+🧚  server momma jei
+[<3?]
+
+OP
+ — 26/03/2024, 23:59
+yippieee
+:PES4_HappyAwesome:
+laura hates web dev (i am laura) — 27/03/2024, 10:52
+For cryptography, I use https://cryptohack.org/ (both learning and practice)
+
+pwn: https://pwn.college/dojos
+https://pwnable.xyz/ (practice)
+web: https://portswigger.net/web-security/all-topics
+https://webhacking.kr/ (practice)
+
+And if you don't know about these subdomains, you can read about them on https://ctf101.org/
+
+shared by @taniusca
+em (bob enjoyer) — 27/03/2024, 10:55
+https://cyberchef.cyberskyline.com/
+CyberChef
+The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+tools for CTF events!
+I also like the channel Mad Hat on youtube, he is in cybersecurity and provides roadmaps for cyber career paths, as well as cyber news among other thinsg
+https://iaansecurity.com/blogs/IAANSEC/How_I_Landed_A_Job_In_Cyber_Security
+IAAN Security Blog
+How I Landed A Job In Cyber Security
+Check out my latest blogs, professional reports and other written material here!
+How I Landed A Job In Cyber Security
+blog entry from a connection of mine on LinkedIn, also has good content!
+i'll continue to add more here as i find things
+@A1.exe if you wanna add anything here
+em (bob enjoyer) — 27/03/2024, 11:02
+The Hacker News is a good newsletter to stay current on events in cyber as well
+🧚  server momma jei
+[<3?]
+
+OP
+ — 31/03/2024, 13:19
+do you have a link to it? i'd love to receive them :Shy:
+em (bob enjoyer) — 31/03/2024, 14:03
+i can try to find one
+:3
+it’ll be later tho i’m doing Easter things
+em (bob enjoyer) — 31/03/2024, 23:34
+https://thehackernews.com/?m=1
+The Hacker News
+The Hacker News | #1 Trusted Cybersecurity News Site
+The Hacker News is the most trusted and popular cybersecurity publication for information security professionals seeking breaking news, actionable insights and analysis.
+The Hacker News | #1 Trusted Cybersecurity News Site
+@🧚  server momma jei here you go :3
+laura hates web dev (i am laura) — 04/04/2024, 04:17
+https://youtu.be/Xp_jAakX_J8?si=kzOrSZU_cIl4EiGM
+shared by @em (bob enjoyer)
+YouTube
+Sandra - Tech & Lifestyle
+Learn How to Hack with CTFs as a COMPLETE Beginner | Beginners Guid...
+Image
+Cookie
+[OSDV]
+ — 25/12/2024, 16:40
+Overview Guide for Cybersecurity
+Basics
+├── Networking 
+│   ├── OSI Model 
+│   │   ├── Layers 1-7, Functions
+│   │   ├── Encapsulation/Decapsulation
+│   ├── TCP/IP Suite 
+│   │   ├── IPv4/IPv6, TCP/UDP
+│   │   ├── Protocol Ports, ICMP, ARP
+│   ├── Subnetting 
+│   │   ├── CIDR, VLSM, Calculations
+│   │   ├── Supernetting
+│   ├── NAT/PAT 
+│   │   ├── Types, Mechanisms
+│   │   ├── NAT Traversal
+│   ├── DNS 
+│   │   ├── Resolution, DNSSEC
+│   │   ├── Spoofing, Tunneling
+│   ├── VPNs 
+│   │   ├── IPSec, SSL/TLS
+│   │   ├── Split Tunneling
+│   ├── Firewalls 
+│   │   ├── Stateful vs Stateless
+│   │   ├── NGFW, Rule Creation
+│   ├── Load Balancers 
+│       ├── Layer 4/7, Health Checks
+│       ├── Algorithms, Session Persistence
+├── Operating Systems 
+   │   ├── Windows 
+   │   │   ├── Registry, AD, GPO
+   │   │   ├── Event Logs
+   │   ├── Linux 
+   │   │   ├── Filesystem, Permissions
+   │   │   ├── Systemd, Log Management
+   │   ├── MacOS 
+   │   │   ├── SIP, Keychain Access
+   │   │   ├── Daemons, Gatekeeper
+   │   ├── Kernel Exploits 
+   │   │   ├── Privilege Escalation, CVE
+   │   │   ├── Debugging, Exploit Dev
+   │   ├── Shell Scripting 
+   │       ├── Bash, PowerShell
+   │       ├── Automation, Scheduling
+
+   ├── Programming & Scripting 
+   │   ├── Python 
+   │   │   ├── Networking, Automation
+   │   │   ├── API, Pentesting
+   │   │   ├── Data Analysis
+   │   ├── Bash 
+   │   │   ├── CLI Fu, Text Manipulation
+   │   │   ├── Network Config, Process Management
+   │   ├── PowerShell 
+   │   │   ├── Cmdlets, Remoting
+   │   │   ├── Execution Policies, Admin Tasks
+   │   ├── C/C++ 
+   │   │   ├── Memory Management, Buffer Overflows
+   │   │   ├── Pointer Manipulation, Exploits
+   │   ├── Assembly Language 
+   │       ├── x86/x64, Shellcode Dev
+   │       ├── Debugging, Reverse Engineering
+   │   ├── Reverse Engineering 
+   │       ├── Disassembly, Decompilation
+   │       ├── Binary Patching, Malware Analysis
+
+Intermediate Security Skills 
+├── Threat Modeling 
+│   ├── STRIDE: Spoofing, Tampering, etc.
+│   ├── DREAD: Damage, Reproducibility, etc.
+│   ├── MITRE ATT&CK: Tactics, Techniques
+├── Penetration Testing 
+   │   ├── Reconnaissance: OSINT, DNS Recon
+   │   ├── Scanning: Nmap, Nessus
+   │   │   ├── Port Scanning, OS Detection
+   │   │   ├── Vulnerability Prioritization
+   │   ├── Exploitation: Metasploit, Custom Payloads
+   │   │   ├── Shellcode, ROP
+   │   │   ├── Fuzzing, Mitigation Bypass
+   │   ├── Post-Exploitation: Privilege Escalation
+   │   │   ├── Persistence, Data Exfiltration
+   │   ├── Reporting: Documentation, Recommendations
+
+Advanced Topics 
+├── Offensive Security 
+│   ├── Exploit Development
+│   ├── Advanced Persistent Threats (APTs)
+│   ├── Red Team Operations
+
+   ├── Security Operations Center (SOC) 
+   │   ├── Monitoring, Incident Response
+   │   ├── SIEM Configuration
+   │   ├── Threat Intelligence
+
+   ├── Digital Forensics 
+   │   ├── Data Acquisition
+   │   ├── Evidence Preservation
+   │   ├── Analysis & Reporting
+
+   ├── Compliance & Governance 
+       ├── GDPR, HIPAA
+       ├── Risk Management
+       ├── Policy Development
+
+Emerging Technologies & Trends 
+├── Cloud Security 
+│   ├── Cloud Service Models (IaaS, PaaS, SaaS)
+│   ├── Cloud Security Posture Management (CSPM)
+│   ├── Cloud Access Security Brokers (CASB)
+│   ├── Data Encryption in the Cloud
+│   ├── Identity and Access Management (IAM)
+│   ├── Cloud Security Best Practices
+
+   ├── Zero Trust Architecture 
+   │   ├── Principles of Zero Trust
+   │   ├── Identity and Device Authentication
+   │   ├── Network Segmentation
+   │   ├── Microsegmentation
+   │   ├── Policy Enforcement
+
+   ├── Internet of Things (IoT) 
+   │   ├── IoT Security Challenges
+   │   ├── Device Authentication & Encryption
+   │   ├── IoT Network Segmentation
+Mystmystmyst — 09/02/2025, 12:56
+Thank you sm🫶🏻
+
+
+
+DSA Notes - all uploadec in drive -https://drive.google.com/drive/folders/19GotIMPBAqYUuDJsDtwlC-NdOmU3OcG1?usp=sharing
+🧚  server momma jei
+[<3?]
+
+OP
+ — 02/12/2024, 09:27
+For anyone needing it:
+🧚  server momma jei
+[<3?]
+
+OP
+ — 02/12/2024, 09:28
+Forwarded
+Attachment file type: acrobat
+Data Structures.pdf
+3.99 MB
+#📸︱media  •  01/12/2024
+ArRoWFiGhTer — 02/12/2024, 09:29
+Forwarded
+these are the pdfs my sir shared covering most of the core topics in dsa, it has examples as wellll to explain which helped us all asw, and some of em have tasks too for practising hqhq ayay 🫡✨
+Attachment file type: acrobat
+Lab 6-II DS.pdf
+248.34 KB
+Attachment file type: acrobat
+Lab 05(a) - Recursion.pdf
+77.09 KB
+Attachment file type: acrobat
+Lab 05(b) - Backtracking.pdf
+167.09 KB
+Attachment file type: acrobat
+Lab 04(b) - Searching Algorithms.pdf
+359.41 KB
+Attachment file type: acrobat
+Lab 04(a) - Sorting Algorithms.pdf
+453.68 KB
+Attachment file type: acrobat
+Lab 03(b) - Doubly Linked List.pdf
+166.59 KB
+Attachment file type: acrobat
+Lab 03(a) - Singly Linked List.pdf
+398.23 KB
+Attachment file type: acrobat
+Lab 02.pdf
+200.21 KB
+Attachment file type: acrobat
+Lab 01.pdf
+143.76 KB
+Attachment file type: acrobat
+DS LAB 07.pdf
+513.37 KB
+#📸︱media  •  02/12/2024
+Forwarded
+Attachment file type: acrobat
+DS LAB 8.pdf
+912.26 KB
+Attachment file type: acrobat
+Lab 09 DS (1).pdf
+1,020.30 KB
+#📸︱media  •  02/12/2024
+Ani⁷❤ — 06/12/2024, 05:04
+Hey all 
+Found this dsa notes on LinkedIn hope it helps:D
+https://www.linkedin.com/posts/khusboo-↗%EF%B8%8F-596a78203_dsa-handwritten-notes-activity-7268182794634223617-da6S?utm_source=share&utm_medium=member_android
+Khusboo ↗️ on LinkedIn: DSA Handwritten Notes | 40 comments
+Google has launched 33 courses with free certificates.
+
+No payment is required! (top 10 is my favorite.)
+
+Here are 33 FREE Google courses to master a career in… | 40 comments on LinkedIn
+Khusboo ↗️ on LinkedIn: DSA Handwritten Notes | 40 comments
+I was trying to download the notes seperately seems like it's not possible ;-;
+Ani⁷❤ — 06/12/2024, 12:16
+The programs are in c 
+This is simple and straightforward
+Attachment file type: document
+dsa program.docx
+10.64 KB
+Attachment file type: acrobat
+Data Structures - Mannar.pdf
+1.28 MB
+Also you guys can use geeks for geeks website for dsa it's pretty good:))
+em (bob enjoyer) — 06/12/2024, 12:21
+yes they carried me through dsa
+Jei's only pookielicious
+[CYBR]
+ — 06/12/2024, 12:22
+Attachment file type: acrobat
+Graphs.pdf
+651.36 KB
+Attachment file type: acrobat
+Trees.pdf
+1.85 MB
+Attachment file type: acrobat
+Queues.pdf
+595.82 KB
+Attachment file type: acrobat
+Stacks.pdf
+458.95 KB
+Attachment file type: acrobat
+Hashing.pdf
+524.52 KB
+Attachment file type: acrobat
+linked lists.pdf
+1.95 MB
+Attachment file type: acrobat
+search and sortings.pdf
+420.90 KB
+Attachment file type: acrobat
+time complexity and algorithm specification.pdf
+273.88 KB
+@Oliver
+Oliver — 06/12/2024, 12:26
+THANK YOU EVERYONE!!!!!
+RAWWWHHHHHHHHH
+Jei's only pookielicious
+[CYBR]
+ — 06/12/2024, 12:28
+aw
+bro is just a cute car
+em (bob enjoyer) — 07/12/2024, 12:35
+Attachment file type: unknown
+.project
+385 bytes
+lets see if that works
+its a recursion program
+nope
+ignore that lol
+im bad at sending code
+i might just make a github repo for yall, i have my code but idk if i still have the slides
+
+
+
+Java Notes - https://drive.google.com/drive/folders/1KDIy3ob0ALX_OnXn2RFVtWAl_cM0mI1R?usp=sharing
+
+
+ADHD and CS50
+Naiyah Robinson[LFW]
+OP
+ — 09/05/2025, 20:52
+A list of tips that are currently helping me as I'm taking Cs50 😭(just so you know, I already had some cs knowledge prior to the course)
+
+Things you may need:
+Comfortable clothes + snacks + water
+Wear shoes.
+Earphones/headphones (if you're out in public, it's probably safer to only have one earphone on)
+Notepad on laptop/notebook and pen(sometimes I use both)
+Sketchbook for visual note taking.
+
+Skip around.
+I'm super familiar with html, css, and js. So if I'm still struggling with an earlier project, I'll just take a break from it and go to a project that may be easier.
+
+Use notepad while the lecture plays + You can speed up the lecture
+
+Use the YouTube channel. 
+
+Use the duck(cs50 ai assistant). Ask really good questions to help you think like the computer and figure it out on your own.
+
+I was recently diagnosed with ADHD and it has definitely been a journey!
+If you think about it, computers are kinda like ADHD brains.
+They take everything literally. 
+They need specific and clear instructions.
+They also need us to break things down for them.
+And it's sensitive to minor inconveniences (;)
+
+Pseudocode sometimes helps to break the task you want the computer to do. Step. By. Step.
+And yet, computer science is mostly taught in the most complicated way possible which is especially hard for us neurodivergents😭
+
+My laptop and I both struggle to learn and understand each other. And when I get frustrated, I sometimes yell "Why can't you just do what I want you to do?!", which is something someone has definitely asked me too.
+ 
+And now I understand that I wasn't being reasonable with it, and had to find a way to adjust and really learn how the computer takes in information. I'm learning C btw. But on the other hand, like I've mentioned earlier, it also depends on how it's explained to me.
+
+There's more than one way to learn and
+There's more than one way to solve a problem.
+
+
+Thanks for your time and I wish you the best ☺️
+Ani⁷❤ — 26/05/2025, 10:17
+this is really helpful 😄
+Floor — 06/06/2025, 04:28
+this is really late but  I just started the CS50 cybersecurity one because I had been wanting to get some understanding of the topic, the other topics look interesting too so I'm curious if anyone has taken the other courses yet or has an opinion to share aboutem
+
+
+
+Should I apply? Job Posting Expectations. What do they really want?
+Bob
+OP
+ — 15/05/2025, 18:09
+Yes. Apply. 
+
+Worst case: rejection or ghost. 
+Best case: you get interview/hired 
+
+Guaranteed cost: maximum 30 min of your time spent applying. (For normal applications.) 
+
+
+How do I increase my chances?
+Better question. Here is my tier list of things that better your shots and getting an interview/hired. Most important at the top. 
+
+A Tailored Resume:  Does your resume have the fundamentals for the field you're applying for? Ex. Knowing REST if you're applying for a web full stack or back end software engineer. Are the skills/experience/certifications you have relevant to the job posting's industry subject? If you're applying for web dev, they don't care (and probably  dont know anything about) your ability to implement ray tracing in a 3D world you generated.
+
+Referral: Did you get referred by someone? Someone who works there vouching for you is a huge plus. If that person is reliable, they will think you are too.  This can be from an old high school friend, a high school friend's mom, a college buddy, old professor's contact, a tennis club buddy, your aunts' brother in-law... It doesn't matter. Meet people, be social.
+
+Lucky Timing: How long has this job posting been up? Weeks or months your chances are INCREDIBLY SLIM at large companies. A few hours? GO GO GO, GET IN THERE! often times its strictly the first applicants that get reviewed/interviewed.
+
+Company Prestige/Expectations:  your chances go up significantly when applying to local smaller companies. Applying within the first two weeks of a posting for a small company is fine. First week for a small to mid sized is fine too. First two days for FAANG/Fortune 500 / unicorn start ups is a must. Your competition is usually higher skilled, larger in numbers, and may have higher prestige colleges.
+
+Situational Circumstances: Many areas are looking for folks willing to relocate. A huge hurdle for folks I have found in the US for example is visas/being citizens. Sometimes these are circumstances you're unable to control but it is important to recognize them for if they come up and get specific coaching on how to navigate this unmarketable aspects 'baggage' of hiring you.
+
+
+How do I meet requirements?
+Its not that big of a deal if you do or dont. Again worse case they say no. Here are general tips tho to find out if you have good odds. 
+
+Ignore Years of Experience. Not suggesting folks with no experience apply for 15+years of experience roles, but no experience you can still apply for little or some experience.
+Have comparable skills. They require Vue but you know React, its not that big of a deal. As long as you can communicate on your resume that React is a technology like vue (front end ui library development) you're golden.
+Get a feel for the culture. Is this a small company that prefers the human connection of cover letters, is it a soulless application process using workday. Cater how your application gets into their hands.
+Bob
+OP
+ — 15/05/2025, 18:18
+I am a student. What should I apply for?
+Currently Enrolled in Undergrad graduating in the far future:  internships.
+Currently Enrolled in Undergrad. Graduating in a year or less: new grad/ junior / mid level roles . 0-3 years of experience.
+
+Have undergrad degree, no internships, no experience, still trying to get my first job: see #2.
+
+Postgrad student (masters / phd): You have higher expectations from employers for you. You should have internships or research under your belt and applying to post grad specific internships or mid level + roles.
+
+Highschool Student: chill out. If you're about to go to college, apply for freshman specific internships at FAANG companies. Most companies wont hire a freshman/highschool student unless you're seriously insane or they have a college freshman specific program (like Google or Meta does)  If you're here trying to figure out where to apply to, I must implore you to socialize instead of focusing on getting a job.
+Bob
+OP
+ — 15/05/2025, 18:30
+I'm struggling to get a job as a Postgrad Masters/PHD student or graduate. What am I doing wrong?
+The biggest problems I find with folks in the above bracket are the following (first being most common): 
+
+"I got my masters because I couldn't get a job"
+
+If you got a master's degree because you couldn't find internships/a job after getting your bachelor's degree, you dug yourself a deeper hole to climb out of. 
+
+A higher degree immediately tells an employer "i need to pay them more" or "higher prestige". 
+
+Now if you had 100k+$ dollars to pay someone to do something with 1m+$ on the line if they complete it, who would you personally hire? 
+ A: BS grad with proven internships, projects, and relevant skills. 
+ B:  MS grad with generalization, no specialization, no internships, and limited relevant skills. 
+
+100% option A. You're worse than a BS grad with no internships, relevant skills, or specialization. An MS has an expectation that you're supposed to be more extraordinary than the BS grads, if you arent, you're screwed, EVEN AT SMALLER COMPANIES. 
+
+Smaller companies for example are more likely to hire the BS grad who has 0 internships and limited skills for cheap/at market value than an MS at a market value that MS grads should be at. If you lack skills as a MS grad people ask "what did you do in school for your 6+ years? Nothing? Can they learn practical skills?" Whereas when you lack skills as a BS grad its "This guy will need more training but if he can learn its fine". People assume opportunities are lined up for masters students/grads, if you have none on your resume, its seen as lazy.  People have higher expectations for MS grads, if you don't meet them, youre seen as a potentially expensive liability.
+
+Do Not Get A Masters Because You Don't Know What Else To Do. 
+
+Applying for the wrong roles. "I have internships, research, im specialized in AI, and have completed x,y,z impressive feats. Why can't I get hired gor junior roles?"
+
+You're not junior. Apply for mid/senior roles. Post grad degrees, internships, research, etc these things add up putting you closer to mid level + roles than junior. 
+
+Lack of interest in Capitalism or Socializing.
+
+You have accomplished insane things, you're awesome on paper... But you dont want to actually do things. You want to research for the rest of your life. Teach. You may struggle to socialize and find yourself the greatest gift from god to the world. I have no advice for you other than, it's okay to stay in academics living in poverty begging for research grants till you strike out big 
+Bob
+OP
+ — 15/05/2025, 18:55
+How do I get a referral?
+Ask for one from someone you know and met already before. 
+
+But
+
+Don't meet people with the intention of taking advantage of them. 💀
+
+*"but bob, I have social anxiety about asking them. What if they [ insert irrational reaction/judgement ]"
+
+Honest to golly goodness, its important to put yourself in the other person's shoes. If you flipped roles and they asked you for a referral would you find it offensive/ridiculous/weird/awkward/etc? If so, don't. If not, do it. Chances are they are a reasonable person similarly to you who wouldn't think much about it and a question like "Hey Joe, if it's not too much to ask, would you be willing to refer me for [insert link to role or say role] at [insert their company]? I would really appreciate it. I've been looking for a new job and think this one would be a great fit for me."
+
+Additionally, sometimes you're doing these folks a favor... Many companies give incentives for referrals hires. Ex. My company gives 5k$ to me for engineering roles hired from my referral.
+
+
+Idk bout you but if my nephew who i thought  was a phenomenal candidate didn't ask me to refer him for a role because of social anxiety and I missed out on 5k$ for it I would be pretty sad about it lol. 
+CharChar — 04/06/2025, 13:27
+great write up! i agree with most of these things but i feel like (3) is a bit condescending. maybe i misinterpreted the tone so correct me if im wrong!
+Bob
+OP
+ — 04/06/2025, 15:51
+Oh its 100% somewhat condescending. The person who knows they want to do post grad degrees and stay in academics is valid. But its more so a dig at the stereotype of people who get higher degrees with no plans with huge egos and constant complaining about getting no job, capitalism, and lack of recognition for their feats. 
+
+Its so common of a person though that I run into that I have to throw a little dig in there.
+Also, the absolute WORST professors in engineering, tech, etc are usually the folks with ABSOLUTELY 0 EXPERIENCE in the industry.
+The BEST professors are the retired old folks who worked in the industry, left it and decided to teach to give back to community
+PHD students with a plan to contribute to the future with research? Awesome great, love them. 
+
+PHD students who think they are gods greatest gift to the world, thinking a PHD alone will get them a job and when they dont its society/worlds/etc fault? Not awesome. We don't like those people.
+Floor — 06/06/2025, 04:35
+I would say this is my biggest gripe with some professors, I don't go to the best cs program in even my state by far but it still amazes me how a cs professor can feel so regressive in technology or ways of teaching, or (from one of my mentor's perspectives) the hostility I've heard about of professors being stuck in there ways despite the industry progressing past them lol
+
+
+

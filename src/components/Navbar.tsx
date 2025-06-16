@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link to="/" className="flex justify-center">
               <div className="w-12 h-12 rounded-full overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/d7bb421f-fd35-418f-8d62-fdb6d6fbbf12.png" 
+                  src="/logo.png" 
                   alt="CS Girlies Logo" 
                   className="w-full h-full object-cover"
                 />
@@ -66,7 +66,7 @@ const Navbar = () => {
             <Link to="/" className="flex justify-center">
               <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/d7bb421f-fd35-418f-8d62-fdb6d6fbbf12.png" 
+                  src="/logo.png" 
                   alt="CS Girlies Logo" 
                   className="w-full h-full object-cover"
                 />

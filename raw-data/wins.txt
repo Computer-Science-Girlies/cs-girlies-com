@@ -1,0 +1,667 @@
+
+🧚  server momma jei
+[<3?]
+ — 05/09/2024, 09:01
+Share your achievements!
+
+digital besos,
+michelle 🦩
+Abhi also hates web dev — 06/09/2024, 01:49
+I wrote a cool article for my blog!
+https://www.abhilashatandon.com/blog/spotify-genre-mapping
+or at least i think its cool
+disco — 06/09/2024, 13:04
+Love this, I don't think my pea brain understood it fully but I got the general idea! It's so cool 😁
+Abhi also hates web dev — 06/09/2024, 13:14
+no you're good, I probably didn't explain it that well
+I'll add some pictures or something
+disco — 06/09/2024, 14:21
+No u did, u blog post was 👏
+Oliver — 11/09/2024, 08:55
+omg gurlllll
+YOU WEBSITE IS SOOO COOL OMFG!!!!
+OH OHHH AND I LOVEEEEE THAT COLOUR FINDER THINGY!!!!
+:GivesLove:
+Abhi also hates web dev — 11/09/2024, 11:15
+yay thank you! I'm worried it looks kinda goofy but I'm glad you like it
+MapopoStanley — 24/09/2024, 18:07
+I've been working on this for a few days. This is the first project where I understood the logic a lot quicker! I'm way more confident with javascript and node. I'll be making another one for my portfolio where the isbn isn't needed and authentication. After this I'll be covering security, react.js and learning python. I'm actually excited instead of dreading it! 
+RJ — 28/09/2024, 16:39
+responsiveness left the chat
+Abhi also hates web dev — 28/09/2024, 17:04
+noooo 😦
+I hate css
+oh wait it looks mostly fine
+I'm gonna like completely redesign it in a bit though I hate how it looks
+RJ — 29/09/2024, 03:51
+use tailwind then 😐
+MapopoStanley — 29/09/2024, 06:21
+This is part of the css for my portfolio website. Its the simplest way to make a responsive webpage. You'd style your page normally then at the end use  the media rule.
+Image
+MapopoStanley — 29/09/2024, 06:31
+I also used flexbox but from seeing other people's opinions I don't know how many people actually like using it. It might require a lot of shuffling too. I look back at other projects in my portfolio and I'm putting off going back to change the styling because of this. My portfolio website has the simplest and best use (where I can understand and explain why I used certain things) of flexbox styling. 
+RJ — 29/09/2024, 07:00
+bro u do vanilla ?
+MapopoStanley — 29/09/2024, 07:17
+Vanilla and bootstrap. I'm focused on learning different coding languages. Styling seems easy to pick up. At the same time, I noticed that when I'm not confident with styling it affects how quickly I can put together a functional project. I do want to learn SASS. 
+Abhi also hates web dev — 29/09/2024, 07:49
+nah, you see I have to make things harder for myself
+brain is weird
+Abhi also hates web dev — 29/09/2024, 07:53
+it looks pretty responsive to me though is the thing. I spent a lot of time on that. what exactly do you think is wrong?
+can I see like a screenshot
+RJ — 29/09/2024, 09:55
+well, it is in demand nowadays.. good developers who can put together complex designs.. that's why 3js is getting popular cause of 3d animation
+RJ — 29/09/2024, 09:58
+well i inspected your webpage in my browser... it seems that for shorter width it is not putting up the navbar contents properly. also u didn't used any hamburger menu so that's also something you might wanna add. 
+and some exta advice.. try to make your portfolio look visually appealing rather than just getting all the content together
+Abhi also hates web dev — 29/09/2024, 09:59
+yeah Ive been kinda slacking off on working on it. I had another website i was making for someone else (which looks much better than mine actually). I'm gonna work on redesigning it to look better since I think it looks kinda bad now. if only I knew stuff abt graphic design 😮‍💨
+Abhi also hates web dev — 29/09/2024, 10:00
+hamburger menu's a good idea
+RJ — 29/09/2024, 10:00
+ohh so u do freelancing
+Abhi also hates web dev — 29/09/2024, 10:01
+mhmm!
+I've only done one website though 😂
+RJ — 29/09/2024, 10:01
+yeah u can say that.. but it's pretty basic idea when u talk about responsiveness in smaller width
+RJ — 29/09/2024, 10:03
+ohh.. same here i had also made some websites for people
+Abhi also hates web dev — 29/09/2024, 10:07
+ooh can I see yours
+RJ — 29/09/2024, 10:08
+https://medium-clone-neon-gray.vercel.app/signup
+
+well this is the website i am currently working on... (a clone actually)
+Abhi also hates web dev — 29/09/2024, 10:09
+😭
+Image
+RJ — 29/09/2024, 10:09
+very initial stage though
+Abhi also hates web dev — 29/09/2024, 10:09
+yeah I can see 😂
+RJ — 29/09/2024, 10:10
+https://medium-clone-neon-gray.vercel.app/
+Abhi also hates web dev — 29/09/2024, 10:10
+oh OK cool
+RJ — 29/09/2024, 10:10
+hehe 😅
+Abhi also hates web dev — 29/09/2024, 10:11
+sorry
+Abhi also hates web dev — 29/09/2024, 10:12
+how r u doing sign in authentication? cause like I was just gonna use google for my full stack projects
+RJ — 29/09/2024, 10:12
+database...
+Abhi also hates web dev — 29/09/2024, 10:12
+like gis or oauth or w/e they have
+Abhi also hates web dev — 29/09/2024, 10:12
+well I mean like yeah 😂
+I mean like how r u doing encryption or w/e
+salted hashes or something? idk what the best practices are for that 
+RJ — 29/09/2024, 10:15
+well jwt
+Abhi also hates web dev — 29/09/2024, 10:16
+ok cool
+RJ — 29/09/2024, 10:17
+well it's quite easy and usefull so..
+Abhi also hates web dev — 29/09/2024, 10:17
+yeah u see I'm a loser who likes to do everything from scratch
+RJ — 29/09/2024, 10:18
+🥲idk if it is sarcastic...
+Abhi also hates web dev — 29/09/2024, 10:19
+it's meant to be self deprecating sorry
+I'm insulting myself not u
+RJ — 29/09/2024, 10:20
+if ur using google then it also workes on Oauth2.0
+i use Oauth2.0 + jwt
+Abhi also hates web dev — 29/09/2024, 10:22
+ok cool
+I wanna try doing an authentication system from scratch at some point. I'm obv not going to like use it for anything serious ofc 
+RJ — 29/09/2024, 10:36
+ohh.. well that's cool too
+Abhi also hates web dev — 29/09/2024, 10:37
+I'm like just starting to learn backend stuff lmao
+RJ — 29/09/2024, 10:37
+ohh what tech stack u using ?
+Abhi also hates web dev — 29/09/2024, 10:37
+pern
+RJ — 29/09/2024, 10:38
+lol same here... but i am switching to springBoot soon
+so that i can have access to more jobs
+opportunities
+Abhi also hates web dev — 29/09/2024, 10:39
+such is the way 😔
+RJ — 29/09/2024, 10:40
+hmm.. node devs are required in startups nowadays
+big company ask for java/js
+Abhi also hates web dev — 29/09/2024, 10:41
+got it
+RJ — 29/09/2024, 10:42
+u doing job ?
+Abhi also hates web dev — 29/09/2024, 10:42
+no 😭😭😭
+RJ — 29/09/2024, 10:45
+ohh.. then some study course ?
+Abhi also hates web dev — 29/09/2024, 10:45
+I graduated in May I'm just self studying till I get a job or go to grad school
+RJ — 29/09/2024, 10:47
+ohh i get it... btw u done engineering ?
+Abhi also hates web dev — 29/09/2024, 10:47
+math and computer science
+RJ — 29/09/2024, 10:48
+ohh nice.. i am also a engineering student
+Abhi also hates web dev — 29/09/2024, 10:48
+oh cool what year
+RJ — 29/09/2024, 10:48
+in my 2nd year
+Abhi also hates web dev — 29/09/2024, 10:48
+cool
+RJ — 29/09/2024, 10:49
+yeah.. have u participated in any hackathons
+Abhi also hates web dev — 29/09/2024, 10:49
+I just signed up for one. it's in November
+it's like a data analytics sorta thingy
+RJ — 29/09/2024, 10:50
+ohh.. cool hightech stuff i see 😅
+well that's good for u since u have done mathematics
+Abhi also hates web dev — 29/09/2024, 10:51
+yeah data science and ml is more my thing
+RJ — 29/09/2024, 10:52
+and data structures and algorithm and development is mine
+looking forward to get a tshirt from leetcode
+isha_ — 30/09/2024, 03:32
+hyy
+RJ — 30/09/2024, 12:35
+hii
+RJ — 30/09/2024, 13:10
+https://career-path-online.vercel.app/
+guyss please rate this website's UI and give me suggestions to improvment. I am thinking to integrate AI while generating the roadmaps. what do u guyss think
+rate this
+PS: it is in a initial stage so don't judge, am gonna add many more functionalities later in future
+Abhi also hates web dev — 30/09/2024, 14:29
+looks pretty ok, id say make your logo higher res it's a bit pixelly
+also you can have bigger margins btwn elements. don't be stingy w those
+Jei's only pookielicious
+[CYBR]
+ — 30/09/2024, 22:18
+Girl there's a personal portfolio website for a project due on 13th. Once I'm done, I'll show you xd
+Abhi also hates web dev — 30/09/2024, 22:22
+I'm not like a design expert, but sure!
+Jei's only pookielicious
+[CYBR]
+ — 30/09/2024, 22:23
+Anything is appreciated:)
+Abhi also hates web dev — 30/09/2024, 22:23
+mhmm ofc!
+faye
+[TIT]
+ — 02/10/2024, 13:18
+I like it so far! :pcow:  I would change the footer span to the entire width of the website (like you have it with the header)
+RJ — 03/10/2024, 02:30
+ohh..
+RJ — 03/10/2024, 02:31
+i was thinking of that to... i made it short to look a bit of unique but looks like it became wierd instead of unique
+RJ — 03/10/2024, 02:32
+mee too please.. i like to judge other people's work
+Jei's only pookielicious
+[CYBR]
+ — 03/10/2024, 02:44
+Better, I will send it to you both personally :D
+I haven't gotten started yet but I will start tomorrow and I'm hoping to be done by 10th
+RJ — 03/10/2024, 02:53
+ohh.. so did u have worked on UI of ur portfolio
+Jei's only pookielicious
+[CYBR]
+ — 03/10/2024, 03:46
+oh no I don't yet 💀
+RJ — 03/10/2024, 05:36
+ohh.. well there are so many components available for portfolio in tailwind css. so it's not a thing to worry about
+🧚  server momma jei
+[<3?]
+ — 03/10/2024, 10:31
+upcoming achievement (maybe):
+i got a call back from the govt asking for an interview for next sem's internship !!
+Oliver — 04/10/2024, 14:09
+HOLY FUCK THAT'S GREATTT LETS FUCKING GOOOOOOOOOOOO!!!!
+🧚  server momma jei
+[<3?]
+ — 04/10/2024, 14:15
+sharing another one:
+so far i've only applied to three internships (bc every other internship requires you to move and i dont have money for that lol) and have gotten a call back from 2/3 of them
+🧚  server momma jei
+[<3?]
+ — 04/10/2024, 14:15
+you're too sweet
+:peepoPats:
+Oliver — 04/10/2024, 14:15
+mother is such an icon yall
+Abhi also hates web dev — 04/10/2024, 14:15
+we love you mom
+Oliver — 04/10/2024, 14:16
+like i seriously cant even
+Abhi also hates web dev — 04/10/2024, 14:16
+congrats!
+Oliver — 04/10/2024, 14:16
+mother is everything
+SHE IS THE MOMENT
+👏
+Abhi also hates web dev — 04/10/2024, 14:16
+that's not her avatar but it's close
+Oliver — 04/10/2024, 14:16
+REAL!!!
+i aspire to be like mother someday
+:GivesLove:
+Abhi also hates web dev — 04/10/2024, 14:17
+ok wait sorry to but in but I also got an interview! it's for like a programming teacher thingy (I'm considering just becoming a teacher instead of going into tech both because that's easier and I think I'll like it better)
+Oliver — 04/10/2024, 14:18
+okay slay!!!
+i have seen your website!!
+GO CRUSH IT GURL
+YOU CAN DI ITTTTT!!!!
+Abhi also hates web dev — 04/10/2024, 14:18
+dawwwww tysm!
+yall are so sweet
+Oliver — 04/10/2024, 14:19
+🧚  server momma jei
+[<3?]
+ — 04/10/2024, 14:26
+sharing one more for the week to inspire y'all to lock in (LMFAO):
+
+i founded a women in STEM club in my uni earlier this year, and as soon as we got officially set up in the university, not even a day ago, we had Evidentia Institute (founded by Western University, but has v cool universities like harvard, stanford, uPenn, etc) send us an email asking if we want to collab. they're a research-based group that focuses on tech and healthcare, primarily involving AI/ML to help detect early signs of diseases and/or symptoms in the human body
+
+if anyone is interested in researching AI topics, this might b a cool one for u to look at, as an independent researcher!
+🧚  server momma jei
+[<3?]
+ — 04/10/2024, 14:27
+you're gonna do so great, you're so awesome !!
+[CHAR] — 05/10/2024, 11:59
+YOOO congrats Jei!!! Did you just apply online or did you talk to a recruiter/company employee while applying?
+
+After 100 applications I finally got a second company to reach out via recruiter. It’s a local company too!! Excite :3
+🧚  server momma jei
+[<3?]
+ — 05/10/2024, 12:05
+i applied through my university's internship website!
+it honestly wasnt looking good at first bc a lot of the positions were out of city, and knowing canada, they wouldnt help w the accommodations, and even js leaving for 4 months wasnt worth it, so i opted to look for jobs within the city
+[CHAR] — 05/10/2024, 12:09
+I’m finding that local hybrid/in-person jobs are way less competitive than national fully remote jobs. Like 100 applicants vs 6000+ applicants! 
+
+I believe in you!!
+There are just wayyy fewer of them lol
+
+
+🧚  server momma jei
+[<3?]
+ — 05/10/2024, 12:11
+most, if not all positions from where i am are in-person, so it wasnt js worth it, so im definitely going to be fighting for this govt job 😭
+there are two open positions and i had js found out that my friend also applied for it, so we're both hoping we get in LMFAO
+[CHAR] — 05/10/2024, 12:13
+For sure, I haven’t seen one hybrid/remote internship yet, so I guess they’re usually in person. 
+
+Yessss get it!!
+disco — 06/10/2024, 07:00
+Congratulations @🧚  server momma jei @Abhi also hates web dev 💐💐💐🎉🎉🎉
+Ani⁷❤ — 09/10/2024, 12:43
+Y'all i applied for new internship as the old one isn't in remote so pls pray for me
+Sorry mistook this for off topic
+ricardo. — 09/10/2024, 12:44
+:pcow:  hope you get it!
+Ani⁷❤ — 09/10/2024, 12:45
+Thank you
+z — 24/10/2024, 01:41
+got my guardian :D 
+Image
+mitochondria — 17/11/2024, 09:35
+Hiiii yall, does anyone know any information about web development competition? Or any other competition related to CS? Thank you!! ^^
+Jei's only pookielicious
+[CYBR]
+ — 17/11/2024, 10:25
+What an achievement
+:too_cute:
+Alex4Hire
+[CYBR]
+ — 18/11/2024, 11:28
+What does Guardian mean?🫠
+Sky hates ux designers (im sky) — 18/11/2024, 11:56
+First get verified and then head to either ⁠❓︱need-help with maybe a more Details like "Which kind of competition", "where it should get hostet"  or any other prefrences etc. Or head to ⁠🌐-web-dev-girlies and ask someone there :D 
+Sky hates ux designers (im sky) — 21/11/2024, 18:12
+I just got an scholarship :D (they wrote my name wrong tho haha)
+Pranitha — 21/11/2024, 18:25
+omg congrats!! ❤️
+Sky hates ux designers (im sky) — 21/11/2024, 18:26
+Thanks :D
+I just had my graduation party and the handed out the official "certificate"
+[CHAR] — 21/11/2024, 20:37
+Congrats Sky!!! So proud :’3
+Sky hates ux designers (im sky) — 21/11/2024, 21:13
+Thank u  :3
+Ani⁷❤ — 06/12/2024, 00:13
+Went back to gym after month of bedrotting
+🧚  server momma jei
+[<3?]
+ — 06/12/2024, 12:00
+i got an internship !!!! they said i did super good on the interview that they might extend it for another semester 🫶
+Jei's only pookielicious
+[CYBR]
+ — 06/12/2024, 12:01
+lets goooooooooooooooooooooo
+Ani⁷❤ — 06/12/2024, 12:05
+Wowowow let's goooo I'm also gonna apply for a remote data analyst intern role
+Sky hates ux designers (im sky) — 06/12/2024, 12:20
+Congrats I'm proud of ya :D (from someone who's been bedrotting aswell)
+Sky hates ux designers (im sky) — 06/12/2024, 12:21
+AYOOO Nice Letss goooo
+Abhi also hates web dev — 06/12/2024, 13:12
+omg you're so lucky
+[CHAR] — 06/12/2024, 20:49
+Congrats jei!!! 💕💕💕
+Pranitha — 06/12/2024, 22:08
+Damnn congratulations jei!!!!!!
+'xi — 07/12/2024, 04:12
+omg das cool, gl with your internship im sure u will do good:GivesLove:
+Tarantula — 09/12/2024, 17:21
+GUESS WHO GOT VERIFIED
+Oliver — 10/12/2024, 02:41
+humanity is doomed now
+😨
+Sabby
+[YGO]
+ — 13/12/2024, 12:42
+hi! I want to share my win that I've been able to peddle my way through making my own full stack app as part of my learning journey and got both my backend and frontend working after so many hurdles and debugging over the simplest mistakes I've made the past few days 😭
+Ani⁷❤ — 13/12/2024, 12:43
+That's soo greattt
+As smo just started frontend and working through HTML and CSS this is a big motivation for me 😭❤️
+Mystikal — 14/12/2024, 14:24
+I passed my fall semester :DGloliDance:
+<Nathan />
+[d.py]
+ — 14/12/2024, 18:46
+I won a single game of Rocket League Ranked 2v2 G3 D2 (Real Achievements ♡♡♡)
+Nota Konsta 🌸 — 17/12/2024, 06:33
+I installed Linux in many ways and ditributions 🐉🐉🐉👩‍💻👩‍💻👩‍💻
+nnaya_o — 18/12/2024, 16:54
+I wrote my last exam for the semester today! Not an achievement, but atleast I survived 🥳
+Oliver — 22/12/2024, 07:14
+survival is the biggest achievement!!!
+:GivesLove:
+Mabele
+[BT]
+ — 22/12/2024, 16:16
+I won 3 prizes at the brainrot hackathon!! My first time winning anything at a hackathon 🎉
+Oliver — 23/12/2024, 01:58
+and with that i'm joining the survival gang toooooo!!! 
+today was my last exam
+IT'S FINALLY ALL OVER NOW
+YIPPEEEEEE
+I BOUGHT SOME CAKE AND WILL CELEBRATE
+:3
+Sky hates ux designers (im sky) — 23/12/2024, 01:59
+LETSS GOOO
+zoti — 24/12/2024, 14:03
+Today I mark 5 months and 12 days free of nicotine :))
+Sky hates ux designers (im sky) — 24/12/2024, 14:04
+CONGRATS
+zoti — 24/12/2024, 14:07
+Thank you💝
+Deleted User — 24/12/2024, 20:25
+Way to go! I'm 7 months sober from alcohol and recreational.
+Sky hates ux designers (im sky) — 24/12/2024, 21:12
+Letss goo CONGRATS:D
+zoti — 25/12/2024, 05:51
+Amazingggg good for you!!
+Euphorist — 25/12/2024, 23:49
+heyy i scored 64/70 in CS pre board exam🥹
+Pranitha — 26/12/2024, 03:37
+Congratulations!!!
+Euphorist — 26/12/2024, 03:53
+thanks
+Brandi Whitmore — 30/12/2024, 02:03
+I have officially graduated with my BS in IT :)))
+Abhi also hates web dev — 30/12/2024, 03:00
+I made a text renderer!
+Image
+Deleted User — 30/12/2024, 03:16
+great job!
+Abhi also hates web dev — 30/12/2024, 03:17
+thank you!
+RJ — 31/12/2024, 02:31
+Yo, just finished working on my project, DevOverflow. It’s a Q&A platform for devs with features like badges, AI assist, real-time view counts, tailored recommendations, Global search and upvotes/downvotes.
+
+Built it using  Next.js, MongoDB, Gemini, and Tailwind CSS. Let me know what you think!
+
+Repo :- https://github.com/hrishabh6/devOverflow
+Live link :- https://dev-overflow-flame-pi.vercel.app/
+Image
+GitHub
+GitHub - hrishabh6/devOverflow
+Contribute to hrishabh6/devOverflow development by creating an account on GitHub.
+GitHub - hrishabh6/devOverflow
+Oliver — 31/12/2024, 07:44
+we all survived 2024
+good job gang
+im proud of yall!! :3
+:GivesLove:
+CharChar — 01/01/2025, 07:56
+I just completed semester 3, which is regarded as the hardest one in our program. and i got A's in 4 subjects and an A- in one! :figurinha828:
+Oliver — 01/01/2025, 08:48
+yayyy congrats!!! that's epic :3
+🥳
+CharChar — 01/01/2025, 08:55
+we're proud of ya too! :pink_bow:
+Kentucky_Cried_Fricken — 04/01/2025, 01:36
+Just finished a course on Java🎉
+Stranger — 08/01/2025, 12:49
+not something big but a W is a W🫡
+Image
+nnaya_o — 11/01/2025, 18:19
+Got all As in my Finals!!! 😭😭😭🙌🏽
+Shizuka — 12/01/2025, 12:42
+Send help
+Praj_._._ — 14/01/2025, 22:41
+Placed top 6 in a 24hour hackathon 😭😭🙌🙌🙌
+kotique — 15/01/2025, 23:00
+what linux distro do u use?
+Abhi also hates web dev — 16/01/2025, 00:57
+mint with KDE plasma
+Abhi also hates web dev — 16/01/2025, 00:57
+it's my first time using Linux
+kotique — 16/01/2025, 01:00
+ohh cute
+kotique — 16/01/2025, 01:00
+how is it going?
+I never used Linux to actually do things, just messed around it a lot. I am thinking about switching to linux at some point tho
+Abhi also hates web dev — 16/01/2025, 01:03
+it's nice, I haven't had any major issues so far
+I was worried abt my graphics tablet but open tablet driver came to save the day
+kotique — 16/01/2025, 23:02
+yeah, graphics is a big thing in linux as far as i know
+people complain about drivers for them all the time
+Abhi also hates web dev — 16/01/2025, 23:03
+really? otd works great for me
+and it looks like a lot of tablets are supported
+kotique — 16/01/2025, 23:04
+nvidia graphic cards drivers are mess
+licensing issues or something
+Abhi also hates web dev — 16/01/2025, 23:05
+ohhh got it
+i mean i have an nvidia but i havent done much w it i think
+kotique — 16/01/2025, 23:06
+yeah, some distributions handle it good, but for others you kinda have to figure it out on your own
+nnaya_o — 19/01/2025, 21:34
+Just completed my first hackathon ☺️
+Praj_._._ — 19/01/2025, 21:49
+Congo how was it?
+nnaya_o — 20/01/2025, 02:26
+It was interesting
+Definitely a learning experience
+Jei's only pookielicious
+[CYBR]
+ — 20/01/2025, 04:40
+I survived college today
+On the bus home
+Oliver — 20/01/2025, 06:30
+yayyy
+ays — 20/01/2025, 10:18
+👑
+ays — 20/01/2025, 10:19
+i survived presentation
+RJ — 20/01/2025, 13:15
+Please care to check out my portfolio... suggestions are welcomed
+https://www.hrishabhjoshi.xyz/
+Rosaleave — 20/01/2025, 13:17
+You have a contact me button that doesn't work. And also two contact me blurbs, which is a bit repetitive, don't you think?
+Jei's only pookielicious
+[CYBR]
+ — 21/01/2025, 07:49
+letsss gooooooooo ayeeeeee
+RJ — 21/01/2025, 08:44
+Thankyou very much for telling me that, looks like the api is expired or something. also i will fix that contact me thing.
+ays — 22/01/2025, 10:17
+scored 9.4 cgpa
+Oliver — 23/01/2025, 10:39
+i made my first ever dark mode button! 
+:im_fine:
+Ani⁷❤ — 23/01/2025, 10:57
+Wowwww let's gooo that's very impressive
+kt — 27/01/2025, 07:13
+Hey! I just completed a specialization on Coursera, and I’m hoping these certificates will help me land a job more easily. 🎉 If you’re on LinkedIn, I’d love it if you could check out my post and maybe give it a like: https://www.linkedin.com/posts/kis-tímea-38b2ba331_completion-certificate-for-python-for-everybody-activity-7289245730139959296-bxRw?utm_source=social_share_sheet&utm_medium=member_desktop_web
+Pranitha — 27/01/2025, 07:38
+I'm done with my 5th sem finallyyy
+Mystmystmyst — 13/02/2025, 01:41
+Congrats! LinkedIn say the post can not be displayed?
+Mystmystmyst — 14/02/2025, 02:44
+Image
+Image
+Image
+Image
+I made this project with my friends at uni yesterday,
+You can see simulation on
+https://wokwi.com/projects/422080362598225921
+
+And 3D components used on
+https://www.tinkercad.com/things/idVzpa78Zqr-rfid-door-lock-access-batool?sharecode=2Q7AE5fTghZ6Vcdst2AEFZedFrVxM_nP_VK4E8Arak0
+Wokwi
+RFID door lock - Wokwi ESP32, STM32, Arduino Simulator
+Run IoT and embedded projects in your browser: ESP32, STM32, Arduino, Pi Pico, and more. No installation required!
+RFID door lock - Wokwi ESP32, STM32, Arduino Simulator
+Tinkercad
+3D design RFID door lock access Batool - Tinkercad
+3D design RFID door lock access Batool
+Abhi also hates web dev — 14/02/2025, 02:51
+omg this is so cool 👀
+Pranitha — 14/02/2025, 03:49
+Omg amazing!!!
+Python & AI Dev — 14/02/2025, 19:35
+I successfully complete the computer science degree!
+Oliver — 15/02/2025, 01:44
+yooo congrats!!
+Oliver — 15/02/2025, 01:45
+very cool!!
+zetta sage
+[A2C]
+ — 17/02/2025, 12:45
+amazing job!
+Python & AI Dev — 18/02/2025, 19:03
+Thank you so much
+Deleted User — 19/02/2025, 18:25
+just killed a meeting with one of the gen partners at y combinator for this next batch as well as some meetings with legends such as itay forer. looking forward to explosive growth rn 🙂
+Cedar — 19/02/2025, 23:13
+Getting back on track with my homework after a few disappointing quizzes, not giving up but clearing a path to success.
+🧚  server momma jei
+[<3?]
+ — 21/02/2025, 11:31
+Forwarded
+Hi Girlies!! Just wanted to share some good news, I have been featured in a local chinese news media in hong kong talking about my contribution to technology and innovation
+#📸︱media  •  21/02/2025
+:jannaBlush:
+Cedar — 21/02/2025, 16:45
+just applied to a customer service center job for a hospital.  Hope I get it.  Need some financial relief.
+MN2807 — 25/02/2025, 07:24
+Guys, i actually understood my code and when i tested it there was no errors! Yay🥹
+alyyyycat — 25/02/2025, 11:16
+after today, i should be all caught up w mine too :02writing:
+faye
+[TIT]
+ — 27/02/2025, 10:40
+My application got accepted for my exchange semester! i’m scared and excited :cutie:
+My application got accepted for my
+10 Messages ›
+There are no recent messages in this thread.
+🧚  server momma jei
+[<3?]
+ — 06/03/2025, 15:14
+my manager and my boss decided to extend my internship period with them :PES4_HappyAwesome:
+Woroma — 06/03/2025, 15:17
+That’s exciting:5pepefireworks:
+[CHAR] — 06/03/2025, 23:50
+Congrats Jei!
+Oliver — 07/03/2025, 10:04
+AKR ♡ ZiA — 09/03/2025, 16:51
+I got 3 job referrals today from AfroTech connections, so hoping that'll help me with a new grad position. 😔
+elli — 10/03/2025, 06:23
+I‘ve got a B in an exam that is 100% of the grade of this module I struggled sooooo much with and cried so much because of it. I‘m so happy right now!!! 
+em (bob enjoyer) — 18/04/2025, 17:50
+i just got voted in as the president of my universities computer science club!
+i just got voted in as the president of
+10 Messages ›
+Athena
+24d ago
+🧚  server momma jei
+ started a thread: i just got voted in as the president of. See all threads. — 18/04/2025, 18:39
+Woroma — 25/04/2025, 16:44
+I’m the new vice president for one of my student orgs, while on the E-Board for another and I’m almost completely through with one of my projects:happydance:
+em (bob enjoyer) — 25/04/2025, 16:46
+ayyyyy congrats!!!
+Praj_._._ — 26/04/2025, 11:59
+https://www.linkedin.com/posts/prajith-shetty-_gratitude-mentorship-learning-activity-7321918837740711937--RPh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5x5eMBoQ2WSiiIVLbcg9pBPNqMrF5GVAY
+Oliver — 26/04/2025, 15:29
+<3 — 17/05/2025, 13:41
+Hey, I got admission in  University of West Georgia Carrollton, Georgia, United States. Pray for me due to financial issue I can't go so GOD may help to get some scholorship or sponsor or something by GOD's will.
+Oliver — 18/05/2025, 04:50
+woohoo congrats!!! :3
+I hope all your issues get resolved! good luckkkk :pcow:
+<3 — 18/05/2025, 11:43
+yeah issue is I cant afford so pray for that
+khusheaven✧*。♡ — 20/05/2025, 12:23
+Your gurl got featured in the RTC community!!🥰💗
+Just wanted to share my milestone..✨
+https://www.instagram.com/p/DJ4bg8cA-XQ/?img_index=6&igsh=eHVla2Z5dDFscGly
+
+rewritingthecode
+It’s not always easy, but the RTC community is showing up! Every message sent, form submitted, trip to the gym, moment of rest, or late night studying counts. 💪
+
+We are proud of all the progress you all have been making towards your goals, keep going! 🌟
+
+Instagram
+Oliver — 22/05/2025, 06:03
+congratulations!!!
+Athena — 22/05/2025, 11:18
+hello fellow president me too!!
+Xerxes — 24/05/2025, 03:56
+this is super cool!! congrats!
+Ani⁷❤ — 28/05/2025, 10:59
+i got voted as the lead placement training representative 
+this marks my 11th year as a leader/ representative
+placement training rep!
+4 Messages ›
+Ani⁷❤
+16d ago
+em (bob enjoyer) — 28/05/2025, 13:14
+congrats!!
+🧚  server momma jei
+ started a thread: placement training rep!. See all threads. — 28/05/2025, 13:28
+Res — 28/05/2025, 17:50
+I just got/accepted a job offer! It's a contract-to-hire Associate Software Engineering position through a pretty large company. The next year is going to have 4 rotations where I focus on one specific aspect and get various certifications and trainings paid for by the company/recruiting company. I'm incredibly excited and I think it's going to be a good way to get that experience I need. The pay is alright and I'm close enough that I can live at home with my mom.
+job offer!
+2 Messages ›
+[CHAR]
+17d ago
+🧚  server momma jei
+ started a thread: job offer!. See all threads. — 28/05/2025, 18:13
+Xerxes — 06/06/2025, 05:38
+I am cloud certified!!! ☁️🌟
+michellexcomputer — 13/06/2025, 09:20
+Great jobbbb :02nod:
+Xerxes — 13/06/2025, 09:21
+thank you Michelle! 😁

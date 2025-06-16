@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const EventsSection = () => {
   return (
-    <section className="bg-cover bg-center py-16 md:py-32" style={{ backgroundImage: "url('/public/lovable-uploads/b6108926-0c3b-40e5-a862-320d86b1e621.png')" }}>
+    <section className="bg-cover bg-center py-16 md:py-32" >
       <div className="cs-container text-center">
         <div className="bg-black bg-opacity-70 py-12 px-6 md:py-16 md:px-12 rounded-lg">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">

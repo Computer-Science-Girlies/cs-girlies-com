@@ -1,7 +1,7 @@
 
 const WhatWeDoSection = () => {
   return (
-    <section className="bg-black py-16 md:py-24">
+    <section className="bg-black py-24 md:py-32 my-8 md:my-16">
       <div className="cs-container">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-csgirlies-pink">
           What We Do
@@ -22,7 +22,7 @@ const WhatWeDoSection = () => {
               Redefine Community in Tech
             </h3>
             <p className="text-gray-300 mb-4">
-              <span className="italic">Your Online Support Network:</span> Connect with other Gen Z women who share your experiences, celebrate your wins, and provide support—all in one vibrant online community.
+              <span className="italic">Your Online Support Network:</span> Connect with other Gen Z women who share your experiences, celebrate your wins, and provide support — all in one vibrant online community.
             </p>
           </div>
           
