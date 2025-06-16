@@ -7,7 +7,7 @@ const HackathonPromo = () => {
       <div className="cs-container">
         <div className="max-w-5xl mx-auto rounded-2xl bg-gradient-to-br from-csgirlies-pink/10 to-black border border-csgirlies-pink/30 p-8 md:p-12 relative overflow-hidden">
           {/* Badge */}
-          <div className="absolute -right-10 top-8 rotate-12 bg-csgirlies-pink text-black font-bold text-sm px-10 py-1 shadow-lg">
+          <div className="absolute -right-4 top-7 rotate-12 bg-csgirlies-pink text-black font-bold text-sm px-10 py-1 shadow-lg">
             UPCOMING    
           </div>
           
