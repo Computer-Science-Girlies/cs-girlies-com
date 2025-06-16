@@ -4,7 +4,7 @@ import { LINKS } from "@/lib/constants";
 
 const HeroSection = () => {
   return (
-    <section className="bg-black py-24 md:py-32 min-h-screen flex items-center justify-center">
+    <section className="bg-black min-h-screen flex items-center justify-center">
       <div className="cs-container text-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 animate-fade-in">
           Computer Science Girlies
