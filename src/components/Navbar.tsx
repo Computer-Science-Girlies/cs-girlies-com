@@ -22,11 +22,11 @@ const Navbar = () => {
             </button>
             
             <Link to="/" className="flex justify-center">
-              <div className="w-12 h-12 bg-csgirlies-pink rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full overflow-hidden">
                 <img 
                   src="/public/lovable-uploads/d7bb421f-fd35-418f-8d62-fdb6d6fbbf12.png" 
                   alt="CS Girlies Logo" 
-                  className="w-10 h-10"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </Link>
@@ -64,11 +64,11 @@ const Navbar = () => {
             </div>
             
             <Link to="/" className="flex justify-center">
-              <div className="w-12 h-12 md:w-16 md:h-16 bg-csgirlies-pink rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
                 <img 
                   src="/public/lovable-uploads/d7bb421f-fd35-418f-8d62-fdb6d6fbbf12.png" 
                   alt="CS Girlies Logo" 
-                  className="w-10 h-10 md:w-14 md:h-14"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </Link>
