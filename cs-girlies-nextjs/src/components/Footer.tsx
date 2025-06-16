@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="text-center mb-6">
           <h3 className="text-xl mb-2">Computer Science Girlies</h3>
-          <p className="mb-2">+1 (802)-488-5250</p>
+   
           <p className="text-sm">Copyright © {new Date().getFullYear()} Computer Science Girlies · All Rights Reserved.</p>
           <p className="text-sm mt-2">
             Computer Science Girlies is fiscally sponsored by {' '}
