@@ -5,6 +5,7 @@ import StatsSection from "@/components/StatsSection";
 import WhatWeDoSection from "@/components/WhatWeDoSection";
 import SocialMediaStats from "@/components/SocialMediaStats";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
+import HackathonPromo from "@/components/HackathonPromo";
 import WinsCarousel from "@/components/WinsCarousel";
 import EventsSection from "@/components/EventsSection";
 import OurStorySection from "@/components/OurStorySection";
@@ -21,8 +22,9 @@ const Index = () => {
       <StatsSection />
       <WhatWeDoSection />
       <SocialMediaStats />
+      <HackathonPromo />
+      <QuoteSection />
       <WinsCarousel />
-      
       <div className="flex justify-center items-center py-32">  
       <Button 
           className="cs-button text-lg md:text-xl px-8 py-6 md:px-10 md:py-7 animate-fade-in"
