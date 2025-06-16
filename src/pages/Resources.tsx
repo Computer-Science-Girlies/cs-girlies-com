@@ -24,7 +24,7 @@ import {
   Bot,
   ScrollText,
   PiSquare,
-  Snake,
+  Code as Code2,
   LineChart,
   Cog,
   Palette
@@ -55,7 +55,7 @@ const ResourcesPage = () => {
     { title: "JavaScript Girlies", icon: ScrollText, count: 2 },
     { title: "LeetCode Girlies", icon: Code },
     { title: "Mathematics Girlies", icon: PiSquare, count: 1 },
-    { title: "Python Girlies", icon: Snake, count: 3 },
+    { title: "Python Girlies", icon: Code2, count: 3 },
     { title: "R Lang Girlies", icon: LineChart },
     { title: "Rust Girlies", icon: Cog },
     { title: "UI/UX Design Girlies", icon: Palette, count: 2 }
