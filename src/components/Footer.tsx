@@ -11,7 +11,7 @@ const Footer = () => {
           <Link to="/" className="mb-4 md:mb-0">
             <div className="w-12 h-12   rounded-full flex items-center justify-center">
               <img 
-                src="/public/logo.png" 
+                src="/logo.png" 
                 alt="CS Girlies Logo" 
                 className="w-12 h-12"
               />

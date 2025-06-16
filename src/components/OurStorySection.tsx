@@ -47,7 +47,7 @@ const OurStorySection = () => {
           </div>
           <div>
             <img 
-              src="/public/women-on-laptop.jpg" 
+              src="/women-on-laptop.jpg" 
               alt="Women using laptop" 
               className="rounded-lg w-full max-w-md mx-auto"
             />
