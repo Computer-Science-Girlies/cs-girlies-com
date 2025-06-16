@@ -30,9 +30,9 @@ const HackathonPromo = () => {
                 LEARN MORE
               </Button>
             </Link>
-            <Button className="bg-white/10 hover:bg-white/20 text-csgirlies-pink border border-csgirlies-pink text-lg px-6 py-3 w-full sm:w-auto">
-              REGISTER SOON
-            </Button>
+            <p className="text-gray-400 text-lg px-6 py-3 w-full sm:w-auto text-center sm:text-left">
+              Registration opens soon...
+            </p>
           </div>
         </div>
       </div>
