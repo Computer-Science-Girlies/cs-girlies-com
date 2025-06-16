@@ -45,9 +45,7 @@ const TestimonialCarousel = () => {
   return (
     <section className="bg-black py-16 md:py-24">
       <div className="cs-container">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
-          What are the Girlies up to?
-        </h2>
+        
 
         <div className="relative max-w-3xl mx-auto border border-csgirlies-pink rounded-xl p-8 md:p-12">
           <Button 
