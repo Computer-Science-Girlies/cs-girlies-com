@@ -3,9 +3,7 @@ const OurStorySection = () => {
   return (
     <section className="bg-black py-16 md:py-24">
       <div className="cs-container">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-csgirlies-pink">
-          Our Story
-        </h2>
+      
         
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
@@ -49,8 +47,8 @@ const OurStorySection = () => {
           </div>
           <div>
             <img 
-              src="/public/lovable-uploads/5d29b034-6b94-4c54-9c96-51d0a13f2515.png" 
-              alt="Woman reading in library" 
+              src="/public/women-on-laptop.jpg" 
+              alt="Women using laptop" 
               className="rounded-lg w-full max-w-md mx-auto"
             />
           </div>

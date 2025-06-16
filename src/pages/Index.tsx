@@ -19,8 +19,6 @@ const Index = () => {
       <WhatWeDoSection />
       <SocialMediaStats />
       <TestimonialCarousel />
-      <EventsSection />
-      <QuoteSection />
       <Footer />
     </div>
   );

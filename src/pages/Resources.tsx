@@ -1,6 +1,8 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+// Commented out imports until resources are added
+/*
 import { ResourceCard } from "@/components/ResourceCard";
 import {
   Brain, 
@@ -29,8 +31,11 @@ import {
   Cog,
   Palette
 } from "lucide-react";
+*/
 
 const ResourcesPage = () => {
+  // Categories commented out until resources are added
+  /*
   const categories = [
     { title: "AI/ML Girlies", icon: Brain, count: 3 },
     { title: "Biotech Girlies", icon: TestTube },
@@ -60,6 +65,7 @@ const ResourcesPage = () => {
     { title: "Rust Girlies", icon: Cog },
     { title: "UI/UX Design Girlies", icon: Palette, count: 2 }
   ];
+  */
 
   return (
     <div className="bg-black min-h-screen">
@@ -71,6 +77,13 @@ const ResourcesPage = () => {
             Resources
           </h1>
           
+          {/* Temporary message until resources are added */}
+          <div className="text-center py-16">
+            <p className="text-2xl md:text-3xl text-white font-light">Come back soon XD</p>
+            <p className="text-gray-400 mt-4">Our team is curating quality resources from our brimming discord server!</p>
+          </div>
+          
+          {/* Original resource cards - commented out for future use
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map((category) => (
               <ResourceCard 
@@ -81,6 +94,7 @@ const ResourcesPage = () => {
               />
             ))}
           </div>
+          */}
         </div>
       </div>
       

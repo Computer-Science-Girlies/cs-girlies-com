@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { LINKS } from "@/lib/constants";
 
 const DonatePage = () => {
   return (
@@ -24,7 +25,10 @@ const DonatePage = () => {
               <p className="text-gray-300 mb-6">
                 Support our mission with a one-time contribution of any amount.
               </p>
-              <Button className="cs-button w-full">
+              <Button 
+                className="cs-button w-full"
+                onClick={() => window.open(LINKS.DONATE, "_blank")}
+              >
                 DONATE NOW
               </Button>
             </div>
@@ -37,7 +41,10 @@ const DonatePage = () => {
               <p className="text-gray-300 mb-6">
                 Provide ongoing support with a monthly donation that helps us plan for the future.
               </p>
-              <Button className="cs-button w-full">
+              <Button 
+                className="cs-button w-full"
+                onClick={() => window.open(LINKS.DONATE, "_blank")}
+              >
                 BECOME A SUPPORTER
               </Button>
             </div>
@@ -47,8 +54,11 @@ const DonatePage = () => {
               <p className="text-gray-300 mb-6">
                 Partner with us to support diversity in tech while gaining visibility with our community.
               </p>
-              <Button className="cs-button w-full">
-                LEARN MORE
+              <Button 
+                className="cs-button w-full"
+                onClick={() => window.open(`mailto:team@csgirlies.com`, "_blank")}
+              >
+                CONTACT US
               </Button>
             </div>
           </div>
