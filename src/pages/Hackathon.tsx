@@ -56,8 +56,11 @@ const HackathonPage: React.FC = () => {
 
         {/* Terminal Window */}
         <div className="relative mb-8 md:absolute md:top-[350px] md:left-[40%] md:right-8 md:z-3">
-          <Window title="csgirlies-top-80x24">
+          <Window title="📁 csgirlies-top-80x24">
             <div className="text-xs md:text-sm">
+              <p className="text-gray-400">
+                <ScrambleText text="/** Click Me!! */" delay={100} />
+              </p>
               <p>
                 <span className="text-green-400">Last login:</span>{' '}
                 <ScrambleText text="Thu 26 June 06:09:42 on console" delay={500} />

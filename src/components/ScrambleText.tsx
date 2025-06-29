@@ -52,9 +52,17 @@ const ScrambleText: React.FC<ScrambleTextProps> = ({
     return () => clearInterval(interval);
   };
 
+  const handleClick = () => {
+    if (!isAnimating) {
+      setIsAnimating(true);
+      setDisplayText('');
+      animateText();
+    }
+  };
+
   if (children) {
     return (
-      <span className={className}>
+      <span className={`cursor-pointer ${className}`} onClick={handleClick}>
         {React.cloneElement(children as React.ReactElement, {
           children: displayText || text
         })}
@@ -62,7 +70,7 @@ const ScrambleText: React.FC<ScrambleTextProps> = ({
     );
   }
 
-  return <span className={className}>{displayText || text}</span>;
+  return <span className={`cursor-pointer ${className}`} onClick={handleClick}>{displayText || text}</span>;
 };
 
 export default ScrambleText;
