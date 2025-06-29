@@ -5,11 +5,11 @@ import CasinoCounter from '@/components/CasinoCounter';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import ScrambleText from '@/components/ScrambleText';
+import { LINKS } from '@/lib/constants';
 
 const HackathonPage: React.FC = () => {
   return (
     <div className="bg-black min-h-screen font-roboto-mono text-white p-4 md:p-8 relative">
-      <Navbar className="z-50" />
       <div 
         className="absolute inset-0 z-0"
         style={{
@@ -18,9 +18,9 @@ const HackathonPage: React.FC = () => {
         }}
       ></div>
       
-      <div className="relative md:h-[1700px]">
+      <div className="relative md:h-[1700px] pt-4">
         {/* Main Hackathon Window */}
-        <div className="relative mb-8 md:absolute md:top-0 md:left-0 md:right-0 md:z-1">
+        <div className="relative mb-8 md:absolute md:top-4 md:left-0 md:right-0 md:z-1">
           <div className="bg-gradient-to-b from-csgirlies-pink to-csgirlies-pink-dark border-2 border-csgirlies-pink rounded-lg shadow-lg">
             <div className="bg-black text-gray-400 px-4 py-2 flex items-center justify-between rounded-t-md">
               <div className="flex items-center space-x-4 overflow-x-auto">
@@ -28,11 +28,9 @@ const HackathonPage: React.FC = () => {
                   <img src="/logo.png" alt="CS Girlies Logo" className="h-5 w-5" />
                   <span className="font-bold text-white">CS Girlies</span>
                 </Link>
-                <span className="hidden md:inline">File</span>
-                <span className="hidden md:inline">Edit</span>
-                <span className="hidden md:inline">Options</span>
-                <span className="hidden md:inline">Select</span>
-                <span className="hidden md:inline">Window</span>
+                <a href={LINKS.DONATE} target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Donate</a>
+                <a href={LINKS.DISCORD} target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Join Discord</a>
+                <Link to="/resources" className="hidden md:inline hover:text-white transition-colors">Resources</Link>
               </div>
               <div className="flex space-x-1.5">
                 <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div>
@@ -123,7 +121,7 @@ const HackathonPage: React.FC = () => {
               <p className="font-righteous text-3xl md:text-4xl">join us online</p>
               <p className="font-righteous text-5xl md:text-6xl my-2">25-27 July</p>
               <a href="https://csgirlies.devpost.com" target="_blank" rel="noopener noreferrer">
-                <button className="bg-csgirlies-pink-dark text-white text-xl md:text-2xl font-bold py-3 px-16 md:py-4 md:px-20 rounded-full mt-4 hover:bg-csgirlies-pink transition-all duration-300 transform hover:scale-105">
+                <button className="bg-csgirlies-pink-dark text-white text-bold text-xl md:text-2xl font-bold py-3 px-16 md:py-4 md:px-20 rounded-full mt-4 hover:bg-csgirlies-pink transition-all duration-300 transform hover:scale-105">
                   Register
                 </button>
               </a>
