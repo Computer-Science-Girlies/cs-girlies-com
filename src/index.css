@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -94,8 +96,4 @@
   .cs-section {
     @apply py-16 md:py-24;
   }
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
 }

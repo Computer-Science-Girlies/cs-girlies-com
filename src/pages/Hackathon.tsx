@@ -1,129 +1,154 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
+import React from 'react';
+import Window from '@/components/Window';
+import { Link } from 'react-router-dom';
+import CasinoCounter from '@/components/CasinoCounter';
+import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
+import ScrambleText from '@/components/ScrambleText';
 
-const HackathonPage = () => {
+const HackathonPage: React.FC = () => {
   return (
-    <div className="bg-black min-h-screen">
-      <Navbar />
+    <div className="bg-black min-h-screen font-roboto-mono text-white p-4 md:p-8 relative">
+      <Navbar className="z-50" />
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: 'radial-gradient(white 0.5px, transparent 0)',
+          backgroundSize: '15px 15px',
+        }}
+      ></div>
       
-      <div className="py-12 md:py-16">
-        <div className="cs-container">
-          {/* Hero Section */}
-          <div className="text-center mb-24">
-            <h1 className="text-4xl md:text-6xl font-extrabold text-csgirlies-pink mb-6">
-              H.I. vs A.I. — CS Girlies Hackathon
-            </h1>
-            <p className="text-xl md:text-2xl font-light mb-8">
-              🗓️ July 19–20, 2025 • 📍Online • 48 hours • Global
-            </p>
-            <p className="text-lg md:text-xl max-w-3xl mx-auto">
-              Can human intelligence still outshine artificial intelligence?
-            </p>
-          </div>
-          
-          {/* About Section */}
-          <div className="max-w-4xl mx-auto mb-24">
-            <p className="text-lg leading-relaxed mb-6">
-              Join us for H.I. vs A.I., a two-day global hackathon exploring the beautifully chaotic intersection of raw human brilliance and machine intelligence. This isn't about fighting the robots. It's about showing them what they still can't do without us.
-            </p>
-            <p className="text-lg leading-relaxed mb-6">
-              Your mission? Build something that impresses an AI… not by mimicking it, but by being unmistakably human: creative, intuitive, and unpredictable. Projects will be judged not just by innovation or functionality, but by how they reveal the <span className="text-csgirlies-pink">✨indomitability of the human spirit✨</span>
-            </p>
-          </div>
-          
-          {/* Tracks Section */}
-          <div className="mb-24">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-csgirlies-pink">
-              💡 Tracks 💡
-            </h2>
-            
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Track 1 */}
-              <div className="bg-gray-900 rounded-xl p-8 border border-csgirlies-pink/30 transition-transform duration-300 ease-in-out hover:scale-105">
-                <h3 className="text-2xl font-bold mb-4 text-csgirlies-pink">🧠 Push the Limits: Beyond Automation</h3>
-                <p className="text-gray-300">
-                  What can AI almost do, but still gets hilariously wrong? This track is about pushing automation into places it's never been, without losing the human touch. Build tools that take on chaotic, complex, or niche tasks that usually require judgment, emotion, or ✨vibes✨.
-                </p>
+      <div className="relative md:h-[1700px]">
+        {/* Main Hackathon Window */}
+        <div className="relative mb-8 md:absolute md:top-0 md:left-0 md:right-0 md:z-1">
+          <div className="bg-gradient-to-b from-csgirlies-pink to-csgirlies-pink-dark border-2 border-csgirlies-pink rounded-lg shadow-lg">
+            <div className="bg-black text-gray-400 px-4 py-2 flex items-center justify-between rounded-t-md">
+              <div className="flex items-center space-x-4 overflow-x-auto">
+                <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity flex-shrink-0">
+                  <img src="/logo.png" alt="CS Girlies Logo" className="h-5 w-5" />
+                  <span className="font-bold text-white">CS Girlies</span>
+                </Link>
+                <span className="hidden md:inline">File</span>
+                <span className="hidden md:inline">Edit</span>
+                <span className="hidden md:inline">Options</span>
+                <span className="hidden md:inline">Select</span>
+                <span className="hidden md:inline">Window</span>
               </div>
-              
-              {/* Track 2 */}
-              <div className="bg-gray-900 rounded-xl p-8 border border-csgirlies-pink/30 transition-transform duration-300 ease-in-out hover:scale-105">
-                <h3 className="text-2xl font-bold mb-4 text-csgirlies-pink">✨ Build ANYTHING, but make it YOU</h3>
-                <p className="text-gray-300">
-                  This is the beginner's track! Build anything you want: an AI-powered journaling app, a mood-driven playlist generator, a personal hypebot. Whatever you build, it should radiate YOU. Your human personality should shine through your project.
-                </p>
-              </div>
-              
-              {/* Track 3 */}
-              <div className="bg-gray-900 rounded-xl p-8 border border-csgirlies-pink/30 transition-transform duration-300 ease-in-out hover:scale-105">
-                <h3 className="text-2xl font-bold mb-4 text-csgirlies-pink">🌟 The Creative Strand: Collaborate with the Machine</h3>
-                <p className="text-gray-300">
-                  Build tools that enhance, detect, or collaborate on art. This could be AI-assisted music and video or detectors that identify AI-generated images. Blur the line between tool and co-creator, but make sure the soul stays human.
-                </p>
+              <div className="flex space-x-1.5">
+                <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div>
+                <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div>
+                <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div>
               </div>
             </div>
-          </div>
-          
-          {/* Prizes Section */}
-          <div className="mb-24">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-csgirlies-pink">
-              🎁 Prizes, Mentorship & Fun Stuff
-            </h2>
-            
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Mentors */}
-              <div className="bg-gray-900 rounded-xl p-8 flex flex-col items-center text-center">
-                <div className="text-4xl mb-4">🧠</div>
-                <h3 className="text-xl font-bold mb-2">AI Mentors</h3>
-                <p>
-                  1-on-1 chats with mentors working in the AI industry. They'll help guide your project and offer career advice.
-                </p>
-              </div>
-              
-              {/* Prizes */}
-              <div className="bg-gray-900 rounded-xl p-8 flex flex-col items-center text-center">
-                <div className="text-4xl mb-4">🏆</div>
-                <h3 className="text-xl font-bold mb-2">Track Prizes</h3>
-                <p>
-                  Prizes for each track, plus a Community Favorite award 👀👀
-                </p>
-              </div>
-              
-              {/* Community */}
-              <div className="bg-gray-900 rounded-xl p-8 flex flex-col items-center text-center">
-                <div className="text-4xl mb-4">🤝</div>
-                <h3 className="text-xl font-bold mb-2">CS Girlies Discord</h3>
-                <p>
-                  Meet teammates, make new friends, get inspired, and stay connected long after the hackathon ends 🙂‍↕️
-                </p>
+            <div className="text-center py-10 px-4">
+              <h1 className="font-righteous text-5xl md:text-9xl font-bold mb-4">HACKATHON</h1>
+              <p className="text-base md:text-xl">Can human intelligence still outshine artificial intelligence?</p>
+              <div className="mt-8 flex justify-center space-x-2 md:space-x-4 flex-wrap">
+                <Pill>Beginner Friendly</Pill>
+                <Pill>Build something weird</Pill>
+                <Pill>Fully online</Pill>
+                <Pill>48 hours</Pill>
+                <Pill>AI vs. H.I</Pill>
               </div>
             </div>
-          </div>
-          
-          {/* Who Can Join Section */}
-          <div className="mb-24">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-csgirlies-pink">
-              😄 Who can join?
-            </h2>
-            <p className="text-lg text-center max-w-3xl mx-auto">
-              Anyone who loves building. Whether you're a beginner, a design thinker, a researcher, or a hard-core coder, this space is yours. You don't need to be an AI expert. Just bring your edge, your curiosity, and a little bit of human chaos.
-            </p>
-          </div>
-          
-          {/* CTA Section */}
-          <div className="text-center mb-24">
-            <p className="text-lg mb-8">Registration form coming soon!</p>
-            <Button className="cs-button text-lg px-8 py-6" disabled>
-              REGISTER
-            </Button>
           </div>
         </div>
+
+        {/* Terminal Window */}
+        <div className="relative mb-8 md:absolute md:top-[350px] md:left-[40%] md:right-8 md:z-3">
+          <Window title="csgirlies-top-80x24">
+            <div className="text-xs md:text-sm">
+              <p>
+                <span className="text-green-400">Last login:</span>{' '}
+                <ScrambleText text="Thu 26 June 06:09:42 on console" delay={500} />
+              </p>
+              <p>
+                <span className="text-csgirlies-pink">csgirlies@Hackathon2025 ~ %</span>{' '}
+                <ScrambleText text="npm run start" delay={1500} />
+              </p>
+              <p>
+                <span className="text-green-400">DONE</span>{' '}
+                <ScrambleText text="Compiled successfully in 1169ms" delay={2500} />
+              </p>
+              <br />
+              <p><ScrambleText text="App running at:" delay={3500} /></p>
+              <p>
+                - <span className="font-bold">Local:</span>   
+                <a href="https://csgirlies.com/" className="text-blue-400 underline">
+                  <ScrambleText text="localhost:8080" delay={4000} />
+                </a>
+              </p>
+              <p>
+                - <span className="font-bold">Network:</span>{' '}
+                <a href="https://csgirlies.com/" className="text-blue-400 underline">
+                  <ScrambleText text="192.168.1.42:8080" delay={4500} />
+                </a>
+              </p>
+              <br />
+              <p><ScrambleText text=".    the development build is not optimized" delay={5500} /></p>
+              <p>
+                <ScrambleText text=".    for a production build, run " delay={6000} />
+                <span className="bg-gray-700 px-1 rounded">
+                  <ScrambleText text="npm run build" delay={6500} />
+                </span>
+              </p>
+            </div>
+          </Window>
+        </div>
+        
+        {/* Computer Image Window */}
+        <div className="relative mb-8 md:absolute md:top-[570px] md:left-0 md:w-[45%] md:z-5">
+            <Window title="Computer.png" noPadding>
+                <img src="/comp.png" alt="Retro computer" className="w-full h-full object-cover" />
+            </Window>
+        </div>
+
+        {/* About Text Window */}
+        <div className="relative mb-8 md:absolute md:top-[850px] md:left-[39%] md:right-[12%] md:z-30">
+          <Window title="About.txt">
+            <h2 className="font-righteous text-xl md:text-2xl mb-4">CS Girlies are hosting our first<br/>GLOBAL HACKATHON!!</h2>
+            <p className="mb-2 text-sm md:text-base">Build something weird.</p>
+            <p className="mb-2 text-sm md:text-base">Build something from sheer curiosity.</p>
+            <p className="mb-12 text-sm md:text-base">Build something unmistakably human.</p>
+          </Window>
+        </div>
+
+        {/* Date Window */}
+        <div className="relative mb-8 md:absolute md:top-[1100px] md:left-16 md:w-[40%] md:z-40">
+          <Window title="Date.png">
+            <div className="text-center py-4">
+              <p className="font-righteous text-3xl md:text-4xl">join us online</p>
+              <p className="font-righteous text-5xl md:text-6xl my-2">25-27 July</p>
+              <a href="https://csgirlies.devpost.com" target="_blank" rel="noopener noreferrer">
+                <button className="bg-csgirlies-pink-dark text-white text-xl md:text-2xl font-bold py-3 px-16 md:py-4 md:px-20 rounded-full mt-4 hover:bg-csgirlies-pink transition-all duration-300 transform hover:scale-105">
+                  Register
+                </button>
+              </a>
+            </div>
+          </Window>
+        </div>
+
+        {/* Prizes Window */}
+        <div className="relative mb-8 md:absolute md:top-[1300px] md:left-[40%] md:right-[5%] md:z-5">
+          <Window title="Prizes.gif">
+            <div className="text-center py-8">
+              <h3 className="font-righteous text-3xl md:text-4xl mb-4">🏆   Prizes  💰</h3>
+              <CasinoCounter target={1000} />
+              <p className="font-righteous text-2xl md:text-3xl mt-4">in cash and prizes</p>
+            </div>
+          </Window>
+        </div>
+
       </div>
-      
-      <Footer />
+      <Footer className="relative z-50" />
     </div>
   );
 };
+
+const Pill: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <div className="bg-csgirlies-pink-dark text-white px-4 py-2 rounded-full text-sm mb-2 hover:bg-csgirlies-pink hover:scale-105 transform transition-all duration-300 ease-in-out cursor-pointer">
+    {children}
+  </div>
+);
 
 export default HackathonPage;

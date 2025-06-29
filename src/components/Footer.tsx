@@ -3,9 +3,13 @@ import { Link } from "react-router-dom";
 import { Instagram, Twitter, Linkedin, Github } from "lucide-react";
 import { LINKS } from "@/lib/constants";
 
-const Footer = () => {
+interface FooterProps {
+  className?: string;
+}
+
+const Footer = ({ className }: FooterProps) => {
   return (
-    <footer className="bg-black py-12 border-t border-gray-800">
+    <footer className={`bg-black py-12 border-t border-gray-800 ${className || ''}`}>
       <div className="cs-container">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <Link to="/" className="mb-4 md:mb-0">

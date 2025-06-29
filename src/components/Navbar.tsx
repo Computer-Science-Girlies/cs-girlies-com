@@ -4,12 +4,16 @@ import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
-const Navbar = () => {
+interface NavbarProps {
+  className?: string;
+}
+
+const Navbar = ({ className }: NavbarProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const isMobile = useIsMobile();
 
   return (
-    <header className="bg-black py-4 relative">
+    <header className={`bg-black py-4 relative ${className || ''}`}>
       <div className="cs-container flex items-center justify-between">
         {isMobile ? (
           <>
