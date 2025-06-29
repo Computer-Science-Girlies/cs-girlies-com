@@ -4,7 +4,7 @@
 
 export const LINKS = {
   // Community links
-  DISCORD: "https://discord.com/servers/computer-science-girlies-1116490225615634503",
+  DISCORD: "https://discord.com/invite/computer-science-girlies-1116490225615634503",
   
   // Donation links
   DONATE: "https://hcb.hackclub.com/donations/start/computer-science-girlies",
