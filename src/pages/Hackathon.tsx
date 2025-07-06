@@ -28,7 +28,7 @@ const HackathonPage: React.FC = () => {
                   <img src="/logo.png" alt="CS Girlies Logo" className="h-5 w-5" />
                   <span className="font-bold text-white">CS Girlies</span>
                 </Link>
-                <a href={LINKS.DONATE} target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Donate</a>
+                <a href="/sponsorship" target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Sponsor This Hackathon!< /a>
                 <a href={LINKS.DISCORD} target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Join Discord</a>
                 <Link to="/resources" className="hidden md:inline hover:text-white transition-colors">Resources</Link>
               </div>

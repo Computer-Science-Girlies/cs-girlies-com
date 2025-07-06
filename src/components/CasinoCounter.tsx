@@ -57,7 +57,7 @@ const CasinoCounter: React.FC<CasinoCounterProps> = ({ target }) => {
   return (
     <div 
       ref={counterRef}
-      className="font-righteous text-9xl text-csgirlies-pink-light cursor-pointer hover:scale-105 transition-transform duration-200" 
+      className="font-righteous text-5xl md:text-9xl text-csgirlies-pink-light cursor-pointer hover:scale-105 transition-transform duration-200" 
       style={{ textShadow: '0 0 10px #ff69b4, 0 0 20px #ff69b4' }}
       onClick={handleClick}
       title="Click to restart animation"

@@ -7,7 +7,8 @@ import Index from "./pages/Index";
 import OurStory from "./pages/OurStory";
 import Resources from "./pages/Resources";
 import Donate from "./pages/Donate";
-import Hackathon from "./pages/Hackathon";
+import HackathonPage from './pages/Hackathon';
+import SponsorshipPage from './pages/Sponsorship';
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,7 +24,8 @@ const App = () => (
           <Route path="/our-story" element={<OurStory />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/donate" element={<Donate />} />
-          <Route path="/hackathon" element={<Hackathon />} />
+          <Route path="/hackathon" element={<HackathonPage />} />
+          <Route path="/sponsorship" element={<SponsorshipPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
        </BrowserRouter>
