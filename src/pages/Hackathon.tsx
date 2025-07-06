@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Window from '@/components/Window';
 import { Link } from 'react-router-dom';
 import CasinoCounter from '@/components/CasinoCounter';
 import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
 import ScrambleText from '@/components/ScrambleText';
 import { LINKS } from '@/lib/constants';
 
 const HackathonPage: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-black min-h-screen font-roboto-mono text-white p-4 md:p-8 relative">
       <div 
@@ -28,7 +30,7 @@ const HackathonPage: React.FC = () => {
                   <img src="/logo.png" alt="CS Girlies Logo" className="h-5 w-5" />
                   <span className="font-bold text-white">CS Girlies</span>
                 </Link>
-                <a href="/sponsorship" target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Sponsor This Hackathon!< /a>
+                <a href="/sponsorship" target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Sponsor This Hackathon!</a>
                 <a href={LINKS.DISCORD} target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Join Discord</a>
                 <Link to="/resources" className="hidden md:inline hover:text-white transition-colors">Resources</Link>
               </div>
