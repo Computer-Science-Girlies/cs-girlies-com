@@ -57,7 +57,9 @@ const HackathonPage: React.FC = () => {
           <Window title="📁 csgirlies-top-80x24">
             <div className="text-xs md:text-sm">
               <p className="text-gray-400">
-                <ScrambleText text="/** Click Me!! */" delay={100} />
+                <a href="https://forms.csgirlies.com/hackathon-rsvp" className="text-blue-400 underline">
+                  <ScrambleText text="/** Click Me!! */" delay={100} />
+                </a>
               </p>
               <p>
                 <span className="text-green-400">Last login:</span>{' '}
@@ -75,13 +77,13 @@ const HackathonPage: React.FC = () => {
               <p><ScrambleText text="App running at:" delay={3500} /></p>
               <p>
                 - <span className="font-bold">Local:</span>   
-                <a href="https://csgirlies.com/" className="text-blue-400 underline">
+                <a href="https://forms.csgirlies.com/hackathon-rsvp" className="text-blue-400 underline">
                   <ScrambleText text="localhost:8080" delay={4000} />
                 </a>
               </p>
               <p>
                 - <span className="font-bold">Network:</span>{' '}
-                <a href="https://csgirlies.com/" className="text-blue-400 underline">
+                <a href="https://forms.csgirlies.com/hackathon-rsvp" className="text-blue-400 underline">
                   <ScrambleText text="192.168.1.42:8080" delay={4500} />
                 </a>
               </p>
