@@ -57,7 +57,7 @@ const HackathonPage: React.FC = () => {
           <Window title="📁 csgirlies-top-80x24">
             <div className="text-xs md:text-sm">
               <p className="text-gray-400">
-                <a href="https://forms.csgirlies.com/hackathon-rsvp" className="text-blue-400 underline">
+                <a href="https://forms.csgirlies.com/hackathon-rsvp" >
                   <ScrambleText text="/** Click Me!! */" delay={100} />
                 </a>
               </p>
