@@ -1,0 +1,592 @@
+[
+    {
+  "General CS Resources": [
+    {
+      "title": "Build Your Own X",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "A compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch."
+    },
+    {
+      "title": "Free Programming Books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": "A list of free programming books and other resources, grouped by genres and languages."
+    },
+    {
+      "title": "30 Seconds of Code",
+      "url": "https://www.30secondsofcode.org/js/p/1/",
+      "description": "A collection of JavaScript snippets for various tasks."
+    },
+    {
+      "title": "OverAPI",
+      "url": "https://overapi.com/",
+      "description": "A collection of cheat sheets for various programming languages and technologies."
+    },
+    {
+      "title": "Codecademy Cheatsheets",
+      "url": "https://www.codecademy.com/resources/cheatsheets/all",
+      "description": "A collection of cheat sheets for various programming topics."
+    },
+    {
+      "title": "Computer Science 1: Basics of Cryptography",
+      "description": "An introduction to the concepts of cryptography, including bits, Base64 encoding, and encryption using XOR.",
+      "author": "John"
+    },
+    {
+      "title": "DSA Notes",
+      "url": "https://drive.google.com/drive/folders/19GotIMPBAqYUuDJsDtwlC-NdOmU3OcG1?usp=sharing",
+      "description": "A collection of notes and resources for Data Structures and Algorithms."
+    }
+  ],
+  "Programming Languages": {
+    "Python": [
+      {
+        "title": "Python Programming Beginner Tutorials by Corey Schafer",
+        "url": "https://youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&si=GMhXPOIzP2w9ImcH",
+        "description": "A series of Python tutorials for beginners covering the fundamentals of the language."
+      },
+      {
+        "title": "Python Simplified by Mariya",
+        "url": "https://youtube.com/@PythonSimplified?si=7G6pnvn7ayqIElv6",
+        "description": "A YouTube channel with tutorials on Computer Science concepts, GUI applications, Machine Learning, and more using Python."
+      },
+      {
+        "title": "Full Python Course for Beginners",
+        "url": "https://youtu.be/_uQrJ0TkZlc",
+        "description": "A comprehensive Python course for beginners.",
+        "author": "michellexcomputer"
+      },
+      {
+        "title": "Phonebook Project using OOP",
+        "url": "https://www.loom.com/share/ad69e941ee00436c870bca159a7c1b97?sid=bf97f14e-2c2b-415d-9070-c08d1de85f80",
+        "description": "A tutorial for a phonebook project using Object-Oriented Programming in Python.",
+        "author": "riri"
+      },
+      {
+        "title": "Official Python 3 Tutorial",
+        "url": "https://docs.python.org/3/tutorial/index.html",
+        "description": "A text-based tutorial for Python 3 from the official documentation."
+      },
+      {
+        "title": "Sun-Valley-ttk-theme for tkinter",
+        "url": "https://github.com/rdbende/Sun-Valley-ttk-theme",
+        "description": "A theme to improve the appearance of tkinter GUIs."
+      },
+      {
+        "title": "Real Python: Python Sequences",
+        "url": "https://realpython.com/python-sequences/",
+        "description": "A comprehensive guide to Python sequences."
+      },
+      {
+        "title": "Python for Everybody",
+        "url": "https://www.py4e.com/book",
+        "description": "A free book and lessons on Python programming."
+      },
+      {
+        "title": "Intro to Python Course",
+        "description": "A 4-week introductory course to Python by the Society of Women Coders USA.",
+        "contact": "societyofwomencodersusa@gmail.com"
+      },
+      {
+        "title": "Python Full Course for free by Bro Code",
+        "url": "https://www.youtube.com/watch?v=XKHEtdqhLK8",
+        "description": "A full Python course available for free on YouTube."
+      },
+      {
+        "title": "DataCamp",
+        "description": "Datacamp has good R and Python courses.",
+        "author": "Nix"
+      }
+    ],
+    "Java": [
+      {
+        "title": "Core Java Playlist",
+        "url": "https://www.youtube.com/watch?v=eTXd89t8ngI&list=PLd3UqWTnYXOmx_J1774ukG_rvrpyWczm0"
+      },
+      {
+        "title": "OOP Concepts Playlist",
+        "url": "https://www.youtube.com/watchv=DaAJIMakWKU&list=PLd3UqWTnYXOkwluXExifmJWKkvGa1ywWp"
+      },
+      {
+        "title": "Constructors Playlist",
+        "url": "https://www.youtube.com/watch?v=9wZYkfnkW2c&list=PLd3UqWTnYXOkNiAs0KGdz2V-349MG1iyR"
+      },
+      {
+        "title": "Collections",
+        "url": "https://www.youtube.com/watch?v=rI3VkItC0eA&list=PLd3UqWTnYXOkVR3OR9UZGyEt9RFUbaTMZ"
+      },
+      {
+        "title": "Collections Framework",
+        "url": "https://www.youtube.com/watch?v=Bqv4At5vHVQ&list=PLd3UqWTnYXOklywocjGz7Z02rqbLegX22"
+      },
+      {
+        "title": "Advanced Java Playlist",
+        "url": "https://www.youtube.com/watch?v=GWMcla-I-_Y&list=PLd3UqWTnYXOniKfYRNY___weULTRd9Co0"
+      },
+      {
+        "title": "Data Structures and Algorithms Playlist",
+        "url": "https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d"
+      },
+      {
+        "title": "Springboot Playlist",
+        "url": "https://www.youtube.com/watch?v=YpsFT50mths&list=PLd3UqWTnYXOlyAjYLwPflpu3yqH_vAY8x"
+      },
+      {
+        "title": "Java DSA, Certification, and Interviews Playlists",
+        "urls": [
+          "https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+          "https://leetcode.com/problemset/",
+          "https://www.youtube.com/watch?v=P5tFJ9umhvk&pp=ygUNZHVyZ2FzaXIgamF2YQ%3D%3D"
+        ]
+      },
+      {
+        "title": "Java Programming MOOC",
+        "url": "https://java-programming.mooc.fi/part-1",
+        "description": "A free online course on the basics of programming with Java."
+      },
+      {
+        "title": "DSA by Abdul Bari",
+        "url": "https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLAXnLdrLnQpRcveZTtD644gM9uzYqJCwr",
+        "description": "An introductory video to algorithms."
+      },
+      {
+        "title": "Algorithm Visualizer",
+        "url": "https://algorithm-visualizer.org/",
+        "description": "An interactive online platform that visualizes algorithms from code."
+      },
+      {
+        "title": "Java Full Course",
+        "url": "https://youtu.be/A74TOX803D0?si=WY0LFgjYOLYoQHwt",
+        "description": "A helpful video for learning Java, especially for beginners."
+      },
+      {
+        "title": "Java Notes",
+        "url": "https://drive.google.com/drive/folders/1KDIy3ob0ALX_OnXn2RFVtWAl_cM0mI1R?usp=sharing",
+        "description": "A collection of notes for Java programming."
+      }
+    ],
+    "C/C++": [
+      {
+        "title": "Codeforwin C Programming",
+        "url": "https://codeforwin.org/c-programming",
+        "description": "A resource for learning C programming."
+      },
+      {
+        "title": "Where to Learn C",
+        "urls": [
+          "https://www.learn-c.org/",
+          "https://www.w3schools.com/c/",
+          "https://www.freecodecamp.org/news/tag/c-programming/",
+          "https://www.udemy.com/course/c-programming-for-beginners-/",
+          "https://www.udemy.com/course/c-pointers/",
+          "https://www.coursera.org/learn/c-for-everyone",
+          "https://www.edx.org/learn/c-programming",
+          "https://www.linkedin.com/learning/c-essential-training-1-2",
+          "https://www.pluralsight.com/courses/c-plus-plus-fundamentals"
+        ]
+      },
+      {
+        "title": "C++ Tutorial for Beginners by freeCodeCamp.org",
+        "url": "https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=4069s&ab_channel=freeCodeCamp.org",
+        "description": "A full C++ course for beginners."
+      },
+      {
+        "title": "C++ Programming Course - Beginner to Advanced by freeCodeCamp.org",
+        "url": "https://www.youtube.com/watch?v=8jLOx1hD3_o&ab_channel=freeCodeCamp.org",
+        "description": "A comprehensive C++ course."
+      },
+      {
+        "title": "C++ Books",
+        "urls": [
+          "https://www.amazon.sg/Language-Program-Beginners-programming-fundamentals/dp/B088N615TJ/ref=asc_df_B088N615TJ/?tag=googleshoppin-22&linkCode=df0&hvadid=594377945507&hvpos=&hvnetw=g&hvrand=11990481574227825069&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062539&hvtargid=pla-1653404629435&psc=1",
+          "https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113",
+          "https://www.amazon.com/All-One-Dummies-John-Mueller/dp/1118823788",
+          "https://drive.google.com/drive/folders/17JuIdRSgs2VOY6IDDy3HpwUQXgJN8kt8"
+        ]
+      },
+      {
+        "title": "C++ Project Ideas",
+        "ideas": [
+          "a number guessing game",
+          "rock paper and scissors",
+          "a calculator with plus, subtraction, division and multiplication",
+          "Stopwatch",
+          "Currency converter, include at least 10 different currencies",
+          "make a malware with C or C++ with features like remote shell and screen capture"
+        ]
+      },
+      {
+        "title": "C++ Videos",
+        "urls": [
+            "https://www.youtube.com/watch?v=McojvctVsUs",
+            "https://www.youtube.com/watch?v=p-sprvJX07E&ab_channel=Dave'sGarage",
+            "https://www.youtube.com/watch?v=Y9Zw6xOGly0&ab_channel=NEFOS"
+        ]
+      }
+    ],
+    "Rust": [
+      {
+        "title": "Comprehensive Rust Course by Google's Android team",
+        "url": "https://google.github.io/comprehensive-rust/index.html"
+      },
+      {
+        "title": "Rust by Example",
+        "url": "https://doc.rust-lang.org/rust-by-example/index.html",
+        "description": "Rust code snippets and examples developed by the Rust team."
+      },
+      {
+        "title": "The Rust Programming Language Book",
+        "url": "https://doc.rust-lang.org/book/title-page.html"
+      },
+      {
+        "title": "Learn to Code with Rust - Udemy Course",
+        "url": "https://www.udemy.com/course/learn-to-code-with-rust/"
+      },
+      {
+        "title": "Awesome Rust Resources",
+        "url": "https://gist.github.com/cedrickchee/f729e848b52eab8fbc88a3910072198c"
+      }
+    ],
+    "Web Development (HTML/CSS/JS)": [
+      {
+        "title": "Free Full Stack Web Development Course",
+        "url": "https://india.spartacodingclub.com/register",
+        "description": "A free full-stack development course with certificate and career support. Use reference code: HCZOLZ."
+      },
+      {
+        "title": "Redux Toolkit for Beginners",
+        "url": "https://www.freecodecamp.org/news/redux-and-redux-toolkit-for-beginners/",
+        "description": "A blog post explaining Redux and Redux Toolkit for beginners."
+      },
+      {
+        "title": "Intro to Web Development Course",
+        "description": "A 4-week introductory course to web development by the Society of Women Coders USA.",
+        "contact": "societyofwomencodersusa@gmail.com"
+      },
+      {
+        "title": "Flexbox Froggy",
+        "url": "https://flexboxfroggy.com/",
+        "description": "A game for learning CSS flexbox."
+      },
+      {
+        "title": "Flexbox Adventure",
+        "url": "https://codingfantasy.com/games/flexboxadventure",
+        "description": "A game to learn CSS flexbox."
+      }
+    ]
+  },
+  "Career & Professional Development": {
+    "Career Guidance": [
+      {
+        "title": "Roadmaps for various tech roles",
+        "url": "https://roadmap.sh/"
+      },
+      {
+        "title": "Linux Journey",
+        "url": "https://linuxjourney.com/"
+      },
+      {
+        "title": "IT Paths",
+        "url": "https://www.youtube.com/watch?v=XmWkcePhf84"
+      },
+      {
+        "title": "Software Engineer Path",
+        "url": "https://github.com/jwasham/coding-interview-university"
+      },
+      {
+        "title": "Programming Language | Career Path Guide",
+        "description": "A guide to different career paths in tech and the suggested programming languages and skills for each.",
+        "author": "Bob"
+      },
+      {
+        "title": "Game Development Jobs Guide",
+        "url": "https://www.linkedin.com/posts/nicholasgurley_game-jobs-in-2023-activity-7106238302743060481-neoO",
+        "description": "A guide to different roles in the game development industry, the skills required, and job searching tips."
+      },
+      {
+        "title": "Major/Career Advice by Bob",
+        "description": "Advice on choosing a major, the realities of a CS career, and the importance of finding a job you enjoy."
+      }
+    ],
+    "Interview Prep": [
+      {
+        "title": "Tech Interview Handbook",
+        "url": "https://github.com/yangshun/tech-interview-handbook",
+        "description": "Curated coding interview preparation materials for software engineers."
+      },
+      {
+        "title": "Upsend.co",
+        "description": "An AI coach for mock interviews with personalized feedback."
+      }
+    ],
+    "Resume Writing": [
+      {
+        "title": "Resume Writing Tips By Bob",
+        "description": "Comprehensive tips for writing tech resumes, including formatting, content, and what to include."
+      }
+    ],
+    "Networking": [
+      {
+        "title": "Social Networking 101 by Bob",
+        "description": "Advice on how to network effectively, build genuine connections, and the benefits of networking."
+      }
+    ],
+    "Job Applications": [
+      {
+        "title": "Portfolio Build",
+        "description": "Tips and resources for building and hosting a portfolio.",
+        "free_hosting": [
+          "https://pages.github.com/",
+          "https://surge.sh/"
+        ],
+        "paid_hosting": [
+          "https://www.heroku.com/pricing",
+          "https://www.namecheap.com/"
+        ],
+        "game_dev_hosting": "https://itch.io/docs/creators/pricing"
+      },
+      {
+        "title": "Should I apply? Job Posting Expectations",
+        "description": "Guidance on applying for jobs, how to increase your chances, and how to meet job requirements.",
+        "author": "Bob"
+      }
+    ]
+  },
+  "Specialized Topics": {
+    "Game Development": [
+      {
+        "title": "Game Development Tutorials/Learning Resources",
+        "unreal_engine": "https://youtube.com/playlist?list=PL029XotiXUc-k6urJRp3rFKalsf_wU8gN&si=ZkeA_I-89BGDCVPv",
+        "unity_csharp": [
+          "http://googleusercontent.com/youtube.com/watch?v=C_hr_I-G_pk&list=PL35B1837048584E39",
+          "http://googleusercontent.com/youtube.com/playlist?list=PLPV2KyIb3jR42oVswd3_gq_vVXM2P7g74",
+          "https://learn.unity.com/course/create-with-code"
+        ],
+        "flame_engine": "http://googleusercontent.com/youtube.com/playlist?list=PLiZZoJ2p4q5l9ycrR_33d5a5rt3D2wT5d",
+        "without_game_engine": [
+          "https://www.youtube.com/watch?v=1_fbE0F9L4U",
+          "https://www.youtube.com/watch?v=x-32yXp421c"
+        ],
+        "youtube_channels": [
+          "https://www.youtube.com/user/Brackeys",
+          "https://www.youtube.com/channel/UCa-v8-v-wO5M-if_3t1hG-A",
+          "https://www.youtube.com/channel/UCqK21cQd_mGZ4i-aEaP3A5A"
+        ],
+        "related_topics": [
+          "https://www.youtube.com/watch?v=sKCF8A3XGxQ",
+          "https://www.youtube.com/watch?v=1_fbE0F9L4U",
+          "https://www.youtube.com/watch?v=x-32yXp421c"
+        ]
+      }
+    ],
+    "Cybersecurity": [
+      {
+        "title": "Cybersecurity Roadmap",
+        "url": "https://roadmap.sh/cyber-security"
+      },
+      {
+        "title": "Cryptohack",
+        "url": "https://cryptohack.org/",
+        "description": "A platform for learning and practicing cryptography."
+      },
+      {
+        "title": "pwn.college",
+        "url": "https://pwn.college/dojos",
+        "description": "Dojos for learning and practicing pwn."
+      },
+      {
+        "title": "pwnable.xyz",
+        "url": "https://pwnable.xyz/",
+        "description": "A website for practicing pwn."
+      },
+      {
+        "title": "PortSwigger Web Security",
+        "url": "https://portswigger.net/web-security/all-topics",
+        "description": "Resources for learning web security."
+      },
+      {
+        "title": "webhacking.kr",
+        "url": "https://webhacking.kr/",
+        "description": "A website for practicing web hacking."
+      },
+      {
+        "title": "CTF 101",
+        "url": "https://ctf101.org/",
+        "description": "A website to learn about Capture The Flag competitions."
+      },
+      {
+        "title": "CyberChef",
+        "url": "https://cyberchef.cyberskyline.com/",
+        "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
+      },
+      {
+        "title": "Mad Hat on YouTube",
+        "description": "A YouTube channel with roadmaps for cyber career paths and cyber news."
+      },
+      {
+        "title": "How I Landed A Job In Cyber Security",
+        "url": "https://iaansecurity.com/blogs/IAANSEC/How_I_Landed_A_Job_In_Cyber_Security",
+        "description": "A blog post about getting a job in cybersecurity."
+      },
+      {
+        "title": "The Hacker News",
+        "url": "https://thehackernews.com/?m=1",
+        "description": "A newsletter for staying current on events in cybersecurity."
+      },
+      {
+        "title": "Learn How to Hack with CTFs as a COMPLETE Beginner",
+        "url": "https://youtu.be/Xp_jAakX_J8?si=kzOrSZU_cIl4EiGM",
+        "description": "A beginner's guide to hacking with CTFs."
+      },
+      {
+        "title": "Cybersecurity Overview Guide",
+        "description": "A detailed guide covering basics, intermediate, and advanced topics in cybersecurity."
+      }
+    ],
+    "Data Science & AI/ML": [
+      {
+        "title": "Papers with Code",
+        "url": "https://paperswithcode.com/",
+        "description": "A free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables."
+      },
+      {
+        "title": "DataCamp",
+        "description": "Datacamp has good R and Python courses for bioscience AI.",
+        "author": "Nix"
+      }
+    ],
+    "Computer Architecture & OS": [
+      {
+        "title": "Computer Science from Scratch!",
+        "book_url": "https://icourse.club/uploads/files/96a2b94d4be48285f2605d843a1e6db37da9a944.pdf",
+        "course_part1_url": "https://coursera.org/learn/build-a-computer",
+        "course_part2_url": "https://coursera.org/learn/nand2tetris2",
+        "description": "Resources to learn computer science from first principles, from transistors to programming in C."
+      },
+      {
+        "title": "Harvard CS50",
+        "urls": [
+          "https://www.youtube.com/watch?v=8OQpf22b_qI",
+          "https://www.youtube.com/watch?v=LfaMVlDaQ24"
+        ],
+        "description": "Harvard's introduction to computer science course."
+      },
+      {
+        "title": "OS Notes",
+        "description": "A collection of notes for an Operating Systems course, including documents and PDFs.",
+        "author": "Jei's only pookielicious"
+      }
+    ]
+  },
+  "Learning & Productivity": {
+    "Study Techniques": [
+      {
+        "title": "Study Techniques for ADHD (and Other People)",
+        "techniques": [
+          "Body Doubling",
+          "Timed competition with yourself",
+          "Listening to fast music (120-170 bpm)"
+        ],
+        "author": "Blue (ping/tag me!)"
+      },
+      {
+        "title": "ADHD and CS50",
+        "description": "A list of tips for taking the CS50 course with ADHD, including study environment, note-taking, and using the course's resources.",
+        "author": "Naiyah Robinson[LFW]"
+      }
+    ],
+    "Learning Platforms & Courses": [
+      {
+        "title": "Coding Self-Taught Advice",
+        "description": "Advice on how to learn coding on your own, focusing on understanding the basic constructs of a language.",
+        "recommended_websites": [
+          "https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm",
+          "https://www.sololearn.com/learn/courses/le-c-plus-plus",
+          "https://learnxinyminutes.com/docs/c++/"
+        ]
+      },
+      {
+        "title": "Exercism",
+        "url": "https://exercism.org/",
+        "description": "A free platform to learn, practice, and get mentored in over 50 programming languages."
+      }
+    ],
+    "Tools & Setup": [
+      {
+        "title": "Github Copilot for free for students",
+        "url": "https://www.youtube.com/watch?v=4QAYC1M0epA",
+        "description": "Information on how to get Github Copilot for free as a student."
+      },
+      {
+        "title": "Doppler",
+        "url": "https://www.doppler.com/",
+        "description": "A developer-first security platform for managing secrets."
+      },
+      {
+        "title": "Oh My Git!",
+        "url": "https://ohmygit.org/",
+        "description": "An open-source game for learning Git."
+      },
+      {
+        "title": "Codédex",
+        "url": "https://www.codedex.io/",
+        "description": "A game to learn how to code for kids and adults, covering Python, HTML/CSS, JavaScript, Command Line, Git, and Github."
+      },
+      {
+        "title": "Setup For Software Developers",
+        "url": "https://youtu.be/utAb6Wq4XkE?si=17gLQl6Lg8QtQomj",
+        "description": "A video guide to essential software for developers, including Visual Studio, Notepad++, Paint.NET, Git, and Python."
+      }
+    ],
+    "Hackathons": [
+      {
+        "title": "Hackathon 101!",
+        "description": "Tips for participating in hackathons, including planning, teamwork, and pitching.",
+        "author": "🧚 server momma jei"
+      },
+      {
+        "title": "Hackathon Platform",
+        "url": "https://hack.cvrve.me/",
+        "description": "A platform to find upcoming hackathons."
+      }
+    ]
+  },
+  "Community & Miscellaneous": {
+    "Fellowships & Scholarships": [
+      {
+        "title": "Fellowships (Most are for US people)",
+        "urls": [
+          "https://neo.com/scholars",
+          "https://www.emmabowenfoundation.org/apply",
+          "https://inroads.org/apply/",
+          "https://codingitforward.com/fellowship",
+          "https://www.8vc.com/fellowships",
+          "https://fellows.kleinerperkins.com/",
+          "https://hackny.org/fellows-program",
+          "https://www.hackdiversity.com/",
+          "https://www.bvp.com/bessemer-fellows",
+          "https://susaventures.com/summer-fellows"
+        ]
+      },
+      {
+        "title": "Innovation and Technology Scholarship",
+        "url": "https://asu.co1.qualtrics.com/jfe/form/SV_40aT3CmIQPf3aQK",
+        "description": "A scholarship in partnership with the Mastercard Foundation and Arizona State University."
+      }
+    ],
+    "Newsletters": [
+      {
+        "title": "Pixel Patch",
+        "url": "https://pixelpatch.substack.com/",
+        "description": "A tech newsletter targeted towards teen girls interested in CS."
+      }
+    ],
+    "Notion Templates": [
+      {
+        "title": "Notion Template - Studying accountability",
+        "url": "https://fortune-deposit-25c.notion.site/ACADEMIA-4076e1c888854a0a99e09cdf9e55ede3?pvs=74",
+        "description": "A Notion template with a Dark Academia theme to track assignments and stay accountable."
+      }
+    ]
+  }
+}
+]

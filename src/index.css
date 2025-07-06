@@ -97,3 +97,23 @@
     @apply py-16 md:py-24;
   }
 }
+
+@layer components {
+  /* Custom scrollbar for webkit browsers */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #f472b6;
+    border: 2px solid #f472b6;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #ec4899;
+  }
+}
