@@ -8,6 +8,7 @@ import OurStory from "./pages/OurStory";
 import Resources from "./pages/Resources";
 import Donate from "./pages/Donate";
 import HackathonPage from './pages/Hackathon';
+import HackathonResourcesPage from './pages/HackathonResources';
 import SponsorshipPage from './pages/Sponsorship';
 import NotFound from "./pages/NotFound";
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/resources" element={<Resources />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/hackathon" element={<HackathonPage />} />
+          <Route path="/hackathon-resources" element={<HackathonResourcesPage />} />
           <Route path="/sponsorship" element={<SponsorshipPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

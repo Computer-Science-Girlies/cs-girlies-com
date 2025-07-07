@@ -258,6 +258,14 @@ const HackathonPage: React.FC = () => {
             >
               Close
             </Button>
+            {selectedPill === "Beginner Friendly" && (
+              <Button 
+                onClick={() => window.open('/hackathon-resources', '_self')}
+                className="bg-csgirlies-pink hover:bg-csgirlies-pink-dark text-white font-bold"
+              >
+                📚 View Resources
+              </Button>
+            )}
             <Button 
               onClick={() => window.open('https://csgirlies.devpost.com', '_blank')}
               className="bg-csgirlies-pink hover:bg-csgirlies-pink-dark text-white font-bold"

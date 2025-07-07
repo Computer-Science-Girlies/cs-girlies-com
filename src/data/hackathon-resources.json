@@ -1,0 +1,228 @@
+{
+  "categories": {
+    "AI/ML": [
+      {
+        "link": "AndrejKarpathyAI",
+        "description": "YT channel that does in depth AI explanations"
+      },
+      {
+        "link": "Courses - DeepLearning.AI",
+        "description": "Beginner AI courses"
+      },
+      {
+        "link": "Practical Deep Learning for Coders - Practical Deep Learning",
+        "description": "Deep Learning tutorials"
+      },
+      {
+        "link": "How to Learn AI From Scratch in 2025: A Complete Expert Guide | DataCamp",
+        "description": "Amazing beginner's guide to AI"
+      },
+      {
+        "link": "https://youtu.be/JAWSqX2fBvQ?si=tvj2KO8QhXG1DiYS",
+        "description": "AI/ML roadmap vid"
+      },
+      {
+        "link": "https://youtu.be/jC4v5AS4RIM?si=WcGfWYEtxTrzSP-a",
+        "description": "Prompt engineering (ChatGPT)"
+      }
+    ],
+    "Database": [
+      {
+        "link": "https://youtu.be/wR0jg0eQsZA?si=gkL6d_Y8_EkMhQZE",
+        "description": "Database roadmap"
+      },
+      {
+        "link": "https://youtu.be/5OdVJbNCSso?si=WWCrfxcVVVvytIHH",
+        "description": "MySql"
+      },
+      {
+        "link": "https://youtu.be/4Z9KEBexzcM?si=WQtx36-8TxS1RJr5",
+        "description": "Intro to databases"
+      },
+      {
+        "link": "SQL Tutorial: Learn SQL from Scratch for Beginners",
+        "description": "SQL tutorial"
+      }
+    ],
+    "Game Development": [
+      {
+        "link": "https://youtube.com/playlist?list=PLImQaTpSAdsArRFFj8bIfqMk2X7Vlf3XF&si=HI3aagOCuqULifgl",
+        "description": "Very detailed, math for game devs"
+      },
+      {
+        "link": "http://www.youtube.com/@RyiSnow",
+        "description": "Java game dev"
+      },
+      {
+        "link": "How should I start learning C++ for game development? : r/gamedev",
+        "description": "C++ game dev"
+      },
+      {
+        "link": "Game Developer Roadmap",
+        "description": "General game dev roadmap (2025 version)"
+      },
+      {
+        "link": "https://youtube.com/playlist?list=PLiZZKL9HLmWOmQgYxWHuOHOWsUUlhCCOY&si=FZ9Q_zuFyqjeQE78",
+        "description": "Flutter game dev"
+      },
+      {
+        "link": "http://www.youtube.com/@Brackeys",
+        "description": "General game dev videos"
+      },
+      {
+        "link": "https://youtube.com/playlist?list=PL029XotiXUc-k6urJRp3rFKalsf_wU8gN&si=4mxS2_jEI2-Rz4lY",
+        "description": "Game dev w/ Unreal engine"
+      },
+      {
+        "link": "https://youtube.com/playlist?list=PLCx70z_2M_-Mc747vio4MWbuhOyTcKqZr&si=ugwt1fs2_1GhJnmV",
+        "description": "General game dev videos"
+      }
+    ],
+    "Web Development": [
+      {
+        "link": "https://www.youtube.com/watch?v=HGTJBPNC-Gw",
+        "description": "Web dev basics"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=lfmg-EJ8gm4",
+        "description": "JS basics"
+      },
+      {
+        "link": "99 of the Best Free HTML Templates to Make Your Website Sparkle",
+        "description": "HTML templates"
+      },
+      {
+        "link": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+        "description": "Backend dev stuff"
+      },
+      {
+        "link": "https://www.theodinproject.com/",
+        "description": "Project based learning"
+      },
+      {
+        "link": "GitHub - macloo/html_css_templates: Simple templates for small projects",
+        "description": "Simple web app template"
+      },
+      {
+        "link": "GitHub - albertantony308/CSS-Mini-projects-for-beginners: This repository contains webpages made with basic CSS which is intended for students who are currently studying web development to start practicing CSS elements with the help of these templates.",
+        "description": "Web dev project template"
+      }
+    ],
+    "Programming Languages": [
+      {
+        "link": "https://www.youtube.com/watch?v=KJgsSFOSQv0",
+        "description": "C lang crash course"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=ZzaPdXTrSb8",
+        "description": "C++ crash course"
+      },
+      {
+        "link": "https://www.codecademy.com/learn/learn-c-sharp",
+        "description": "C# crash course"
+      },
+      {
+        "link": "https://www.codecademy.com/learn/learn-go",
+        "description": "Go lang crash course"
+      },
+      {
+        "link": "https://youtu.be/eIrMbAQSU34?si=UEltt2QqF27W8TNM",
+        "description": "Java crash course"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=XKHEtdqhLK8&list=PLBgfxD61XUkORsK8SMkLlwvePwALxIMTQ&index=1",
+        "description": "Python crash course"
+      },
+      {
+        "link": "https://youtu.be/5-MLMzbUlPY?si=e7nB1Umb--uup7ni",
+        "description": "Full stack roadmap"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=QkV3xlxdF_0",
+        "description": "Data Structures & Algorithms crach course (python)"
+      }
+    ],
+    "Git/GitHub": [
+      {
+        "link": "https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/",
+        "description": "Beginner's guide to Git & GitHub"
+      },
+      {
+        "link": "https://youtu.be/8Dd7KRpKeaE?si=mC4eyR5sn7TjKMbv",
+        "description": "Beginner's guide to Git, GitHub, & Git desktop (video)"
+      },
+      {
+        "link": "https://education.github.com/git-cheat-sheet-education.pdf",
+        "description": "GitHub cheatsheet"
+      },
+      {
+        "link": "https://learngitbranching.js.org/?locale=en_US",
+        "description": "Learn Git branching"
+      }
+    ],
+    "IDE": [
+      {
+        "link": "https://youtu.be/vUn5akOlFXQ?si=aiaq0iSAHMMXLfSL",
+        "description": "IDE roadmap"
+      },
+      {
+        "link": "https://youtu.be/EUJlVYggR1Y?si=IUymQIPARg0vdQUX",
+        "description": "VS Code tutorial"
+      },
+      {
+        "link": "https://youtu.be/WZpwCim3OgY?si=YpjPkxNLytFdzFU4",
+        "description": "Java IDEs"
+      }
+    ],
+    "Mobile Development": [
+      {
+        "link": "Mobile Development Courses & Tutorials | Codecademy",
+        "description": "Codecademy mobile dev courses"
+      },
+      {
+        "link": "https://youtu.be/yye7rSsiV6k?si=iddkpOTzajf13S1N",
+        "description": "App dev roadmap"
+      },
+      {
+        "link": "https://youtu.be/D4nhaszNW4o?si=ZSUnxJ2-YxQNNxdX",
+        "description": "Flutter basics"
+      },
+      {
+        "link": "https://youtu.be/dzUc9vrsldM?si=otMvsuNwMLBvFiQC",
+        "description": "Kotlin basics"
+      },
+      {
+        "link": "GitHub - avijeett007/Develop-With-AI-Beginners-Guide: This project contains important Prompt Template for creating apps using AI",
+        "description": "Claude AI project template/prompts"
+      },
+      {
+        "link": "GitHub - HeyNina101/generative_ai_project: A production-ready template to kickstart your Generative AI projects with structure and scalability in mind.",
+        "description": "Gen AI project template"
+      }
+    ],
+    "UI/UX/HCI": [
+      {
+        "link": "https://university.webflow.com/courses",
+        "description": "Free design course"
+      },
+      {
+        "link": "https://coolors.co/",
+        "description": "For creating color palettes"
+      },
+      {
+        "link": "https://youtu.be/ezldKx-jPag?si=vMfcp7RLuTx-KyE5",
+        "description": "Figma for beginners"
+      },
+      {
+        "link": "https://youtu.be/uwNClNmekGU?si=enqhyACY8ZX-quSQ",
+        "description": "Design basics"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=2QQQtiFwXjU",
+        "description": "Foundations of user experience (Google cert)"
+      }
+    ]
+  },
+  "totalResources": 59,
+  "lastUpdated": "2025-01-07"
+}
