@@ -47,7 +47,7 @@ const HackathonPage: React.FC = () => {
         }}
       ></div>
       
-      <div className="relative md:h-[1700px] pt-4">
+      <div className="relative md:h-[2800px] pt-4">
         {/* Main Hackathon Window */}
         <div className="relative mb-8 md:absolute md:top-4 md:left-0 md:right-0 md:z-1">
           <div className="bg-gradient-to-b from-csgirlies-pink to-csgirlies-pink-dark border-2 border-csgirlies-pink rounded-lg shadow-lg">
@@ -154,14 +154,80 @@ const HackathonPage: React.FC = () => {
         <div className="relative mb-8 md:absolute md:top-[850px] md:left-[39%] md:right-[12%] md:z-30">
           <Window title="About.txt">
             <h2 className="font-righteous text-xl md:text-2xl mb-4">CS Girlies are hosting our first<br/>GLOBAL HACKATHON!!</h2>
+            <p className="mb-2 text-sm md:text-base">Your mission?</p>
             <p className="mb-2 text-sm md:text-base">Build something weird.</p>
             <p className="mb-2 text-sm md:text-base">Build something from sheer curiosity.</p>
             <p className="mb-12 text-sm md:text-base">Build something unmistakably human.</p>
           </Window>
         </div>
 
+        {/* What is a Hackathon Window */}
+        <div className="relative mb-8 md:absolute md:top-[1600px] md:left-[1%] md:w-[60%] md:z-20">
+          <Window title="What_is_a_hackathon.txt">
+            <div className="py-3">
+              <h3 className="font-righteous text-lg md:text-xl mb-2">What is a hackathon? 🤔</h3>
+              <p className="text-sm md:text-base mb-3">A hackathon is a time-bound event where people come together to build creative tech projects—usually in teams, often in just 24 to 48 hours. </p>
+              <p className="text-sm md:text-base mb-3">It’s a mix of coding, problem-solving, and rapid experimentation. </p>
+              <p className="text-sm md:text-base mb-3">You don’t need to be an expert—just bring an idea, your curiosity, and a willingness to learn.</p>
+            </div>
+          </Window>
+        </div>
+
+        {/* Tracks Window */}
+        <div className="relative mb-8 md:absolute md:top-[1840px] md:left-[45%] md:right-[8%] md:z-29">
+          <Window title="Tracks.md">
+            <div className="py-4">
+              <h3 className="font-righteous text-lg md:text-xl mb-4">Three Tracks 🛤️</h3>
+              
+              <div className="mb-4">
+                <h4 className="font-black text-sm md:text-base mb-2">🧠 Push the Limits: Beyond Automation</h4>
+                <p className="text-xs md:text-sm mb-2">Explore what AI thinks it can do... and improve it where it still fumbles. Build tools that decode messy human moments or solve oddly specific problems AI gets hilariously wrong.</p>
+              </div>
+              
+              <div className="mb-4">
+                <h4 className="font-black text-sm md:text-base mb-2">✨ Make Anything, But Make it YOU</h4>
+                <p className="text-xs md:text-sm mb-2">For soulful builders and curious newbies. Make whatever you want—a journaling bot that cries with you, a playlist generator that feels your mood. The only rule? Make it unmistakably YOU.</p>
+              </div>
+              
+              <div className="mb-2">
+                <h4 className="font-black text-sm md:text-base mb-2">🌟 The Creative Strand: Collaborate with the Machine</h4>
+                <p className="text-xs md:text-sm">Co-create with AI in ways that feel artful, eerie, emotional, or explosive. Blur the line between machine and muse while keeping humanity first.</p>
+              </div>
+            </div>
+          </Window>
+        </div>
+
+        {/* FAQ Window */}
+        <div className="relative mb-8 md:absolute md:top-[2280px] md:left-[8%] md:w-[80%] md:z-30">
+          <Window title="FAQ.txt">
+            <div className="py-4">
+              <h3 className="font-righteous text-lg md:text-xl mb-4">FAQ 💭</h3>
+              
+              <div className="mb-3">
+                <h4 className="font-black text-sm md:text-base mb-1">Do I need to know how to code?</h4>
+                <p className="text-xs md:text-sm">Nope! This is beginner-inclusive. We have mentors, templates, and a community that actually cares. Come as you are.</p>
+              </div>
+              
+              <div className="mb-3">
+                <h4 className="font-black text-sm md:text-base mb-1">Can I work alone?</h4>
+                <p className="text-xs md:text-sm">Absolutely! Solo builders are welcome. Teams of up to 4 people are also allowed.</p>
+              </div>
+              
+              <div className="mb-3">
+                <h4 className="font-black text-sm md:text-base mb-1">What do I win?</h4>
+                <p className="text-xs md:text-sm">$1000+ in cash and prizes! Plus bragging rights and potential connections with our amazing community.</p>
+              </div>
+              
+              <div className="mb-3">
+                <h4 className="font-black text-sm md:text-base mb-1">How do I submit?</h4>
+                <p className="text-xs md:text-sm">All submissions happen through our Devpost page. You'll have until 5 PM EDT on July 27 to submit.</p>
+              </div>
+            </div>
+          </Window>
+        </div>
+
         {/* Prizes Window */}
-        <div className="relative mb-8 md:absolute md:top-[1300px] md:left-[40%] md:right-[5%] md:z-5">
+        <div className="relative mb-8 md:absolute md:top-[1300px] md:left-[50%] md:right-[5%] md:z-5">
           <Window title="Prizes.gif">
             <div className="text-center py-8">
               <h3 className="font-righteous text-3xl md:text-4xl mb-4">🏆   Prizes  💰</h3>
