@@ -68,11 +68,11 @@
         "description": "Java game dev"
       },
       {
-        "link": "How should I start learning C++ for game development? : r/gamedev",
+        "link": "https://www.reddit.com/r/gamedev/comments/18eyrq4/where_do_i_start_to_learn_c_for_a_game_development/",
         "description": "C++ game dev"
       },
       {
-        "link": "Game Developer Roadmap",
+        "link": "https://roadmap.sh/game-developer",
         "description": "General game dev roadmap (2025 version)"
       },
       {
@@ -114,11 +114,11 @@
         "description": "Project based learning"
       },
       {
-        "link": "GitHub - macloo/html_css_templates: Simple templates for small projects",
+        "link": "https://github.com/macloo/html_css_templates",
         "description": "Simple web app template"
       },
       {
-        "link": "GitHub - albertantony308/CSS-Mini-projects-for-beginners: This repository contains webpages made with basic CSS which is intended for students who are currently studying web development to start practicing CSS elements with the help of these templates.",
+        "link": "https://github.com/albertantony308/CSS-Mini-projects-for-beginners",
         "description": "Web dev project template"
       }
     ],
@@ -206,11 +206,11 @@
         "description": "Kotlin basics"
       },
       {
-        "link": "GitHub - avijeett007/Develop-With-AI-Beginners-Guide: This project contains important Prompt Template for creating apps using AI",
+        "link": "https://github.com/avijeett007/Develop-With-AI-Beginners-Guide",
         "description": "Claude AI project template/prompts"
       },
       {
-        "link": "GitHub - HeyNina101/generative_ai_project: A production-ready template to kickstart your Generative AI projects with structure and scalability in mind.",
+        "link": "https://github.com/HeyNina101/generative_ai_project",
         "description": "Gen AI project template"
       }
     ],
