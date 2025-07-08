@@ -87,7 +87,7 @@ const HackathonPage: React.FC = () => {
             <div className="text-center py-4">
               <p className="font-righteous text-3xl md:text-4xl">join us online</p>
               <p className="font-righteous text-5xl md:text-6xl my-2">25-27 July</p>
-              <a href="https://csgirlies.devpost.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://forms.csgirlies.com/hackathon-rsvp" target="_blank" rel="noopener noreferrer">
                 <button className="bg-csgirlies-pink-dark text-white text-bold text-xl md:text-2xl font-bold py-3 px-16 md:py-4 md:px-20 rounded-full mt-4 hover:bg-csgirlies-pink transition-all duration-300 transform hover:scale-105">
                   Register
                 </button>
