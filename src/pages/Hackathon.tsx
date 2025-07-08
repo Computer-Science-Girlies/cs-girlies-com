@@ -59,7 +59,7 @@ const HackathonPage: React.FC = () => {
                 </Link>
                 <a href="/sponsorship" target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Sponsor This Hackathon!</a>
                 <a href={LINKS.DISCORD} target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Join Discord</a>
-                <Link to="/resources" className="hidden md:inline hover:text-white transition-colors">Resources</Link>
+                <Link to="/hackathon-resources" className="hidden md:inline hover:text-white transition-colors">Resources</Link>
               </div>
               <div className="flex space-x-1.5">
                 <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div>

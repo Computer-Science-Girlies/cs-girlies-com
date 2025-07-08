@@ -11,6 +11,7 @@ interface Resource {
 }
 
 interface ResourceData {
+  featuredResources: Resource[];
   categories: Record<string, Resource[]>;
   totalResources: number;
   lastUpdated: string;
@@ -18,6 +19,7 @@ interface ResourceData {
 
 const HackathonResourcesPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [featuredExpanded, setFeaturedExpanded] = useState<boolean>(false);
   const resources = hackathonResourcesData as ResourceData;
 
   useEffect(() => {
@@ -98,36 +100,43 @@ const HackathonResourcesPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Categories Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-          {categoryKeys.map((category, index) => (
-            <div 
-              key={category} 
-              className={`relative z-${10 + index}`}
-              onClick={() => setSelectedCategory(selectedCategory === category ? null : category)}
-            >
-              <Window title={`${category.toLowerCase().replace(/\//g, '_')}.exe`}>
-                <div className="py-4 cursor-pointer hover:bg-gray-900 transition-colors rounded">
-                  <h3 className="font-righteous text-lg md:text-xl mb-2 text-csgirlies-pink">{category}</h3>
-                  <p className="text-sm text-gray-300 mb-3">{resources.categories[category].length} resources</p>
+        {/* Featured Resources */}
+        <div className="mb-8">
+          <div 
+            onClick={() => setFeaturedExpanded(!featuredExpanded)}
+            className="cursor-pointer"
+          >
+            <Window title="⭐ featured_hackathon_resources.exe">
+              <div className="py-4">
+                <div className="flex justify-between items-center">
+                  <h3 className="font-righteous text-lg md:text-xl text-csgirlies-pink">Featured Hackathon Resources ⭐</h3>
                   <div className="text-xs text-csgirlies-pink-light">
-                    {selectedCategory === category ? '▼ Click to collapse' : '▶ Click to expand'}
+                    {featuredExpanded ? '▼ Click to collapse' : '▶ Click to expand'}
                   </div>
                 </div>
-              </Window>
-            </div>
-          ))}
+                <p className="text-sm text-gray-300 mt-2">Handpicked guides specifically for hackathon beginners</p>
+              </div>
+            </Window>
+          </div>
         </div>
 
-        {/* Selected Category Resources */}
-        {selectedCategory && (
-          <div className="mb-8">
-            <Window title={`${selectedCategory}_resources.txt`}>
+        {/* Featured Resources Expanded */}
+        {featuredExpanded && (
+          <div className="mb-8 relative z-50">
+            <Window title="featured_resources_expanded.txt">
               <div className="py-4">
-                <h2 className="font-righteous text-2xl mb-4 text-csgirlies-pink">{selectedCategory} Resources</h2>
+                <div className="flex justify-between items-center mb-4">
+                  <h2 className="font-righteous text-2xl text-csgirlies-pink">Featured Hackathon Resources</h2>
+                  <button 
+                    onClick={() => setFeaturedExpanded(false)}
+                    className="text-gray-400 hover:text-white text-xl font-bold"
+                  >
+                    ✕
+                  </button>
+                </div>
                 <div className="space-y-4">
-                  {resources.categories[selectedCategory].map((resource, index) => (
-                    <div key={index} className="border-l-2 border-csgirlies-pink-dark pl-4 py-2 hover:border-csgirlies-pink transition-colors">
+                  {resources.featuredResources.map((resource, index) => (
+                    <div key={index} className="border-l-2 border-csgirlies-pink pl-4 py-2 hover:border-csgirlies-pink-light transition-colors">
                       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                         <div className="flex-1">
                           <h4 className="font-black text-sm mb-1">{resource.description}</h4>
@@ -137,7 +146,7 @@ const HackathonResourcesPage: React.FC = () => {
                           href={getDisplayLink(resource.link)} 
                           target="_blank" 
                           rel="noopener noreferrer"
-                          className="bg-csgirlies-pink-dark hover:bg-csgirlies-pink text-white px-4 py-2 rounded text-sm font-bold transition-colors self-start md:self-center"
+                          className="bg-csgirlies-pink hover:bg-csgirlies-pink-dark text-white px-4 py-2 rounded text-sm font-bold transition-colors self-start md:self-center"
                         >
                           Open Resource →
                         </a>
@@ -165,6 +174,66 @@ const HackathonResourcesPage: React.FC = () => {
               <p className="text-green-400 mt-4">$ // You've got this! 💪</p>
             </div>
           </Window>
+        </div>
+
+        {/* Selected Category Resources - Positioned at top */}
+        {selectedCategory && (
+          <div className="mb-8 relative z-50">
+            <Window title={`${selectedCategory}_resources.txt`}>
+              <div className="py-4">
+                <div className="flex justify-between items-center mb-4">
+                  <h2 className="font-righteous text-2xl text-csgirlies-pink">{selectedCategory} Resources</h2>
+                  <button 
+                    onClick={() => setSelectedCategory(null)}
+                    className="text-gray-400 hover:text-white text-xl font-bold"
+                  >
+                    ✕
+                  </button>
+                </div>
+                <div className="space-y-4 max-h-96 overflow-y-auto">
+                  {resources.categories[selectedCategory].map((resource, index) => (
+                    <div key={index} className="border-l-2 border-csgirlies-pink-dark pl-4 py-2 hover:border-csgirlies-pink transition-colors">
+                      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                        <div className="flex-1">
+                          <h4 className="font-black text-sm mb-1">{resource.description}</h4>
+                          <p className="text-xs text-gray-400 font-mono">{getDisplayText(resource.link)}</p>
+                        </div>
+                        <a 
+                          href={getDisplayLink(resource.link)} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="bg-csgirlies-pink-dark hover:bg-csgirlies-pink text-white px-4 py-2 rounded text-sm font-bold transition-colors self-start md:self-center"
+                        >
+                          Open Resource →
+                        </a>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Window>
+          </div>
+        )}
+
+        {/* Categories Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          {categoryKeys.map((category, index) => (
+            <div 
+              key={category} 
+              className={`relative z-${10 + index}`}
+              onClick={() => setSelectedCategory(selectedCategory === category ? null : category)}
+            >
+              <Window title={`${category.toLowerCase().replace(/\//g, '_')}.exe`}>
+                <div className="py-4 cursor-pointer hover:bg-gray-900 transition-colors rounded">
+                  <h3 className="font-righteous text-lg md:text-xl mb-2 text-csgirlies-pink">{category}</h3>
+                  <p className="text-sm text-gray-300 mb-3">{resources.categories[category].length} resources</p>
+                  <div className="text-xs text-csgirlies-pink-light">
+                    {selectedCategory === category ? '▼ Click to collapse' : '▶ Click to expand'}
+                  </div>
+                </div>
+              </Window>
+            </div>
+          ))}
         </div>
 
         {/* Quick Links Window */}

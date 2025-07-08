@@ -1,4 +1,18 @@
 {
+  "featuredResources": [
+    {
+      "link": "Hackathon for Beginners: A Guide to Getting Started in 2025 — Inspirit AI",
+      "description": "Beginner tips! (generalized)"
+    },
+    {
+      "link": "Ultimate Hackathon Guide for Beginners in 2025 - TAIKAI",
+      "description": "Specific hackathon tips (beginner)"
+    },
+    {
+      "link": "Battle Tested Practical tips for Hackathon rookies - DEV Community",
+      "description": "Hackathon roadmap"
+    }
+  ],
   "categories": {
     "AI/ML": [
       {
@@ -223,6 +237,6 @@
       }
     ]
   },
-  "totalResources": 59,
+  "totalResources": 62,
   "lastUpdated": "2025-01-07"
 }
