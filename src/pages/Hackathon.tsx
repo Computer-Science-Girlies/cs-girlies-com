@@ -226,6 +226,21 @@ const HackathonPage: React.FC = () => {
           </Window>
         </div>
 
+        {/* Beginner Resources Window */}
+        <div className="relative mb-8 md:absolute md:top-[1950px] md:left-[3%] md:w-[30%] md:z-15">
+          <Window title="Beginner_Help.exe">
+            <div className="py-4 text-center">
+              <h3 className="font-righteous text-lg md:text-xl mb-3 text-csgirlies-pink">Are you a beginner? 🌱</h3>
+              <p className="text-sm md:text-base mb-4">Check out these resources!!</p>
+              <Link to="/hackathon-resources">
+                <button className="bg-csgirlies-pink-dark hover:bg-csgirlies-pink text-white font-bold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105">
+                  📚 View Resources →
+                </button>
+              </Link>
+            </div>
+          </Window>
+        </div>
+
         {/* Prizes Window */}
         <div className="relative mb-8 md:absolute md:top-[1300px] md:left-[50%] md:right-[5%] md:z-5">
           <Window title="Prizes.gif">
