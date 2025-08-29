@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord Community
+    url: https://discord.gg/uqMwZvXHBE
+    about: Join our Discord for quick help and community discussions!
+  - name: 📚 Documentation
+    url: https://github.com/Computer-Science-Girlies/cs-girlies-guides
+    about: Check out our documentation for guides and resources
+  - name: 💝 Donate
+    url: https://www.csgirlies.com/donate
+    about: Support CS Girlies by making a donation
+  - name: 🌐 Website
+    url: https://csgirlies.com
+    about: Visit our website for more information
