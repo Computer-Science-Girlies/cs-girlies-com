@@ -1,5 +1,32 @@
 
+import { useDiscordCount } from "@/hooks/use-discord-count";
+
 const OurStorySection = () => {
+  const { isLoading, displayCount, memberCount } = useDiscordCount();
+
+  const renderDiscordMemberCount = () => {
+
+    if (isLoading) {
+      return (
+        <span className="inline-block">
+          <span className="text-csgirlies-pink text-6xl">
+            {displayCount.toLocaleString()}+
+          </span>
+          <span className="text-sm text-gray-400 ml-4">(counting up...)</span>
+        </span>
+      );
+    }
+
+    return (
+      <span className="inline-block">
+        <span className="text-csgirlies-pink text-6xl">
+          {memberCount?.toLocaleString()}+
+        </span>
+        <span className="text-sm text-gray-400 ml-4">(counting up...)</span>
+      </span>
+    );
+  };
+  
   return (
     <section className="bg-black py-16 md:py-24">
       <div className="cs-container">
@@ -42,7 +69,7 @@ const OurStorySection = () => {
               <li>A <strong>supportive community</strong> that truly has her back.</li>
             </ol>
             <p className="text-lg">
-              With 12,000+ members in our Discord and growing, we're already making an impact. But this is just the beginning—we're on our way to empowering <strong>hundreds of thousands of young women</strong> to explore tech careers, discover their passions, and feel deeply supported every step of the way. But how?
+              With {renderDiscordMemberCount()} members in our Discord and growing, we're already making an impact. But this is just the beginning—we're on our way to empowering <strong>hundreds of thousands of young women</strong> to explore tech careers, discover their passions, and feel deeply supported every step of the way. But how?
             </p>
           </div>
           <div>

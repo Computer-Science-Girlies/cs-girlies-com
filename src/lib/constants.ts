@@ -5,7 +5,6 @@
 export const LINKS = {
   // Community links
   DISCORD: "https://discord.gg/uqMwZvXHBE",
-  
   // Donation links
   DONATE: "https://hcb.hackclub.com/donations/start/computer-science-girlies",
   
@@ -18,3 +17,5 @@ export const LINKS = {
   // Official site
   WEBSITE: "https://cs-girlies.com"
 };
+
+export const DISCORD_INVITE_ID = "computer-science-girlies-1116490225615634503";

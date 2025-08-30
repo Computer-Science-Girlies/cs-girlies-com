@@ -27,7 +27,7 @@ git switch [branch-name]
 or create a new branch locally and push the branch on main
 
 ```
-git chekout -b [branch-name]
+git checkout -b [branch-name]
 ```
 
 after you make changes you can add them and the new branch to the repository
