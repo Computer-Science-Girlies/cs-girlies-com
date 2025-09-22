@@ -38,7 +38,7 @@ const SponsorshipPage: React.FC = () => {
               <div className="text-center py-10 px-4">
                 <h1 className="font-righteous text-5xl md:text-7xl font-bold mb-2"> AI vs H.I. Hackathon</h1>
                 <p className="text-xl md:text-2xl text-white mb-4">Sponsor Perks & Packages</p>
-                <p className="text-lg md:text-xl mb-8">july 25–27, 2025 | 48 hrs | global + virtual</p>
+                <p className="text-lg md:text-xl mb-8">november 14-16, 2025 | 48 hrs | global + virtual</p>
                 <p className="text-base md:text-lg">an intellectual exploration hosted by CS Girlies</p>
               </div>
             </div>
