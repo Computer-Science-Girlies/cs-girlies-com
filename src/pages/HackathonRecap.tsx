@@ -233,7 +233,7 @@ const HackathonRecap: React.FC = () => {
                   <img src="/logo.png" alt="CS Girlies Logo" className="h-5 w-5" />
                   <span className="font-bold text-white">CS Girlies</span>
                 </Link>
-                <Link to="/hackathon" className="hidden md:inline hover:text-white transition-colors">Back to Hackathon</Link>
+                <Link to="/hackathon" className="hidden md:inline hover:text-white transition-colors">November Hackathon</Link>
                 <a href={LINKS.DISCORD} target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Join Discord</a>
                 <Link to="/hackathon-resources" className="hidden md:inline hover:text-white transition-colors">Resources</Link>
               </div>
