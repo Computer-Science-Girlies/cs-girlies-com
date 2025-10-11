@@ -26,9 +26,9 @@ const HackathonPromo = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <Link to="/hackathon">
+                <Link to="/hackathon-recap">
                   <Button className="cs-button text-lg px-6 py-3 w-full sm:w-auto">
-                    LEARN MORE
+                    How'd it go? Check it out!
                   </Button>
                 </Link>
                
