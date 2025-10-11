@@ -246,7 +246,7 @@ const HackathonRecap: React.FC = () => {
             <div className="text-center py-4 px-4">
               <h1 className="font-righteous text-4xl md:text-8xl font-bold mb-4">A.I. vs H.I.</h1>
               <h2 className="font-righteous text-2xl md:text-4xl mb-4">HACKATHON RECAP</h2>
-              <p className="text-base md:text-xl mb-6">July 2025 • A celebration of human creativity</p>
+              <p className="text-base md:text-xl mb-6">25 - 27 July 2025 • A celebration of human creativity</p>
               
               {/* Animated Flags */}
               <div className="mb-2">
@@ -323,7 +323,7 @@ const HackathonRecap: React.FC = () => {
               </p>
               <p>
                 <span className="text-green-400">Event completed:</span>{' '}
-                <ScrambleText text="Sun 15 July 23:59:59 on global" delay={500} />
+                <ScrambleText text="Mon 28 July 2025 21:44:59 E.S.T." delay={500} />
               </p>
               <p>
                 <span className="text-csgirlies-pink">csgirlies@recap2025 ~ %</span>{' '}
@@ -331,7 +331,14 @@ const HackathonRecap: React.FC = () => {
               </p>
               <p>
                 <span className="text-green-400">SUCCESS</span>{' '}
-                <ScrambleText text="Amazing projects compiled here" delay={2500} />
+                <a
+                  href="https://csgirlies.devpost.com/project-gallery"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-csgirlies-pink"
+                >
+                  <ScrambleText text="Amazing projects compiled here" delay={2500} />
+                </a>
               </p>
               <br />
               <p><ScrambleText text="Winners received:" delay={3500} /></p>
