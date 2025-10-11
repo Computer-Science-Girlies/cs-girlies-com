@@ -334,18 +334,18 @@ const HackathonRecap: React.FC = () => {
                 <ScrambleText text="Amazing projects compiled here" delay={2500} />
               </p>
               <br />
-              <p><ScrambleText text="Winners announced at:" delay={3500} /></p>
+              <p><ScrambleText text="Winners received:" delay={3500} /></p>
               <p>
-                - <span className="font-bold">1st:</span>   
-                <ScrambleText text="HealthMind AI - $5,000" delay={4000} />
+                - <span className="font-bold">1 </span>   
+                <ScrambleText text="Human Edge Winner - $500" delay={4000} />
               </p>
               <p>
                 - <span className="font-bold">2nd:</span>{' '}
-                <ScrambleText text="EmpathyBridge - $3,000" delay={4500} />
+                <ScrambleText text="3 Chaotic Genius Winners - $300" delay={4500} />
               </p>
               <p>
                 - <span className="font-bold">3rd:</span>{' '}
-                <ScrambleText text="LearnLoop AI - $2,000" delay={5000} />
+                <ScrambleText text="2 Most Viral - $200" delay={5000} />
               </p>
             </div>
           </Window>
