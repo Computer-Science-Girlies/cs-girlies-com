@@ -1,11 +1,13 @@
 
 import { Button } from "@/components/ui/button";
 import { LINKS } from "@/lib/constants";
+import PhotoMarquee, { GIRLIES_IMAGES } from "@/components/PhotoMarquee";
 
 const HeroSection = () => {
   return (
     <section className="bg-black min-h-screen flex items-center justify-center">
-      <div className="cs-container text-center">
+      <div className="cs-container text-center w-full">
+        <PhotoMarquee images={GIRLIES_IMAGES} direction="left" className="mb-16" />
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 animate-fade-in">
           Computer Science Girlies
         </h1>
@@ -19,6 +21,9 @@ const HeroSection = () => {
         >
           JOIN THE COMMUNITY!
         </Button>
+
+        <PhotoMarquee images={GIRLIES_IMAGES} direction="right" className="mt-16 mb-6" />
+
       </div>
     </section>
   );
