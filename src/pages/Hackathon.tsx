@@ -11,28 +11,29 @@ import { Button } from '@/components/ui/button';
 const pillData = {
   "Beginner Friendly": {
     title: "Beginner-Friendly 🌱",
-    description: "This hackathon is for the curious. \n \n Whether it’s your first time coding or your first time building with AI, we’ve got you. Expect mentorship, templates, and a community that actually cares. We’re beginner-inclusive — but not beginner-limited. Come as you are, build what only you can."
+    description: "First hackathon? Perfect. \n\n Mentors, templates, and a welcoming community are here to help you ship. Join, learn, and build something you’re proud of."
   },
-  "Build something weird": {
-    title: "Build Something Weird 🤪",
-    description: "Bring your unhinged ideas. \n \n This isn’t about polishing a pitch deck—it’s about soulful coding and intellectual exploration. \n \n Use tech in ways it “wasn’t meant to be used.” Surprise us. Confuse the robots. Make it unmistakably human."
+  "Find Teammates": {
+    title: "Find Teammates 🤝",
+    description: "Build with friends (up to 5 people per team) or go solo. \n\n After registering on Devpost, hop into our Discord and use the #fall25-make-a-team channel to meet other builders."
   },
   "Fully online": {
     title: "Fully Online 🌐",
-    description: "This is a *global* experience — and that’s exactly why it’s virtual. \n \n No flights, no barriers — just vibes, Wi-Fi, and worldwide connection. \n \n All communication, mentorship, and chaos will happen on our Discord server. So wherever you are, you’re right where you need to be."
+    description: "A 48-hour global hackathon — fully virtual. \n\n Ceremonies, workshops, mentorship, and community all run in Discord so you can join from anywhere."
   },
   "48 hours": {
     title: "48 Hours ⏰",
-    description: "You’ve got *exactly* 48 hours — from 5 PM EDT on November 14 to 5 PM EDT on November 16 — to take an idea from spark to prototype. \n \n Be fast. Get weird. Let your instincts lead. We don't want perfection, we want something human."
+    description: "Friday 12 PM EST → Sunday 12 PM EST. \n\n Build a scrappy, working prototype and submit on Devpost. It doesn’t have to be perfect — just impactful and thoughtful."
   },
-  "AI vs. H.I": {
-    title: "AI vs H.I. 🤖🧠",
-    description: "Can human intelligence still outshine artificial intelligence? This is your prompt. \n \n Build something that reveals the *human edge* — your instincts, your soul, your chaos, your care. \n \n Wanna learn more about the different tracks? Check out our Devpost page!"
+  "Tools 4 Students": {
+    title: "Tools 4 Students 🛠️",
+    description: "Theme: Tools 4 Students. \n\n Build creative tools that make learning more exciting and efficient — from smart study aids and automation to playful learning experiences and computational projects with Wolfram."
   }
 };
 
 const HackathonPage: React.FC = () => {
   const [selectedPill, setSelectedPill] = useState<string | null>(null);
+  const [isPrizeOpen, setIsPrizeOpen] = useState<boolean>(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -47,7 +48,7 @@ const HackathonPage: React.FC = () => {
         }}
       ></div>
       
-      <div className="relative md:h-[2800px] pt-4">
+      <div className="relative md:h-[2900px] pt-4">
         {/* Main Hackathon Window */}
         <div className="relative mb-8 md:absolute md:top-4 md:left-0 md:right-0 md:z-1">
           <div className="bg-gradient-to-b from-csgirlies-pink to-csgirlies-pink-dark border-2 border-csgirlies-pink rounded-lg shadow-lg">
@@ -68,14 +69,15 @@ const HackathonPage: React.FC = () => {
               </div>
             </div>
             <div className="text-center py-10 px-4">
-              <h1 className="font-righteous text-5xl md:text-9xl font-bold mb-4">HACKATHON</h1>
-              <p className="text-base md:text-xl">Can human intelligence still outshine artificial intelligence?</p>
+              <h1 className="font-righteous text-5xl md:text-9xl font-bold mb-4">Make Learning Fun</h1>
+              <p className="text-base md:text-xl">👩🏻‍🏫 Tools 4 Students ~ A Global Hackathon by CS Girlies</p>
+              <p className="text-sm md:text-lg mt-2">November 14 - 16, 2025 • Online • 48 Hours • Beginner-Friendly</p>
               <div className="mt-8 flex justify-center space-x-2 md:space-x-4 flex-wrap">
                 <Pill onClick={() => setSelectedPill("Beginner Friendly")}>Beginner Friendly</Pill>
-                <Pill onClick={() => setSelectedPill("Build something weird")}>Build something weird</Pill>
+                <Pill onClick={() => setSelectedPill("Find Teammates")}>Find Teammates</Pill>
                 <Pill onClick={() => setSelectedPill("Fully online")}>Fully online</Pill>
                 <Pill onClick={() => setSelectedPill("48 hours")}>48 hours</Pill>
-                <Pill onClick={() => setSelectedPill("AI vs. H.I")}>AI vs. H.I</Pill>
+                <Pill onClick={() => setSelectedPill("Tools 4 Students")}>Tools 4 Students</Pill>
               </div>
             </div>
           </div>
@@ -86,10 +88,10 @@ const HackathonPage: React.FC = () => {
           <Window title="Date.png">
             <div className="text-center py-4">
               <p className="font-righteous text-3xl md:text-4xl">join us online</p>
-              <p className="font-righteous text-5xl md:text-6xl my-2">14-16 November</p>
-              <a href="https://forms.csgirlies.com/hackathon-rsvp" target="_blank" rel="noopener noreferrer">
-                <button className="bg-csgirlies-pink-dark text-white text-bold text-xl md:text-2xl font-bold py-3 px-16 md:py-4 md:px-20 rounded-full mt-4 hover:bg-csgirlies-pink transition-all duration-300 transform hover:scale-105">
-                  Register
+              <p className="font-righteous text-5xl md:text-6xl my-2">Nov 14 – 16, 2025</p>
+              <a href="https://cs-girlies-november.devpost.com" target="_blank" rel="noopener noreferrer">
+                <button className="bg-csgirlies-pink-dark text-white text-bold text-xl md:text-2xl font-bold py-3 px-16 md:py-4 md:px-20 rounded-lg mt-4 hover:bg-csgirlies-pink transition-all duration-300 transform hover:scale-105">
+                  Register on Devpost
                 </button>
               </a>
             </div>
@@ -97,11 +99,11 @@ const HackathonPage: React.FC = () => {
         </div>
 
         {/* Terminal Window */}
-        <div className="relative mb-8 md:absolute md:top-[350px] md:left-[40%] md:right-8 md:z-3">
+        <div className="relative mb-8 md:absolute md:top-[460px] md:left-[40%] md:right-8 md:z-10">
           <Window title="📁 csgirlies-top-80x24">
             <div className="text-xs md:text-sm">
               <p className="text-gray-400">
-                <a href="https://forms.csgirlies.com/hackathon-rsvp" >
+                <a href="https://cs-girlies-november.devpost.com" >
                   <ScrambleText text="/** Click Me!! */" delay={100} />
                 </a>
               </p>
@@ -121,13 +123,13 @@ const HackathonPage: React.FC = () => {
               <p><ScrambleText text="App running at:" delay={3500} /></p>
               <p>
                 - <span className="font-bold">Local:</span>   
-                <a href="https://forms.csgirlies.com/hackathon-rsvp" className="text-blue-400 underline">
+                <a href="https://cs-girlies-november.devpost.com" className="text-blue-400 underline">
                   <ScrambleText text="localhost:8080" delay={4000} />
                 </a>
               </p>
               <p>
                 - <span className="font-bold">Network:</span>{' '}
-                <a href="https://forms.csgirlies.com/hackathon-rsvp" className="text-blue-400 underline">
+                <a href="https://cs-girlies-november.devpost.com" className="text-blue-400 underline">
                   <ScrambleText text="192.168.1.42:8080" delay={4500} />
                 </a>
               </p>
@@ -151,80 +153,52 @@ const HackathonPage: React.FC = () => {
         </div>
 
         {/* About Text Window */}
-        <div className="relative mb-8 md:absolute md:top-[850px] md:left-[39%] md:right-[12%] md:z-30">
+        <div className="relative mb-8 md:absolute md:top-[820px] md:left-[49%] md:right-[1%] md:z-30">
           <Window title="About.txt">
-            <h2 className="font-righteous text-xl md:text-2xl mb-4">CS Girlies are hosting our first<br/>GLOBAL HACKATHON!!</h2>
-            <p className="mb-2 text-sm md:text-base">Your mission?</p>
-            <p className="mb-2 text-sm md:text-base">Build something weird.</p>
-            <p className="mb-2 text-sm md:text-base">Build something from sheer curiosity.</p>
-            <p className="mb-12 text-sm md:text-base">Build something unmistakably human.</p>
+            <h2 className="font-righteous text-xl md:text-2xl mb-4">CS Girlies November Hackathon — Make Learning Fun!</h2>
+            <p className="mb-4 text-sm md:text-base">A 48-hour global hackathon where you’ll build creative tools that help students become lifelong learners.</p>
+            <p className="mb-4 text-sm md:text-base">Beginner-friendly, fully online, and open worldwide.</p>
+            <p className="mb-6 text-sm md:text-base">Theme: <span className="font-bold">Tools 4 Students</span> — from smart study tools and automations to playful learning experiences and computational projects with Wolfram.</p>
+            <p className="mb-6 text-sm md:text-base text-center">
+             Your goal?? MAKE LEARNING FUN!!! 🙂
+            </p>
           </Window>
         </div>
 
-        {/* What is a Hackathon Window */}
+        {/* How to Join Window */}
         <div className="relative mb-8 md:absolute md:top-[1600px] md:left-[1%] md:w-[60%] md:z-20">
-          <Window title="What_is_a_hackathon.txt">
+          <Window title="How_to_Join.txt">
             <div className="py-3">
-              <h3 className="font-righteous text-lg md:text-xl mb-2">What is a hackathon? 🤔</h3>
-              <p className="text-sm md:text-base mb-3">A hackathon is a time-bound event where people come together to build creative tech projects—usually in teams, often in just 24 to 48 hours. </p>
-              <p className="text-sm md:text-base mb-3">It’s a mix of coding, problem-solving, and rapid experimentation. </p>
-              <p className="text-sm md:text-base mb-3">You don’t need to be an expert—just bring an idea, your curiosity, and a willingness to learn.</p>
+              <h3 className="font-righteous text-lg md:text-xl mb-2">How to Join 🤔</h3>
+              <p className="text-sm md:text-base mb-2">1. Register on Devpost — this is the only way to enter.</p>
+              <p className="text-sm md:text-base mb-2">2. Join our Discord for ceremonies, workshops, mentorship, and community!!</p>
+              <p className="text-sm md:text-base">Note: We won’t match teams for you, but our <span className="font-bold">#fall25-make-a-team</span> channel will help you connect.</p>
             </div>
           </Window>
         </div>
 
         {/* Tracks Window */}
-        <div className="relative mb-8 md:absolute md:top-[1840px] md:left-[45%] md:right-[8%] md:z-29">
+        <div className="relative mb-8 md:absolute md:top-[1880px] md:left-[45%] md:right-[5%] md:z-29">
           <Window title="Tracks.md">
             <div className="py-4">
-              <h3 className="font-righteous text-lg md:text-xl mb-4">Three Tracks 🛤️</h3>
-              
+              <h3 className="font-righteous text-lg md:text-xl text-center mb-8">Tracks 🛤️</h3>
               <div className="mb-4">
-                <h4 className="font-black text-sm md:text-base mb-2">🧠 Push the Limits: Beyond Automation</h4>
-                <p className="text-xs md:text-sm mb-2">Explore what AI thinks it can do... and improve it where it still fumbles. Build tools that decode messy human moments or solve oddly specific problems AI gets hilariously wrong.</p>
+                <h4 className="font-black text-sm md:text-base mb-2">🧠 Automate Learning: Build Smarter Study Tools</h4>
+                <p className="text-xs md:text-sm mb-6">Use AI to make learning faster and more personal. Automate note‑taking, feedback, quiz creation, or skill tracking.</p>
               </div>
-              
               <div className="mb-4">
-                <h4 className="font-black text-sm md:text-base mb-2">✨ Make Anything, But Make it YOU</h4>
-                <p className="text-xs md:text-sm mb-2">For soulful builders and curious newbies. Make whatever you want—a journaling bot that cries with you, a playlist generator that feels your mood. The only rule? Make it unmistakably YOU.</p>
+                <h4 className="font-black text-sm md:text-base mb-2">🎮 Make Learning Fun: Gamify the Journey</h4>
+                <p className="text-xs md:text-sm mb-6">Create interactive experiences, storytelling-based courses, or challenges that turn curiosity into play.</p>
               </div>
-              
               <div className="mb-2">
-                <h4 className="font-black text-sm md:text-base mb-2">🌟 The Creative Strand: Collaborate with the Machine</h4>
-                <p className="text-xs md:text-sm">Co-create with AI in ways that feel artful, eerie, emotional, or explosive. Blur the line between machine and muse while keeping humanity first.</p>
+                <h4 className="font-black text-sm md:text-base mb-2">🔴 Build with Wolfram: Harness Computational Intelligence</h4>
+                <p className="text-xs md:text-sm mb-6">Explore data, visualization, and computation using Wolfram tools — from math modeling to AI‑enhanced simulations.</p>
               </div>
             </div>
           </Window>
         </div>
 
-        {/* FAQ Window */}
-        <div className="relative mb-8 md:absolute md:top-[2280px] md:left-[8%] md:w-[80%] md:z-30">
-          <Window title="FAQ.txt">
-            <div className="py-4">
-              <h3 className="font-righteous text-lg md:text-xl mb-4">FAQ 💭</h3>
-              
-              <div className="mb-3">
-                <h4 className="font-black text-sm md:text-base mb-1">Do I need to know how to code?</h4>
-                <p className="text-xs md:text-sm">Nope! This is beginner-inclusive. We have mentors, templates, and a community that actually cares. Come as you are.</p>
-              </div>
-              
-              <div className="mb-3">
-                <h4 className="font-black text-sm md:text-base mb-1">Can I work alone?</h4>
-                <p className="text-xs md:text-sm">Absolutely! Solo builders are welcome. Teams of up to 4 people are also allowed.</p>
-              </div>
-              
-              <div className="mb-3">
-                <h4 className="font-black text-sm md:text-base mb-1">What do I win?</h4>
-                <p className="text-xs md:text-sm">$1000+ in cash and prizes! Plus bragging rights and potential connections with our amazing community.</p>
-              </div>
-              
-              <div className="mb-3">
-                <h4 className="font-black text-sm md:text-base mb-1">How do I submit?</h4>
-                <p className="text-xs md:text-sm">All submissions happen through our Devpost page. You'll have until 5 PM EDT on November 16 to submit.</p>
-              </div>
-            </div>
-          </Window>
-        </div>
+      
 
         {/* Beginner Resources Window */}
         <div className="relative mb-8 md:absolute md:top-[1950px] md:left-[3%] md:w-[30%] md:z-15">
@@ -242,19 +216,107 @@ const HackathonPage: React.FC = () => {
         </div>
 
         {/* Prizes Window */}
-        <div className="relative mb-8 md:absolute md:top-[1300px] md:left-[50%] md:right-[5%] md:z-5">
+        <div className="relative mb-8 md:absolute md:top-[1320px] md:left-[50%] md:right-[5%] md:z-5">
           <Window title="Prizes.gif">
             <div className="text-center py-8">
               <h3 className="font-righteous text-3xl md:text-4xl mb-4">🏆   Prizes  💰</h3>
-              <CasinoCounter target={1000} />
+              <CasinoCounter target={4660} />
               <p className="font-righteous text-2xl md:text-3xl mt-4">in cash and prizes</p>
+
+              <button
+                type="button"
+                onClick={() => setIsPrizeOpen(true)}
+                className="mt-4 inline-flex items-center px-5 py-2 rounded-full bg-csgirlies-pink-dark hover:bg-csgirlies-pink text-white font-bold text-sm md:text-base transition-all duration-300 transform hover:scale-105"
+              >
+                Prize Breakdown
+              </button>
             </div>
           </Window>
         </div>
 
       </div>
-      <Footer className="relative z-50" />
+       
+
+      <div className="relative mx-auto md:absolute md:top-[2400px] w-full md:w-[95%] mb-12 px-2 ">
+        <Window title="Sponsors.png" className="bg-gradient-to-b from-csgirlies-pink to-csgirlies-pink-dark border-2">
+          <div className="py-6 text-center">
+            <h3 className="font-righteous text-lg md:text-4xl mb-2">✨ Sponsors ✨</h3>
+            <div className="flex flex-wrap items-center justify-center gap-2">
+              <a href="https://letsdefend.io" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
+                <img src="public/sponsors/lets-defend.png" alt="Let's Defend" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
+              </a>
+              <a href="https://www.gitbook.com" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
+                <img src="public/sponsors/gitbook.png" alt="GitBook" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
+              </a>
+              <a href="https://www.wolfram.com" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
+                <img src="public/sponsors/wolfram-rect.png" alt="Wolfram" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
+              </a>
+            </div>
+            <p className="text-sm md:text-lg text-gray-300 mt-3">Want to sponsor? <a href="/sponsorship" className="underline">Learn more</a>.</p>
+          </div>
+        </Window>
+      </div>
+
+      <div className="-mx-4 md:-mx-8">
+        <Footer className="relative z-50 w-full" />
+      </div>
       
+      <Dialog open={isPrizeOpen} onOpenChange={() => setIsPrizeOpen(false)}>
+        <DialogContent className="bg-black border-2 border-csgirlies-pink text-white font-roboto-mono sm:max-w-[720px]">
+          <DialogHeader>
+            <DialogTitle className="text-csgirlies-pink font-righteous text-2xl">Prize Breakdown</DialogTitle>
+            <DialogDescription className="text-white text-base">All prizes and details for this hackathon</DialogDescription>
+          </DialogHeader>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-csgirlies-pink/40 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+              <div className="flex items-center justify-between">
+                <h4 className="font-righteous text-lg">🏆 ~ Overall Winner ~🏆</h4>
+                <span className="text-csgirlies-pink font-bold">$1,000</span>
+              </div>
+              <p className="text-sm text-gray-200 italic">1 winner</p>
+              <p className="text-sm text-gray-200 mt-1">Winners will also receive a 1 month VIP voucher to Let's Defend!</p>
+            </div>
+
+            <div className="rounded-lg border border-csgirlies-pink/40 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+              <div className="flex items-center justify-between">
+                <h4 className="font-righteous text-lg">🥈 ~ Overall Runner Up ~🥈</h4>
+                <span className="text-csgirlies-pink font-bold">$250</span>
+              </div>
+              <p className="text-sm text-gray-200 italic">2 winners</p>
+              <p className="text-sm text-gray-200 mt-1">Winners will also receive a 1 month VIP voucher to Let's Defend!</p>
+            </div>
+
+            <div className="rounded-lg border border-csgirlies-pink/40 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+              <div className="flex items-center justify-between">
+                <h4 className="font-righteous text-lg">📑 ~ Best Documentation (Sponsored by Gitbook)</h4>
+                <span className="text-csgirlies-pink font-bold">$500</span>
+              </div>
+              <p className="text-sm text-gray-200 italic">3 winners</p>
+              <p className="text-sm text-gray-200 mt-1">$500 Cash prize for best documentation using <a href="https://gitbook.com" target="_blank" rel="noopener noreferrer" className="underline">Gitbook</a>!</p>
+            </div>
+
+            
+
+            <div className="rounded-lg border border-csgirlies-pink/40 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+              <div className="flex items-center justify-between">
+                <h4 className="font-righteous text-lg">Built with Wolfram</h4>
+                <span className="text-csgirlies-pink font-bold">$1,660 worth</span>
+              </div>
+              <p className="text-sm text-gray-200 italic">1 winner</p>
+              <div className="text-sm text-gray-200 mt-1 space-y-1">
+                <p>The Wolfram Award contains a year of Wolfram 1 with a retail value of $1,660 per year per user!!!</p>
+                <p className="font-bold">All participants who utilize Wolfram language as a significant component in their project will be awarded this prize.</p>
+                <p>Any student who submits a project utilizing Wolfram language is eligible for a $500 scholarship to one of their summer programs if they apply and are accepted.</p>
+                <p className="italic text-gray-300">Note: This is not a cash award.</p>
+              </div>
+            </div>
+          </div>
+          <DialogFooter>
+            <Button onClick={() => setIsPrizeOpen(false)} className="bg-csgirlies-pink-dark hover:bg-csgirlies-pink text-white font-bold">Close</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
       {/* Popup Dialog */}
       <Dialog open={selectedPill !== null} onOpenChange={() => setSelectedPill(null)}>
         <DialogContent className="bg-black border-2 border-csgirlies-pink text-white font-roboto-mono">
@@ -282,7 +344,7 @@ const HackathonPage: React.FC = () => {
               </Button>
             )}
             <Button 
-              onClick={() => window.open('https://csgirlies.devpost.com', '_blank')}
+              onClick={() => window.open('https://cs-girlies-november.devpost.com', '_blank')}
               className="bg-csgirlies-pink hover:bg-csgirlies-pink-dark text-white font-bold"
             >
               Learn More on Devpost

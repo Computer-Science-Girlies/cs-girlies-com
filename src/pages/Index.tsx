@@ -5,6 +5,7 @@ import WhatWeDoSection from "@/components/WhatWeDoSection";
 import SocialMediaStats from "@/components/SocialMediaStats";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import HackathonPromo from "@/components/HackathonPromo";
+import NovemberHackathonPromo from "@/components/NovemberHackathonPromo";
 import WinsCarousel from "@/components/WinsCarousel";
 import EventsSection from "@/components/EventsSection";
 import OurStorySection from "@/components/OurStorySection";
@@ -21,6 +22,7 @@ const Index = () => {
       <StatsSection />
       <WhatWeDoSection />
       <SocialMediaStats />
+      <NovemberHackathonPromo />
       <HackathonPromo />
       <QuoteSection />
       <WinsCarousel />
