@@ -36,7 +36,7 @@ const SponsorshipPage: React.FC = () => {
                 </div>
               </div>
               <div className="text-center py-10 px-4">
-                <h1 className="font-righteous text-5xl md:text-7xl font-bold mb-2"> AI vs H.I. Hackathon</h1>
+                <h1 className="font-righteous text-5xl md:text-7xl font-bold mb-2"> CS Girlies Hackathon</h1>
                 <p className="text-xl md:text-2xl text-white mb-4">Sponsor Perks & Packages</p>
                 <p className="text-lg md:text-xl mb-8">november 14-16, 2025 | 48 hrs | global + virtual</p>
                 <p className="text-base md:text-lg">an intellectual exploration hosted by CS Girlies</p>
@@ -55,147 +55,117 @@ const SponsorshipPage: React.FC = () => {
 
           <div className="mt-16">
             <Window title="Sponsorship Tiers">
-              <div className="overflow-x-auto">
-                <table className="min-w-full divide-y divide-gray-700">
-                  <thead className="bg-black border-b-2 border-csgirlies-pink">
-                    <tr>
-                      <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-white sm:pl-6">Perks</th>
-                      <th scope="col" className="px-3 py-3.5 text-center text-sm font-semibold text-csgirlies-pink">🧃 Human Sponsor ($500)</th>
-                      <th scope="col" className="px-3 py-3.5 text-center text-sm font-semibold text-csgirlies-pink">🌐 Global Signal ($1K)</th>
-                      <th scope="col" className="px-3 py-3.5 text-center text-sm font-semibold text-csgirlies-pink">🪩 Unmistakably Human ($2.5K)</th>
-                      <th scope="col" className="px-3 py-3.5 text-center text-sm font-semibold text-csgirlies-pink">🧠 Intellectual Rebel ($5K)</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-700 bg-black">
-                    <tr className="bg-gradient-to-r from-csgirlies-pink to-csgirlies-pink-dark">
-                      <td colSpan={5} className="py-2 pl-4 pr-3 text-left text-sm font-semibold text-black sm:pl-6">Recruiting</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Resume Book Access</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Coffee Chat Interest Form</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">Priority matching</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Host a Pre-Event Workshop</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
+              <div className="space-y-6">
+                <div className="rounded-lg border border-csgirlies-pink/50 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <h3 className="font-righteous text-xl">👭 ~ Community Sponsor ($500)</h3>
+                      <p className="text-sm text-gray-300">Show your support, spark curiosity.</p>
+                    </div>
+                    <div className="text-csgirlies-pink font-bold whitespace-nowrap">$500</div>
+                  </div>
+                  <p className="text-sm mt-3 text-gray-200">Perfect for indie teams or small orgs supporting women in tech.</p>
+                  <ul className="list-disc pl-6 mt-2 space-y-1 text-sm text-gray-100">
+                    <li>Logo on website & Devpost</li>
+                    <li>Mention in grouped email</li>
+                    <li>Featured in <Link to="/hackathon-resources" className="underline">hacker starter pack</Link></li>
+                    <li>Sponsor a prize!!</li>
+                  </ul>
+                </div>
 
-                    <tr className="bg-gradient-to-r from-csgirlies-pink to-csgirlies-pink-dark">
-                      <td colSpan={5} className="py-2 pl-4 pr-3 text-left text-sm font-semibold text-black sm:pl-6">Marketing</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Logo on Website & Devpost</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">Premium placement</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Social Media Promo</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">1x story</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">1x post + story</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">Custom campaign</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Email Mention</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">Grouped</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">Grouped</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">Dedicated</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">Featured placement</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Dedicated Slack Channel</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Opening Ceremony Shoutout</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">Group mention</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">1 min</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">2 min</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">5 min</td>
-                    </tr>
+                <div className="rounded-lg border border-csgirlies-pink/50 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <h3 className="font-righteous text-xl">🤝 ~ Growth Sponsor ($1K)</h3>
+                      <p className="text-sm text-gray-300">Boost your reach and meet rising talent.</p>
+                    </div>
+                    <div className="text-csgirlies-pink font-bold whitespace-nowrap">$1,000</div>
+                  </div>
+                  <p className="text-sm mt-3 text-gray-200">For brands building awareness with future innovators.</p>
+                  <ul className="list-disc pl-6 mt-2 space-y-1 text-sm text-gray-100">
+                    <li>Everything in Community Sponsor, plus:</li>
+                    <li>Resume book access (if you request it)</li>
+                    <li>Coffee chat interest form</li>
+                    <li>Social media story promo + grouped Sponsor post</li>
+                  </ul>
+                </div>
 
-                    <tr className="bg-gradient-to-r from-csgirlies-pink to-csgirlies-pink-dark">
-                      <td colSpan={5} className="py-2 pl-4 pr-3 text-left text-sm font-semibold text-black sm:pl-6">Technology & Challenge Sponsorship</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Sponsor a Prize</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Feature in Hacker Starter Pack</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Host a Mini-Challenge or Side Quest</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">API Workshop or Tech Demo</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Present Prize on Final Ceremony Stream</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
+                <div className="rounded-lg border border-csgirlies-pink/50 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <h3 className="font-righteous text-xl">🌟 ~ Impact Sponsor ($2.5K)</h3>
+                      <p className="text-sm text-gray-300">Put your brand at the center of the story.</p>
+                    </div>
+                    <div className="text-csgirlies-pink font-bold whitespace-nowrap">$2,500</div>
+                  </div>
+                  <p className="text-sm mt-3 text-gray-200">For companies ready to connect deeper with our community, reach more talent and get more visibility.</p>
+                  <ul className="list-disc pl-6 mt-2 space-y-1 text-sm text-gray-100">
+                    <li>Everything above, plus:</li>
+                    <li>Host a pre-event workshop</li>
+                    <li>Have a rep within our Discord</li>
+                    <li>Participate in judging</li>
+                    <li>Spotlight social post + story</li>
+                    <li>Opening ceremony shoutout + promo</li>
+                    <li>Option to have your own track within the hackathon</li>
+                  </ul>
+                </div>
 
-                    <tr className="bg-gradient-to-r from-csgirlies-pink to-csgirlies-pink-dark">
-                      <td colSpan={5} className="py-2 pl-4 pr-3 text-left text-sm font-semibold text-black sm:pl-6">Community Integration</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Participate in Judging</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Invite to Discord Server</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                    </tr>
-                    <tr>
-                      <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-6">Join “Meet the Sponsors” Community Call</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">—</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">✔️</td>
-                      <td className="whitespace-nowrap px-3 py-4 text-sm text-white text-center">Priority feature</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div className="rounded-lg border border-csgirlies-pink/50 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <h3 className="font-righteous text-xl">🏆 ~ Premier Sponsor ($5K)</h3>
+                      <p className="text-sm text-gray-300">Own the spotlight and shape the narrative!!!</p>
+                    </div>
+                    <div className="text-csgirlies-pink font-bold whitespace-nowrap">$5,000</div>
+                  </div>
+                  <p className="text-sm mt-3 text-gray-200">For visionary brands redefining community and learning in technology.</p>
+                  <ul className="list-disc pl-6 mt-2 space-y-1 text-sm text-gray-100">
+                    <li>Everything above, plus:</li>
+                    <li>Premium logo placement</li>
+                    <li>3 Social Media spotlight posts!!</li>
+                    <li>Option to request tweaks to the overall hackathon</li>
+                    <li>Option to present prize on live stream</li>
+                  </ul>
+                </div>
+              </div>
+            </Window>
+          </div>
+
+          <div className="mt-8">
+            <Window title="What You Get — By Outcome">
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="rounded-lg border border-csgirlies-pink/40 p-4">
+                  <h4 className="font-righteous text-lg mb-2">🌟 Visibility & Brand Reach</h4>
+                  <ul className="list-disc pl-6 text-sm space-y-1 text-gray-100">
+                    <li>Logo on website & Devpost (premium at Premier)</li>
+                    <li>Social media promo (story → post + story → custom campaign)</li>
+                    <li>Featured email placement (Premier)</li>
+                  </ul>
+                </div>
+                <div className="rounded-lg border border-csgirlies-pink/40 p-4">
+                  <h4 className="font-righteous text-lg mb-2">💬 Engagement & Community Access</h4>
+                  <ul className="list-disc pl-6 text-sm space-y-1 text-gray-100">
+                    <li>Have a rep within our Discord (Impact+)</li>
+                    <li>Dedicated Slack channel (Impact+)</li>
+                    <li>2-min ceremony shoutout (Impact+)</li>
+                  </ul>
+                </div>
+                <div className="rounded-lg border border-csgirlies-pink/40 p-4">
+                  <h4 className="font-righteous text-lg mb-2">💻 Talent & Recruiting</h4>
+                  <ul className="list-disc pl-6 text-sm space-y-1 text-gray-100">
+                    <li>Resume book access (Growth+)</li>
+                    <li>Coffee chat interest form (Growth+, priority at Premier)</li>
+                    <li>Participate in judging (Impact+)</li>
+                  </ul>
+                </div>
+                <div className="rounded-lg border border-csgirlies-pink/40 p-4">
+                  <h4 className="font-righteous text-lg mb-2">🏆 Tech & Challenge Integration</h4>
+                  <ul className="list-disc pl-6 text-sm space-y-1 text-gray-100">
+                    <li>Feature in <Link to="/hackathon-resources" className="underline">hacker starter pack</Link></li>
+                    <li>Host a pre-event workshop (Impact+)</li>
+                    <li>Present prize on live stream (Premier)</li>
+                  </ul>
+                </div>
               </div>
             </Window>
           </div>

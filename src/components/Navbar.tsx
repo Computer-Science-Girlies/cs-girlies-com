@@ -49,8 +49,8 @@ const Navbar = ({ className }: NavbarProps) => {
                   <Link to="/resources" className="font-medium text-white text-lg hover:text-csgirlies-pink transition-colors">
                     RESOURCES
                   </Link>
-                  <Link to="/our-story" className="font-medium text-white text-lg hover:text-csgirlies-pink transition-colors">
-                    OUR STORY
+                  <Link to="/hackathon" className="font-medium text-white text-lg hover:text-csgirlies-pink transition-colors">
+                    HACKATHON!!
                   </Link>
                 </nav>
               </div>
@@ -81,8 +81,8 @@ const Navbar = ({ className }: NavbarProps) => {
               <Link to="/resources" className="font-medium text-white text-lg hover:text-csgirlies-pink transition-colors">
                 RESOURCES
               </Link>
-              <Link to="/our-story" className="font-medium text-white text-lg hover:text-csgirlies-pink transition-colors">
-                OUR STORY
+              <Link to="/hackathon" className="font-medium text-white text-lg hover:text-csgirlies-pink transition-colors">
+                HACKATHON!!
               </Link>
             </div>
           </>
