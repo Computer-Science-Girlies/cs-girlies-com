@@ -243,13 +243,13 @@ const HackathonPage: React.FC = () => {
             <h3 className="font-righteous text-lg md:text-4xl mb-2">✨ Sponsors ✨</h3>
             <div className="flex flex-wrap items-center justify-center gap-2">
               <a href="https://letsdefend.io" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
-                <img src="public/sponsors/lets-defend.png" alt="Let's Defend" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
+                <img src="@/sponsors/lets-defend.png" alt="Let's Defend" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
               </a>
               <a href="https://www.gitbook.com" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
-                <img src="public/sponsors/gitbook.png" alt="GitBook" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
+                <img src="@/sponsors/gitbook.png" alt="GitBook" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
               </a>
               <a href="https://www.wolfram.com" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
-                <img src="public/sponsors/wolfram-rect.png" alt="Wolfram" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
+                <img src="@/sponsors/wolfram-rect.png" alt="Wolfram" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
               </a>
             </div>
             <p className="text-sm md:text-lg text-gray-300 mt-3">Want to sponsor? <a href="/sponsorship" className="underline">Learn more</a>.</p>
