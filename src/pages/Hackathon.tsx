@@ -161,7 +161,7 @@ const HackathonPage: React.FC = () => {
             <p className="mb-4 text-sm md:text-base">Beginner-friendly, fully online, and open worldwide.</p>
             <p className="mb-6 text-sm md:text-base">Theme: <span className="font-bold">Tools 4 Students</span> — from smart study tools and automations to playful learning experiences and computational projects with Wolfram.</p>
             <p className="mb-6 text-sm md:text-base text-center">
-             Your goal?? MAKE LEARNING FUN!!! 🙂
+             Your goal?? MAKE LEARNING FUN!!! 🥳
             </p>
           </Window>
         </div>
