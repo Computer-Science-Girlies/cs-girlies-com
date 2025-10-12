@@ -8,6 +8,7 @@ const StatsSection = () => {
     <section className="bg-black py-16 md:py-24">
       <div className="cs-container">
         <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center px-6 py-4 md:py-6 md:px-8">
+          
           {isLoading ? (
             <span className="inline-block">
               <span className="text-csgirlies-pink text-6xl">
@@ -18,6 +19,7 @@ const StatsSection = () => {
           ) : (
             <span className="text-csgirlies-pink">{formattedCount}</span>
           )} Community Members
+
         </h2>
       </div>
     </section>

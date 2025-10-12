@@ -93,6 +93,51 @@
     @apply bg-csgirlies-pink text-white font-bold py-3 px-8 uppercase tracking-wide inline-block hover:bg-csgirlies-pink-dark transition-colors duration-300;
   }
   
+  .cs-retro-button {
+    @apply relative bg-csgirlies-pink text-black font-bold uppercase tracking-wider inline-block;
+    padding: 1.5rem 3rem;
+    border: 2px solid #d14967;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #ffa5b9, #FF6384, #d14967);
+    box-shadow: 
+      /* Top-left highlight */
+      inset 4px 4px 8px rgba(255, 255, 255, 0.3),
+      /* Bottom-right shadow */
+      inset -4px -4px 8px rgba(0, 0, 0, 0.3),
+      /* Outer shadow for depth */
+      0 8px 16px rgba(0, 0, 0, 0.4),
+      /* Subtle glow */
+      0 0 8px rgba(255, 99, 132, 0.3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+    transform: scale(1);
+  }
+  
+  .cs-retro-button:hover {
+    transform: translateY(-4px) scale(1.15);
+    box-shadow: 
+      /* Enhanced inner highlights/shadows on hover */
+      inset 3px 3px 6px rgba(255, 255, 255, 0.4),
+      inset -3px -3px 6px rgba(0, 0, 0, 0.4),
+      /* Larger outer shadow when lifted */
+      0 16px 24px rgba(0, 0, 0, 0.5),
+      /* Brighter glow on hover */
+      0 0 16px rgba(255, 99, 132, 0.5);
+  }
+  
+  .cs-retro-button:active {
+    transform: translateY(-2px) scale(1.1);
+    box-shadow: 
+      /* Pressed effect - reverse the highlights */
+      inset -2px -2px 4px rgba(255, 255, 255, 0.2),
+      inset 2px 2px 4px rgba(0, 0, 0, 0.4),
+      /* Smaller shadow when pressed */
+      0 8px 12px rgba(0, 0, 0, 0.4),
+      0 0 8px rgba(255, 99, 132, 0.3);
+  }
+  
   .cs-section {
     @apply py-16 md:py-24;
   }
@@ -115,5 +160,48 @@
   
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background-color: #ec4899;
+  }
+  
+  /* Retro button animations */
+  @keyframes retro-glow {
+    0% {
+      box-shadow: 0 0 20px rgba(255, 99, 132, 0.5), inset 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    100% {
+      box-shadow: 0 0 40px rgba(255, 99, 132, 0.8), inset 0 0 30px rgba(255, 255, 255, 0.2);
+    }
+  }
+  
+  @keyframes retro-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes border-glow {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes shine {
+    0% {
+      transform: translateX(-100%) rotate(45deg);
+    }
+    100% {
+      transform: translateX(300%) rotate(45deg);
+    }
   }
 }

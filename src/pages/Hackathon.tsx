@@ -23,7 +23,7 @@ const pillData = {
   },
   "48 hours": {
     title: "48 Hours ⏰",
-    description: "You’ve got *exactly* 48 hours — from 5 PM EDT on July 25 to 5 PM EDT on July 27 — to take an idea from spark to prototype. \n \n Be fast. Get weird. Let your instincts lead. We don't want perfection, we want something human."
+    description: "You’ve got *exactly* 48 hours — from 5 PM EDT on November 14 to 5 PM EDT on November 16 — to take an idea from spark to prototype. \n \n Be fast. Get weird. Let your instincts lead. We don't want perfection, we want something human."
   },
   "AI vs. H.I": {
     title: "AI vs H.I. 🤖🧠",
@@ -81,12 +81,12 @@ const HackathonPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Date Window - Second on mobile, positioned for desktop */}
+        {/* Date Window - Second on mobile, positioned for desktop */}  
         <div className="relative mb-8 md:absolute md:top-[1100px] md:left-16 md:w-[40%] md:z-40">
           <Window title="Date.png">
             <div className="text-center py-4">
               <p className="font-righteous text-3xl md:text-4xl">join us online</p>
-              <p className="font-righteous text-5xl md:text-6xl my-2">25-27 July</p>
+              <p className="font-righteous text-5xl md:text-6xl my-2">14-16 November</p>
               <a href="https://forms.csgirlies.com/hackathon-rsvp" target="_blank" rel="noopener noreferrer">
                 <button className="bg-csgirlies-pink-dark text-white text-bold text-xl md:text-2xl font-bold py-3 px-16 md:py-4 md:px-20 rounded-full mt-4 hover:bg-csgirlies-pink transition-all duration-300 transform hover:scale-105">
                   Register
@@ -220,7 +220,7 @@ const HackathonPage: React.FC = () => {
               
               <div className="mb-3">
                 <h4 className="font-black text-sm md:text-base mb-1">How do I submit?</h4>
-                <p className="text-xs md:text-sm">All submissions happen through our Devpost page. You'll have until 5 PM EDT on July 27 to submit.</p>
+                <p className="text-xs md:text-sm">All submissions happen through our Devpost page. You'll have until 5 PM EDT on November 16 to submit.</p>
               </div>
             </div>
           </Window>

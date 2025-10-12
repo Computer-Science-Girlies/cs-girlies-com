@@ -78,6 +78,14 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			keyframes: {
+				'blink': {
+					'0%, 50%': {
+						opacity: '1'
+					},
+					'51%, 100%': {
+						opacity: '0'
+					}
+				},
 				'accordion-down': {
 					from: {
 						height: '0'
@@ -111,13 +119,41 @@ export default {
 					'100%': {
 						transform: 'translateX(0)'
 					}
+				},
+				'shimmer': {
+					'0%': {
+						backgroundPosition: '0% 50%'
+					},
+					'100%': {
+						backgroundPosition: '200% 50%'
+					}
+				},
+				'marquee-left': {
+					'0%': {
+						transform: 'translateX(0)'
+					},
+					'100%': {
+						transform: 'translateX(-50%)'
+					}
+				},
+				'marquee-right': {
+					'0%': {
+						transform: 'translateX(-50%)'
+					},
+					'100%': {
+						transform: 'translateX(0)'
+					}
 				}
 			},
 			animation: {
+				'blink': 'blink 1s infinite',
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out forwards',
-				'slide-in': 'slide-in 0.5s ease-out forwards'
+				'slide-in': 'slide-in 0.5s ease-out forwards',
+				'shimmer': 'shimmer 3s linear infinite',
+				'marquee-left': 'marquee-left var(--marquee-duration, 30s) linear infinite',
+				'marquee-right': 'marquee-right var(--marquee-duration, 30s) linear infinite'
 			},
 			fontFamily: {
 				righteous: ['Righteous', 'cursive'],
