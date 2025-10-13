@@ -86,7 +86,7 @@ const HackathonPage: React.FC = () => {
 
         {/* Date Window - Second on mobile, positioned for desktop */}  
         <div className="relative mb-8 md:absolute md:top-[1100px] md:left-16 md:w-[40%] md:z-40">
-          <Window title="Date.png">
+          <Window title="Register-down-here.png">
             <div className="text-center py-4">
               <p className="font-righteous text-3xl md:text-4xl">join us online</p>
               <p className="font-righteous text-5xl md:text-6xl my-2">Nov 14 – 16, 2025</p>
