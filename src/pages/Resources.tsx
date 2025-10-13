@@ -37,10 +37,11 @@ const resourcesData = [
   {
     "category": "Portfolio & Hosting",
     "resources": [
+
       {
-        "title": "GitHub Pages",
-        "description": "Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.",
-        "url": "https://pages.github.com/",
+        "title": "How to host a website for free on GitHub Pages",
+        "description": "Step-by-step guide to deploy a website for free with GitHub Pages.",
+        "url": "https://github.com/Computer-Science-Girlies/cs-girlies-guides/blob/main/HOSTING_GUIDE.md",
         "author": "@laura"
       },
       {
