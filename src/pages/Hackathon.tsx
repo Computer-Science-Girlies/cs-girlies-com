@@ -11,7 +11,7 @@ import { Button } from '@/components/ui/button';
 const pillData = {
   "Beginner Friendly": {
     title: "Beginner-Friendly 🌱",
-    description: "First hackathon? Perfect. \n\n Mentors, templates, and a welcoming community are here to help you ship. Join, learn, and build something you’re proud of."
+    description: "First hackathon? Perfect. \n\n Mentors, ideas, and a welcoming community are here to help you ship. Join, learn, and build something you’re proud of."
   },
   "Find Teammates": {
     title: "Find Teammates 🤝",
@@ -70,7 +70,7 @@ const HackathonPage: React.FC = () => {
               </div>
             </div>
             <div className="text-center py-10 px-4">
-              <h1 className="font-righteous text-5xl md:text-9xl font-bold mb-4">Make Learning Fun</h1>
+              <h1 className="font-righteous text-5xl md:text-7xl font-bold mb-4">Make Learning Cool Again!</h1>
               <p className="text-base md:text-xl">👩🏻‍🏫 Tools 4 Students ~ A Global Hackathon by CS Girlies</p>
               <p className="text-sm md:text-lg mt-2">November 14 - 16, 2025 • Online • 48 Hours • Beginner-Friendly</p>
               <div className="mt-8 flex justify-center space-x-2 md:space-x-4 flex-wrap">
