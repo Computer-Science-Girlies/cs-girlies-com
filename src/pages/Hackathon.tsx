@@ -53,11 +53,13 @@ const HackathonPage: React.FC = () => {
         <div className="relative mb-8 md:absolute md:top-4 md:left-0 md:right-0 md:z-1">
           <div className="bg-gradient-to-b from-csgirlies-pink to-csgirlies-pink-dark border-2 border-csgirlies-pink rounded-lg shadow-lg">
             <div className="bg-black text-gray-400 px-4 py-2 flex items-center justify-between rounded-t-md">
-              <div className="flex items-center space-x-4 overflow-x-auto">
+              <div className="flex items-center space-x-4 overflow-hidden whitespace-nowrap">
                 <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity flex-shrink-0">
                   <img src="/logo.png" alt="CS Girlies Logo" className="h-5 w-5" />
                   <span className="font-bold text-white">CS Girlies</span>
                 </Link>
+                <a href="/sponsorship" target="_blank" rel="noopener noreferrer" className="md:hidden hover:text-white transition-colors flex-shrink-0">Sponsor</a>
+                <Link to="/hackathon-recap" className="md:hidden hover:text-white transition-colors flex-shrink-0 max-[520px]:hidden">July Recap</Link>
                 <a href="/sponsorship" target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Sponsor This Hackathon!</a>
                 <a href={LINKS.DISCORD} target="_blank" rel="noopener noreferrer" className="hidden md:inline hover:text-white transition-colors">Join Discord</a>
                 <Link to="/hackathon-resources" className="hidden md:inline hover:text-white transition-colors">Resources</Link>
@@ -100,10 +102,10 @@ const HackathonPage: React.FC = () => {
         </div>
 
         {/* Terminal Window */}
-        <div className="relative mb-8 md:absolute md:top-[460px] md:left-[40%] md:right-8 md:z-10">
+        <div className="relative mb-8 md:absolute md:top-[440px] md:left-[40%] md:right-8 md:z-10">
           <Window title="📁 csgirlies-top-80x24">
             <div className="text-xs md:text-sm">
-              <p className="text-gray-400">
+              <p className="text-gray-400 text-size-md">
                 <a href="https://cs-girlies-november.devpost.com" >
                   <ScrambleText text="/** Click Me!! */" delay={100} />
                 </a>
@@ -263,7 +265,7 @@ const HackathonPage: React.FC = () => {
       </div>
       
       <Dialog open={isPrizeOpen} onOpenChange={() => setIsPrizeOpen(false)}>
-        <DialogContent className="bg-black border-2 border-csgirlies-pink text-white font-roboto-mono sm:max-w-[720px]">
+        <DialogContent className="bg-black border-2 border-csgirlies-pink text-white font-roboto-mono sm:max-w-[720px] max-h-[80vh] overflow-y-auto prize-scroll" style={{ scrollbarColor: '#ff4da6 transparent', scrollbarWidth: 'thin' }}>
           <DialogHeader>
             <DialogTitle className="text-csgirlies-pink font-righteous text-2xl">Prize Breakdown</DialogTitle>
             <DialogDescription className="text-white text-base">All prizes and details for this hackathon</DialogDescription>
@@ -317,6 +319,22 @@ const HackathonPage: React.FC = () => {
           </DialogFooter>
         </DialogContent>
       </Dialog>
+
+      <style>{`
+        .prize-scroll::-webkit-scrollbar {
+          width: 8px;
+        }
+        .prize-scroll::-webkit-scrollbar-track {
+          background: transparent;
+        }
+        .prize-scroll::-webkit-scrollbar-thumb {
+          background-color: #ff4da6;
+          border-radius: 9999px;
+        }
+        .prize-scroll::-webkit-scrollbar-thumb:hover {
+          background-color: #ff7abf;
+        }
+      `}</style>
 
       {/* Popup Dialog */}
       <Dialog open={selectedPill !== null} onOpenChange={() => setSelectedPill(null)}>
