@@ -69,7 +69,6 @@ const SponsorshipPage: React.FC = () => {
                     <li>Logo on website & Devpost</li>
                     <li>Mention in grouped email</li>
                     <li>Featured in <Link to="/hackathon-resources" className="underline">hacker starter pack</Link></li>
-                    <li>Sponsor a prize!!</li>
                   </ul>
                 </div>
 
@@ -84,6 +83,7 @@ const SponsorshipPage: React.FC = () => {
                   <p className="text-sm mt-3 text-gray-200">For brands building awareness with future innovators.</p>
                   <ul className="list-disc pl-6 mt-2 space-y-1 text-sm text-gray-100">
                     <li>Everything in Community Sponsor, plus:</li>
+                    <li>Sponsor a prize!! 🏆</li>
                     <li>Resume book access (if you request it)</li>
                     <li>Coffee chat interest form</li>
                     <li>Social media story promo + grouped Sponsor post</li>
