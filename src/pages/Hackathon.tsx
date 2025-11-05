@@ -13,9 +13,9 @@ const pillData = {
     title: "Beginner-Friendly 🌱",
     description: "First hackathon? Perfect. \n\n Mentors, ideas, and a welcoming community are here to help you ship. Join, learn, and build something you’re proud of."
   },
-  "Find Teammates": {
-    title: "Find Teammates 🤝",
-    description: "Build with friends (up to 5 people per team) or go solo. \n\n After registering on Devpost, hop into our Discord and use the #fall25-make-a-team channel to meet other builders."
+  "Find Mentors": {
+    title: "Find Mentors 🧑‍🏫",
+    description: "Need help? Schedule a 1:1 with a mentor. \n\n Browse our mentors and book a session on the Mentors page."
   },
   "Fully online": {
     title: "Fully Online 🌐",
@@ -77,7 +77,7 @@ const HackathonPage: React.FC = () => {
               <p className="text-sm md:text-lg mt-2">November 14 - 16, 2025 • Online • 48 Hours • Beginner-Friendly</p>
               <div className="mt-8 flex justify-center space-x-2 md:space-x-4 flex-wrap">
                 <Pill onClick={() => setSelectedPill("Beginner Friendly")}>Beginner Friendly</Pill>
-                <Pill onClick={() => setSelectedPill("Find Teammates")}>Find Teammates</Pill>
+                <Pill onClick={() => window.open('/mentors', '_self')}>Find Mentors</Pill>
                 <Pill onClick={() => setSelectedPill("Fully online")}>Fully online</Pill>
                 <Pill onClick={() => setSelectedPill("48 hours")}>48 hours</Pill>
                 <Pill onClick={() => setSelectedPill("Tools 4 Students")}>Tools 4 Students</Pill>
