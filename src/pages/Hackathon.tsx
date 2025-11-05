@@ -79,7 +79,7 @@ const HackathonPage: React.FC = () => {
                 <Pill onClick={() => setSelectedPill("Beginner Friendly")}>Beginner Friendly</Pill>
                 <Pill onClick={() => window.open('/mentors', '_self')}>Find Mentors</Pill>
                 <Pill onClick={() => setSelectedPill("Fully online")}>Fully online</Pill>
-                <Pill onClick={() => setSelectedPill("48 hours")}>48 hours</Pill>
+                <Pill onClick={() => window.open('/hackathon-schedule', '_self')}>Schedule</Pill>
                 <Pill onClick={() => setSelectedPill("Tools 4 Students")}>Tools 4 Students</Pill>
               </div>
             </div>
