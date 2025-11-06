@@ -254,6 +254,9 @@ const HackathonPage: React.FC = () => {
               <a href="https://www.wolfram.com" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
                 <img src="/sponsors/wolfram-rect.png" alt="Wolfram" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
               </a>
+              <div className="opacity-90 hover:opacity-100 transition">
+                <img src="/dist/sponsors/cline.png" alt="Cline" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
+              </div>
             </div>
             <p className="text-sm md:text-lg text-gray-300 mt-3">Want to sponsor? <a href="/sponsorship" className="underline">Learn more</a>.</p>
           </div>
@@ -277,6 +280,7 @@ const HackathonPage: React.FC = () => {
                 <span className="text-csgirlies-pink font-bold">$1,000</span>
               </div>
               <p className="text-sm text-gray-200 italic">1 winner</p>
+              <p className="text-sm text-gray-200 mt-1">Plus $1,000 in Cline credits.</p>
               <p className="text-sm text-gray-200 mt-1">Winners will also receive a 1 month VIP voucher to Let's Defend!</p>
             </div>
 
@@ -287,6 +291,14 @@ const HackathonPage: React.FC = () => {
               </div>
               <p className="text-sm text-gray-200 italic">2 winners</p>
               <p className="text-sm text-gray-200 mt-1">Winners will also receive a 1 month VIP voucher to Let's Defend!</p>
+            </div>
+
+            <div className="rounded-lg border border-csgirlies-pink/40 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+              <div className="flex items-center justify-between">
+                <h4 className="font-righteous text-lg">Cline Credits — Top 3</h4>
+                <span className="text-csgirlies-pink font-bold">$1,000 / $500 / $200</span>
+              </div>
+              <p className="text-sm text-gray-200 mt-1">1st place: $1,000 • 2nd place: $500 • 3rd place: $200 (credits)</p>
             </div>
 
             <div className="rounded-lg border border-csgirlies-pink/40 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
@@ -312,6 +324,15 @@ const HackathonPage: React.FC = () => {
                 <p>Any student who submits a project utilizing Wolfram language is eligible for a $500 scholarship to one of their summer programs if they apply and are accepted.</p>
                 <p className="italic text-gray-300">Note: This is not a cash award.</p>
               </div>
+            </div>
+
+            <div className="rounded-lg border border-csgirlies-pink/40 bg-gradient-to-b from-csgirlies-pink/10 to-transparent p-4">
+              <div className="flex items-center justify-between">
+                <h4 className="font-righteous text-lg">Cline CLI Winner</h4>
+                <span className="text-csgirlies-pink font-bold">$1,500</span>
+              </div>
+              <p className="text-sm text-gray-200 italic">1 winner</p>
+              <p className="text-sm text-gray-200 mt-1">Awarded to a project built using the Cline CLI.</p>
             </div>
           </div>
           <DialogFooter>

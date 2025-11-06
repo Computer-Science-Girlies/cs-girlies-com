@@ -1,16 +1,20 @@
 {
   "featuredResources": [
     {
-      "link": "Hackathon for Beginners: A Guide to Getting Started in 2025 — Inspirit AI",
+      "link": "https://www.inspiritai.com/blogs/ai-blog/hackathon-for-beginners-a-guide-to-getting-started-in-2025",
       "description": "Beginner tips! (generalized)"
     },
     {
-      "link": "Ultimate Hackathon Guide for Beginners in 2025 - TAIKAI",
-      "description": "Specific hackathon tips (beginner)"
+      "link": "https://blog.wolfram.com/2024/08/26/the-students-guide-to-wolfram/",
+      "description": "The Student's Guide to Wolfram"
     },
     {
-      "link": "Battle Tested Practical tips for Hackathon rookies - DEV Community",
-      "description": "Hackathon roadmap"
+      "link": "https://docs.cline.bot/cline-cli/overview",
+      "description": "How to use the Cline CLI (AI coding agent in your terminal)"
+    },
+    {
+      "link": "https://gitbook.com/docs",
+      "description": "How to create and publish beautiful docs with GitBook"
     }
   ],
   "categories": {
