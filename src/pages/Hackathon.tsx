@@ -254,9 +254,9 @@ const HackathonPage: React.FC = () => {
               <a href="https://www.wolfram.com" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
                 <img src="/sponsors/wolfram-rect.png" alt="Wolfram" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
               </a>
-              <div className="opacity-90 hover:opacity-100 transition">
+              <a href="https://cline.bot" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
                 <img src="/sponsors/cline.png" alt="Cline" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
-              </div>
+              </a>
             </div>
             <p className="text-sm md:text-lg text-gray-300 mt-3">Want to sponsor? <a href="/sponsorship" className="underline">Learn more</a>.</p>
           </div>
