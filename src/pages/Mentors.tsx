@@ -63,6 +63,27 @@ const mentors: Mentor[] = [
     calendly: 'https://calendly.com/rpranitha0512/cs-girlies-hackathon',
     tags: ['Cybersecurity Basics', 'Python & Flask', 'Web Development'],
   },
+  {
+    name: 'Ryan Ning',
+    role: 'Pitch & Idea Review Mentor',
+    bio: 'Helps refine pitch story, structure, and delivery; reviews ideas and slides for clarity and impact.',
+    calendly: 'https://calendly.com/ryan-ning/new-meeting?month=2025-11&fbclid=PARlRTSAN8zI5leHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafEe1mrpZzvCSUe_iokT80EL_oQ07zOXP1mnX_oNJpZbQyiPqsv7_oHEICNAA_aem_N7nJUAazzBsfvy5XVt1Iyg',
+    tags: ['Pitch Storytelling', 'Idea Review', 'Presentation Feedback'],
+  },
+  {
+    name: 'Pratik Gupta',
+    role: 'Senior Engineering Leader @ Stripe',
+    bio: 'Engineering leader building commerce platforms; advises on system design, scalable architectures, and career growth.',
+    calendly: 'https://calendly.com/pratik-gupta1088/30min',
+    tags: ['System Design', 'Distributed Systems', 'Career & Leadership'],
+  },
+  {
+    name: 'Kriti Saxena',
+    role: 'Strategy & Operations @ Uber',
+    bio: 'Data and strategy professional focused on analytics, GTM operations, and building scalable processes.',
+    calendly: 'https://calendly.com/kriti_saxena/30min',
+    tags: ['Data Strategy', 'GTM & Ops', 'Analytics'],
+  },
 ];
 
 const MentorsPage: React.FC = () => {
