@@ -110,11 +110,21 @@ const HackathonSchedulePage: React.FC = () => {
           }
         >
           <div className="py-8">
-            <h1 className="font-righteous text-4xl md:text-6xl text-center mb-1">🗓️ Schedule</h1>
+            <style>{`@keyframes blink{50%{opacity:0}}`}</style>
+            <h1 className="font-righteous text-4xl md:text-6xl text-center mb-1">
+              🗓️ Schedule
+              <span
+                aria-hidden="true"
+                className="ml-1 text-csgirlies-pink"
+                style={{ display: 'inline-block', animation: 'blink 1s steps(1,end) infinite' }}
+              >
+                _
+              </span>
+            </h1>
             <p className="text-center text-gray-300 mb-8 text-sm md:text-base">All times in EST</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-              {dateRange('2025-11-10', '2025-11-19').map((iso) => {
+              {dateRange('2025-11-12', '2025-11-19').map((iso) => {
                 const dayEvents = events
                   .filter((ev) => ev.date === iso)
                   .sort((a, b) => a.time.localeCompare(b.time));
@@ -132,9 +142,9 @@ const HackathonSchedulePage: React.FC = () => {
                       {dayEvents.map((ev, idx) => {
                         const isMain = ev.kind === 'main';
                         const baseClasses = isMain
-                          ? 'bg-csgirlies-pink-dark border border-csgirlies-pink rounded-md p-3'
-                          : 'bg-black/60 border border-gray-700 rounded-md p-2';
-                        const interactive = ' block transition-colors duration-200 hover:border-csgirlies-pink/80 focus:outline-none focus:ring-2 focus:ring-csgirlies-pink/40';
+                          ? 'bg-csgirlies-pink-dark border border-csgirlies-pink rounded-md p-3 bg-gradient-to-b from-white/10 to-transparent'
+                          : 'bg-black/60 border border-gray-700 rounded-md p-2 bg-gradient-to-b from-white/5 to-transparent';
+                        const interactive = ' block transform-gpu transition-transform duration-150 focus:outline-none ring-1 ring-white/10 focus:ring-2 focus:ring-csgirlies-pink/40 hover:scale-[1.01] md:hover:scale-[1.015] focus:scale-[1.01] hover:z-10 focus:z-10 hover:shadow-[0_0_24px_rgba(255,64,129,0.35)] focus:shadow-[0_0_24px_rgba(255,64,129,0.35)] shadow-[inset_0_1px_0_rgba(255,255,255,0.12)]';
                         if (ev.link) {
                           return (
                             <a
@@ -183,6 +193,17 @@ const HackathonSchedulePage: React.FC = () => {
                   </div>
                 );
               })}
+            </div>
+
+            <div className="text-center mt-6">
+              <a
+                href="https://cs-girlies-november.devpost.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-5 py-2 rounded-full text-white font-bold transition-colors border border-csgirlies-pink/80 bg-gradient-to-b from-csgirlies-pink to-csgirlies-pink-dark ring-1 ring-white/10 shadow-[inset_0_1px_0_rgba(255,255,255,0.15)] hover:shadow-[0_0_24px_rgba(255,64,129,0.35)] hover:from-csgirlies-pink/95 hover:to-csgirlies-pink-dark focus:outline-none focus:ring-2 focus:ring-csgirlies-pink/40"
+              >
+                Join the Hackathon!
+              </a>
             </div>
 
             <div className="text-center mt-10 text-sm text-gray-300">
