@@ -65,8 +65,8 @@ const mentors: Mentor[] = [
   },
   {
     name: 'Ryan Ning',
-    role: 'Pitch & Idea Review Mentor',
-    bio: 'Helps refine pitch story, structure, and delivery; reviews ideas and slides for clarity and impact.',
+    role: 'SWE Intern @ Shopify | CS & AI Research @ UofT | 7x Hackathon Winner',
+    bio: 'SWE intern and 7× hackathon winner who helps you sharpen ideas and craft clear, compelling pitches and demos.',
     calendly: 'https://calendly.com/ryan-ning/new-meeting?month=2025-11&fbclid=PARlRTSAN8zI5leHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafEe1mrpZzvCSUe_iokT80EL_oQ07zOXP1mnX_oNJpZbQyiPqsv7_oHEICNAA_aem_N7nJUAazzBsfvy5XVt1Iyg',
     tags: ['Pitch Storytelling', 'Idea Review', 'Presentation Feedback'],
   },
