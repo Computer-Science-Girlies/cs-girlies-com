@@ -32,7 +32,6 @@ const workshops: Workshop[] = [
   { speaker: 'Shanine Gmyrek', title: 'How to Design the Coolest Web Apps!', when: 'Nov 12 • 2 PM EST' },
   { speaker: 'Satyam Singh', link: 'http://linkedin.com/in/satyamsingh2003', email: 'satyamsingh5076@gmail.com', title: 'How to Win a Hackathon', when: 'Nov 15 • 12 PM EST' },
   { speaker: 'Maryam Bellakbira', title: 'Careers in Biotech', when: 'Nov 16 • 1 PM EST' },
-  { speaker: 'Roxanne Daniel', email: 'rdaniel754@gmail.com', title: 'How to Market a Product', when: 'Nov 10 • 7 PM EST' },
   { speaker: 'Ryan Ning', link: 'http://linkedin.com/in/ryan-ning', email: 'ryan.ning@mail.utoronto.ca', title: 'How to Win a Hackathon', when: 'Nov 15 • 12 PM EST' },
   { speaker: 'Ryan Ning', link: 'http://linkedin.com/in/ryan-ning', email: 'ryan.ning@mail.utoronto.ca', title: 'How to Pitch', when: 'Nov 16 • 9 AM EST' },
   { speaker: 'Lana Yepifanova', link: 'https://www.instagram.com/lana_yaps/', email: 'yepifanova.lana@gmail.com', title: 'How to Sell an App', when: 'Nov 13 • 2 PM EST' },
@@ -56,7 +55,6 @@ const events: CalEvent[] = [
   { date: '2025-11-16', time: '12:00 PM', title: 'Submissions Due on Devpost', kind: 'main' },
   { date: '2025-11-19', time: '03:00 PM', title: 'Winners Announced on Discord', kind: 'main' },
   // Workshops
-  { date: '2025-11-10', time: '07:00 PM', title: 'How to Market a Product', kind: 'workshop', speaker: 'Roxanne Daniel', email: 'rdaniel754@gmail.com' },
   { date: '2025-11-12', time: '02:00 PM', title: 'How to Design the Coolest Web Apps!', kind: 'workshop', speaker: 'Shanine Gmyrek' },
   { date: '2025-11-13', time: '02:00 PM', title: 'How to Sell an App', kind: 'workshop', speaker: 'Lana Yepifanova', link: 'https://www.instagram.com/lana_yaps/', email: 'yepifanova.lana@gmail.com' },
   { date: '2025-11-14', time: '06:00 PM', title: 'Using LLMs as Teaching/Learning Agents', kind: 'workshop', speaker: 'Xinny Lao' },
