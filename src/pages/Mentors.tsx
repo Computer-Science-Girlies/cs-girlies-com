@@ -49,6 +49,20 @@ const mentors: Mentor[] = [
     calendly: 'https://calendly.com/mirzaabdullaht1/',
     tags: ['Startup & PMF', 'Hackathon Judging', 'AI Product Strategy'],
   },
+  {
+    name: 'Blessing Okogeri',
+    role: 'Product Leader • Startup Builder • Pitch Winner',
+    bio: 'Startup‑savvy product leader who helps teams craft standout pitches, user‑driven MVPs, and communicate a vision that wins judges.',
+    calendly: 'https://calendly.com/ug-okogeri/blessing-cs-girlies-hackathon',
+    tags: ['Pitch Storytelling', 'Product Vision & Strategy', 'MVP Prototyping'],
+  },
+  {
+    name: 'Pranitha Ramaswamy',
+    role: 'Cybersecurity • SWE Intern @ ALEgION • GDG Organizer',
+    bio: 'Final‑year CSE student and SWE intern focused on cybersecurity—helps with Python/Flask, web dev, and getting started in security.',
+    calendly: 'https://calendly.com/rpranitha0512/cs-girlies-hackathon',
+    tags: ['Cybersecurity Basics', 'Python & Flask', 'Web Development'],
+  },
 ];
 
 const MentorsPage: React.FC = () => {
