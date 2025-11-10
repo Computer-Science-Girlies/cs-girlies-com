@@ -51,18 +51,18 @@ type CalEvent = {
 
 const events: CalEvent[] = [
   // Main schedule
-  { date: '2025-11-14', time: '12:00 PM', title: 'Opening Ceremony + Hacking Starts', kind: 'main' },
-  { date: '2025-11-16', time: '12:00 PM', title: 'Submissions Due on Devpost', kind: 'main' },
-  { date: '2025-11-19', time: '03:00 PM', title: 'Winners Announced on Discord', kind: 'main' },
+  { date: '2025-11-14', time: '12:00 PM', title: 'Opening Ceremony + Hacking Starts', kind: 'main', link: 'https://discord.com/events/1116490225615634503/1426804875383013386' },
+  { date: '2025-11-16', time: '12:00 PM', title: 'Submissions Due on Devpost', kind: 'main', link: 'https://cs-girlies-november.devpost.com' },
+  { date: '2025-11-19', time: '03:00 PM', title: 'Winners Announced on Discord', kind: 'main', link: 'https://discord.gg/csgirlies?event=1437541121080164563' },
   // Workshops
-  { date: '2025-11-12', time: '02:00 PM', title: 'How to Design the Coolest Web Apps!', kind: 'workshop', speaker: 'Shanine Gmyrek' },
-  { date: '2025-11-13', time: '02:00 PM', title: 'How to Sell an App', kind: 'workshop', speaker: 'Lana Yepifanova', link: 'https://www.instagram.com/lana_yaps/', email: 'yepifanova.lana@gmail.com' },
-  { date: '2025-11-14', time: '06:00 PM', title: 'Using LLMs as Teaching/Learning Agents', kind: 'workshop', speaker: 'Xinny Lao' },
-  { date: '2025-11-15', time: '12:00 PM', title: 'How to Win a Hackathon', kind: 'workshop', speaker: 'Satyam Singh & Ryan Ning' },
-  { date: '2025-11-15', time: '03:00 PM', title: 'GenAI in Action: From Idea to Prototype', kind: 'workshop', speaker: 'Samhita Kolluri', link: 'https://www.linkedin.com/in/samhita-kolluri/', email: 'samhita.kolluri@gmail.com' },
-  { date: '2025-11-16', time: '09:00 AM', title: 'How to Pitch', kind: 'workshop', speaker: 'Ryan Ning', link: 'http://linkedin.com/in/ryan-ning', email: 'ryan.ning@mail.utoronto.ca' },
-  { date: '2025-11-16', time: '01:00 PM', title: 'Careers in Biotech', kind: 'workshop', speaker: 'Maryam Bellakbira' },
-  { date: '2025-11-17', time: '03:00 PM', title: 'How to Build in Public', kind: 'workshop', speaker: 'Michelle Lawson' },
+  { date: '2025-11-12', time: '02:00 PM', title: 'How to Design the Coolest Web Apps!', kind: 'workshop', speaker: 'Shanine Gmyrek', link: 'https://discord.com/events/1116490225615634503/1437532823409000539' },
+  { date: '2025-11-13', time: '02:00 PM', title: 'How to Sell an App', kind: 'workshop', speaker: 'Lana Yepifanova', link: 'https://discord.com/events/1116490225615634503/1430108720423112764', email: 'yepifanova.lana@gmail.com' },
+  { date: '2025-11-14', time: '06:00 PM', title: 'Using LLMs as Teaching/Learning Agents', kind: 'workshop', speaker: 'Xinny Lao', link: 'https://discord.com/events/1116490225615634503/1437537268725448834' },
+  { date: '2025-11-15', time: '12:00 PM', title: 'How to Win a Hackathon', kind: 'workshop', speaker: 'Satyam Singh & Ryan Ning', link: 'https://discord.com/events/1116490225615634503/1430099173658591292' },
+  { date: '2025-11-15', time: '03:00 PM', title: 'GenAI in Action: From Idea to Prototype', kind: 'workshop', speaker: 'Samhita Kolluri', link: 'https://discord.com/events/1116490225615634503/1437531551481987115', email: 'samhita.kolluri@gmail.com' },
+  { date: '2025-11-16', time: '09:00 AM', title: 'How to Pitch', kind: 'workshop', speaker: 'Ryan Ning', link: 'https://discord.com/events/1116490225615634503/1437533868445008004', email: 'ryan.ning@mail.utoronto.ca' },
+  { date: '2025-11-16', time: '01:00 PM', title: 'Careers in Biotech', kind: 'workshop', speaker: 'Maryam Bellakbira', link: 'https://discord.com/events/1116490225615634503/1430094177265258587' },
+  { date: '2025-11-17', time: '03:00 PM', title: 'How to Build in Public', kind: 'workshop', speaker: 'Michelle Lawson', link: 'https://discord.com/events/1116490225615634503/1437534770228625408' },
 ];
 
 const dateRange = (start: string, end: string) => {
@@ -131,19 +131,43 @@ const HackathonSchedulePage: React.FC = () => {
                     <div className="space-y-2">
                       {dayEvents.map((ev, idx) => {
                         const isMain = ev.kind === 'main';
+                        const baseClasses = isMain
+                          ? 'bg-csgirlies-pink-dark border border-csgirlies-pink rounded-md p-3'
+                          : 'bg-black/60 border border-gray-700 rounded-md p-2';
+                        const interactive = ' block transition-colors duration-200 hover:border-csgirlies-pink/80 focus:outline-none focus:ring-2 focus:ring-csgirlies-pink/40';
+                        if (ev.link) {
+                          return (
+                            <a
+                              key={idx}
+                              href={ev.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className={baseClasses + ' cursor-pointer group' + interactive}
+                            >
+                              <div className="flex items-center justify-between">
+                                <span className={isMain ? 'text-xs text-white font-bold' : 'text-xs text-gray-300'}>{ev.time}</span>
+                                <span className="text-[10px] px-2 py-0.5 rounded-full bg-gray-700 text-gray-100 group-hover:bg-csgirlies-pink/30">
+                                  {isMain ? 'Event' : 'Workshop'}
+                                </span>
+                              </div>
+                              <p className={isMain ? 'text-sm md:text-base text-white mt-1 font-extrabold' : 'text-sm text-white mt-1 font-medium'}>
+                                {ev.title}
+                              </p>
+                              {ev.speaker && (
+                                <p className={isMain ? 'text-xs text-white/90 font-semibold' : 'text-xs text-gray-300'}>{ev.speaker}</p>
+                              )}
+                            </a>
+                          );
+                        }
                         return (
                           <div
                             key={idx}
-                            className={isMain
-                              ? 'bg-csgirlies-pink-dark border border-csgirlies-pink rounded-md p-3'
-                              : 'bg-black/60 border border-gray-700 rounded-md p-2'}
+                            className={baseClasses + interactive}
                           >
                             <div className="flex items-center justify-between">
                               <span className={isMain ? 'text-xs text-white font-bold' : 'text-xs text-gray-300'}>{ev.time}</span>
                               {!isMain && (
-                                <span className="text-[10px] px-2 py-0.5 rounded-full bg-gray-700 text-gray-100">
-                                  Workshop
-                                </span>
+                                <span className="text-[10px] px-2 py-0.5 rounded-full bg-gray-700 text-gray-100">Workshop</span>
                               )}
                             </div>
                             <p className={isMain ? 'text-sm md:text-base text-white mt-1 font-extrabold' : 'text-sm text-white mt-1 font-medium'}>
