@@ -59,6 +59,7 @@ const events: CalEvent[] = [
   { date: '2025-11-13', time: '10:00 AM', title: 'Building Great Docs to Build Great Products', kind: 'workshop', speaker: 'Tal Gluck (GitBook)', link: 'https://discord.com/events/1116490225615634503/1437788225241485332' },
   { date: '2025-11-13', time: '02:00 PM', title: 'How to Sell an App', kind: 'workshop', speaker: 'Lana Yepifanova', link: 'https://discord.com/events/1116490225615634503/1430108720423112764', email: 'yepifanova.lana@gmail.com' },
   { date: '2025-11-14', time: '06:00 PM', title: 'Using LLMs as Teaching/Learning Agents', kind: 'workshop', speaker: 'Xinny Lao', link: 'https://discord.com/events/1116490225615634503/1437537268725448834' },
+  { date: '2025-11-14', time: '06:00 PM', title: 'Product Marketing 101', kind: 'workshop', speaker: 'Roxanne Daniel' },
   { date: '2025-11-15', time: '12:00 PM', title: 'How to Win a Hackathon', kind: 'workshop', speaker: 'Satyam Singh & Ryan Ning', link: 'https://discord.com/events/1116490225615634503/1430099173658591292' },
   { date: '2025-11-15', time: '03:00 PM', title: 'GenAI in Action: From Idea to Prototype', kind: 'workshop', speaker: 'Samhita Kolluri', link: 'https://discord.com/events/1116490225615634503/1437531551481987115', email: 'samhita.kolluri@gmail.com' },
   { date: '2025-11-16', time: '09:00 AM', title: 'How to Pitch', kind: 'workshop', speaker: 'Ryan Ning', link: 'https://discord.com/events/1116490225615634503/1437533868445008004', email: 'ryan.ning@mail.utoronto.ca' },
