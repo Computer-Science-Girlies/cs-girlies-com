@@ -197,6 +197,11 @@ const HackathonPage: React.FC = () => {
                 <h4 className="font-black text-sm md:text-base mb-2">🔴 Build with Wolfram: Harness Computational Intelligence</h4>
                 <p className="text-xs md:text-sm mb-6">Explore data, visualization, and computation using Wolfram tools — from math modeling to AI‑enhanced simulations.</p>
               </div>
+              <div className="mb-2">
+                <h4 className="font-black text-sm md:text-base mb-2">📚 Build with GitBook: Document Your Way to Victory</h4>
+                <p className="text-xs md:text-sm mb-2">Build documentation that tells your project's story, clarifies your thinking, and brings your product vision to life with professional polish using GitBook.</p>
+                <p className="text-[11px] md:text-xs text-gray-300 italic">Optional opt‑in track — choose this regardless of your main track.</p>
+              </div>
             </div>
           </Window>
         </div>
