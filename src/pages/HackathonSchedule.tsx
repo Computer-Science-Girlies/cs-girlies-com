@@ -56,6 +56,7 @@ const events: CalEvent[] = [
   { date: '2025-11-19', time: '03:00 PM', title: 'Winners Announced on Discord', kind: 'main', link: 'https://discord.gg/csgirlies?event=1437541121080164563' },
   // Workshops
   { date: '2025-11-12', time: '02:00 PM', title: 'How to Design the Coolest Web Apps!', kind: 'workshop', speaker: 'Shanine Gmyrek', link: 'https://discord.com/events/1116490225615634503/1437532823409000539' },
+  { date: '2025-11-13', time: '10:00 AM', title: 'Building Great Docs to Build Great Products', kind: 'workshop', speaker: 'Tal Gluck (GitBook)', link: 'https://discord.com/events/1116490225615634503/1437788225241485332' },
   { date: '2025-11-13', time: '02:00 PM', title: 'How to Sell an App', kind: 'workshop', speaker: 'Lana Yepifanova', link: 'https://discord.com/events/1116490225615634503/1430108720423112764', email: 'yepifanova.lana@gmail.com' },
   { date: '2025-11-14', time: '06:00 PM', title: 'Using LLMs as Teaching/Learning Agents', kind: 'workshop', speaker: 'Xinny Lao', link: 'https://discord.com/events/1116490225615634503/1437537268725448834' },
   { date: '2025-11-15', time: '12:00 PM', title: 'How to Win a Hackathon', kind: 'workshop', speaker: 'Satyam Singh & Ryan Ning', link: 'https://discord.com/events/1116490225615634503/1430099173658591292' },
