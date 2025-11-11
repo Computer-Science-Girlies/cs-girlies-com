@@ -48,7 +48,7 @@ const HackathonPage: React.FC = () => {
         }}
       ></div>
       
-      <div className="relative md:h-[2900px] pt-4">
+      <div className="relative md:h-[2915px] pt-4">
         {/* Main Hackathon Window */}
         <div className="relative mb-8 md:absolute md:top-4 md:left-0 md:right-0 md:z-1">
           <div className="bg-gradient-to-b from-csgirlies-pink to-csgirlies-pink-dark border-2 border-csgirlies-pink rounded-lg shadow-lg">
@@ -245,7 +245,7 @@ const HackathonPage: React.FC = () => {
       </div>
        
 
-      <div className="relative mx-auto md:absolute md:top-[2400px] w-full md:w-[95%] mb-12 px-2 ">
+      <div className="relative mx-auto md:absolute md:top-[2415px] w-full md:w-[95%] mb-12 px-2 ">
         <Window title="Sponsors.png" className="bg-gradient-to-b from-csgirlies-pink to-csgirlies-pink-dark border-2">
           <div className="py-6 text-center">
             <h3 className="font-righteous text-lg md:text-4xl mb-2">✨ Sponsors ✨</h3>
@@ -260,7 +260,7 @@ const HackathonPage: React.FC = () => {
                 <img src="/sponsors/wolfram-rect.png" alt="Wolfram" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
               </a>
               <a href="https://cline.bot" target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
-                <img src="/sponsors/cline.png" alt="Cline" className="w-48 md:w-72 lg:w-96 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
+                <img src="/sponsors/cline.png" alt="Cline" className="w-40 md:w-64 lg:w-80 h-auto object-contain transition-transform duration-300 ease-out hover:scale-110" />
               </a>
             </div>
             <p className="text-sm md:text-lg text-gray-300 mt-3">Want to sponsor? <a href="/sponsorship" className="underline">Learn more</a>.</p>
