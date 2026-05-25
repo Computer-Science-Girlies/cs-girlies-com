@@ -13,6 +13,7 @@ import HackathonRecap from './pages/HackathonRecap';
 import HackathonSchedulePage from './pages/HackathonSchedule';
 import SponsorshipPage from './pages/Sponsorship';
 import MentorsPage from "./pages/Mentors";
+import LinktreePage from "./pages/Linktree";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,8 @@ const App = () => (
           <Route path="/hackathon-schedule" element={<HackathonSchedulePage />} />
           <Route path="/mentors" element={<MentorsPage />} />
           <Route path="/sponsorship" element={<SponsorshipPage />} />
+          <Route path="/links" element={<LinktreePage />} />
+          <Route path="/linktree" element={<LinktreePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
        </BrowserRouter>
