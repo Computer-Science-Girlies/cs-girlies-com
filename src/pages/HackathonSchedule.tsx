@@ -69,7 +69,7 @@ const events: CalEvent[] = [
 
 const dateRange = (start: string, end: string) => {
   const dates: string[] = [];
-  let d = new Date(start + 'T00:00:00');
+  const d = new Date(start + 'T00:00:00');
   const e = new Date(end + 'T00:00:00');
   while (d <= e) {
     const iso = d.toISOString().slice(0, 10);
