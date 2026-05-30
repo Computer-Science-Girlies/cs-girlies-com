@@ -12,7 +12,8 @@ export const GIRLIES_IMAGES: string[] = [
   "/photos/girlies/Michelle.jpg",
   "/photos/girlies/Shanine.jpg",
   "/photos/girlies/Emily.jpg",
-  "/photos/girlies/Jei.jpg"
+  "/photos/girlies/Jei.jpg",
+  "/photos/girlies/Laura.jpg"
 ];
 
 interface PhotoMarqueeProps {
