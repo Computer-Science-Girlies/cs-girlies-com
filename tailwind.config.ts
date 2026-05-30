@@ -132,17 +132,18 @@ export default {
 						transform: 'translateX(0)'
 					},
 					'100%': {
-						transform: 'translateX(-50%)'
+						transform: 'translateX(-100%)'
 					}
 				},
 				'marquee-right': {
 					'0%': {
-						transform: 'translateX(-50%)'
+						transform: 'translateX(-100%)'
 					},
 					'100%': {
 						transform: 'translateX(0)'
 					}
 				}
+
 			},
 			animation: {
 				'blink': 'blink 1s infinite',
