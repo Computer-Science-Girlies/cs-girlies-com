@@ -1,20 +1,9 @@
 import React from "react";
 
-export const GIRLIES_IMAGES: string[] = [
-  "/photos/girlies/Amarra.jpg",
-  "/photos/girlies/Chandhana.jpg",
-  "/photos/girlies/Daiana.jpg",
-  "/photos/girlies/Maya.jpg",
-  "/photos/girlies/Chinomso.jpg",
-  "/photos/girlies/Sherlyn.jpg",
-  "/photos/girlies/Tasha.jpg",
-  "/photos/girlies/Shristi.jpg",
-  "/photos/girlies/Michelle.jpg",
-  "/photos/girlies/Shanine.jpg",
-  "/photos/girlies/Emily.jpg",
-  "/photos/girlies/Jei.jpg",
-  "/photos/girlies/Laura.jpg"
-];
+const modules = import.meta.glob("/public/photos/girlies/*.{jpg,jpeg,png,webp}", { eager: true });
+export const GIRLIES_IMAGES: string[] = Object.keys(modules).map((path) =>
+  path.replace("/public", "")
+);
 
 interface PhotoMarqueeProps {
   images: string[];
