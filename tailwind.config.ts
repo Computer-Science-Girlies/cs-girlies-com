@@ -64,9 +64,9 @@ export default {
 				},
 				// Custom colors for CS Girlies
 				csgirlies: {
-					pink: '#FF6384',
-					'pink-light': '#ffa5b9',
-					'pink-dark': '#d14967',
+					pink: '#ff477e',
+					'pink-light': '#ff87a5',
+					'pink-dark': '#c71b49',
 					black: '#000000',
 					white: '#FFFFFF',
 				}
@@ -156,6 +156,7 @@ export default {
 				'marquee-right': 'marquee-right var(--marquee-duration, 30s) linear infinite'
 			},
 			fontFamily: {
+				sans: ['"Roboto Mono"', 'monospace'],
 				righteous: ['Righteous', 'cursive'],
 				'roboto-mono': ['"Roboto Mono"', 'monospace'],
 			},

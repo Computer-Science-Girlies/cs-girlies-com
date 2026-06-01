@@ -26,15 +26,17 @@ const Index = () => {
       <HackathonPromo />
       <QuoteSection />
       <WinsCarousel />
-      <div className="flex justify-center items-center py-32">  
-      <Button 
-          className="cs-button text-lg md:text-xl px-8 py-6 md:px-10 md:py-7 animate-fade-in"
+
+      <div className="flex justify-center items-center py-8 md:py-12">  
+        <Button 
+          className="cs-button text-lg md:text-xl px-8 py-4 md:px-10 md:py-7 animate-fade-in"
           style={{ animationDelay: "0.4s" }}
           onClick={() => window.open(LINKS.DISCORD, "_blank")}
         >
-          JOIN THE COMMUNITY!
+          JOIN THE COMMUNITY
         </Button>
       </div>
+      
       <Footer />
     </div>
   );

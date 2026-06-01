@@ -26,14 +26,14 @@ const Footer = ({ className }: FooterProps) => {
             <Link to="/" className="text-sm md:text-base hover:text-csgirlies-pink">
               HOME
             </Link>
-            <Link to="/donate" className="text-sm md:text-base hover:text-csgirlies-pink">
-              DONATE
-            </Link>
             <Link to="/resources" className="text-sm md:text-base hover:text-csgirlies-pink">
               RESOURCES
             </Link>
             <Link to="/our-story" className="text-sm md:text-base hover:text-csgirlies-pink">
               OUR STORY
+            </Link>
+            <Link to="/donate" className="text-sm md:text-base hover:text-csgirlies-pink">
+              DONATE
             </Link>
           </div>
           
@@ -51,7 +51,7 @@ const Footer = ({ className }: FooterProps) => {
         </div>
         
         <div className="mt-8 text-center text-sm text-gray-500">
-          <p>© 2025 CS Girlies. All rights reserved.</p>
+          <p>© 2026 CS Girlies. All rights reserved.</p>
         </div>
       </div>
     </footer>

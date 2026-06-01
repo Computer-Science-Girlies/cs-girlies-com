@@ -41,7 +41,7 @@ export const linktreeLinks: LinktreeLink[] = [
     icon: "globe",
   },
   {
-    label: "JOIN THE COMMUNITY!",
+    label: "JOIN THE COMMUNITY",
     href: "https://discord.gg/wPm7NxPQEf",
     action: "RUN",
     icon: "community",
