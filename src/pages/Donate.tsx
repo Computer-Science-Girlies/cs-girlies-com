@@ -20,7 +20,7 @@ const DonatePage = () => {
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="bg-gray-900 rounded-xl p-6 text-center">
+            <div className="bg-[#2B2B2B] rounded-xl p-6 text-center">
               <h3 className="text-2xl font-bold mb-4">One-Time Donation</h3>
               <p className="text-gray-300 mb-6">
                 Support our mission with a one-time contribution of any amount.
@@ -33,7 +33,7 @@ const DonatePage = () => {
               </Button>
             </div>
             
-            <div className="bg-gray-900 rounded-xl p-6 text-center border-2 border-csgirlies-pink relative">
+            <div className="bg-[#2B2B2B] rounded-xl p-6 text-center border-2 border-csgirlies-pink relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-csgirlies-pink px-4 py-1 rounded-full text-sm font-bold">
                 MOST POPULAR
               </div>
@@ -49,7 +49,7 @@ const DonatePage = () => {
               </Button>
             </div>
             
-            <div className="bg-gray-900 rounded-xl p-6 text-center">
+            <div className="bg-[#2B2B2B] rounded-xl p-6 text-center">
               <h3 className="text-2xl font-bold mb-4">Corporate Sponsorship</h3>
               <p className="text-gray-300 mb-6">
                 Partner with us to support diversity in tech while gaining visibility with our community.
@@ -63,13 +63,13 @@ const DonatePage = () => {
             </div>
           </div>
           
-          <div className="bg-gray-900 rounded-xl p-8">
+          <div className="bg-[#2B2B2B] rounded-xl p-8">
             <h2 className="text-3xl font-bold mb-6 text-center">How Your Donation Makes an Impact</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <div className="flex items-start mb-6">
-                  <div className="mr-4 mt-1 text-2xl">💻</div>
+                  <div className="mr-4 text-xl">➜</div>
                   <div>
                     <h4 className="text-xl font-semibold mb-2">Educational Resources</h4>
                     <p className="text-gray-300">
@@ -79,7 +79,7 @@ const DonatePage = () => {
                 </div>
                 
                 <div className="flex items-start mb-6">
-                  <div className="mr-4 mt-1 text-2xl">🎓</div>
+                  <div className="mr-4 text-xl">➜</div>
                   <div>
                     <h4 className="text-xl font-semibold mb-2">Scholarships</h4>
                     <p className="text-gray-300">
@@ -91,7 +91,7 @@ const DonatePage = () => {
               
               <div>
                 <div className="flex items-start mb-6">
-                  <div className="mr-4 mt-1 text-2xl">🌐</div>
+                  <div className="mr-4 text-xl">➜</div>
                   <div>
                     <h4 className="text-xl font-semibold mb-2">Community Building</h4>
                     <p className="text-gray-300">
@@ -101,7 +101,7 @@ const DonatePage = () => {
                 </div>
                 
                 <div className="flex items-start mb-6">
-                  <div className="mr-4 mt-1 text-2xl">🚀</div>
+                  <div className="mr-4 text-xl">➜</div>
                   <div>
                     <h4 className="text-xl font-semibold mb-2">Mentorship Programs</h4>
                     <p className="text-gray-300">

@@ -17,7 +17,7 @@ const HackathonPromo = () => {
                   H.I. vs A.I. — CS Girlies Hackathon
                 </h2>
                 <p className="text-xl md:text-2xl font-light">
-                  🗓️ July 25–27, 2025 • 📍Online • 48 hours • Global
+                  July 25–27, 2025 | Online | 48 hours | Global
                 </p>
               </div>
               

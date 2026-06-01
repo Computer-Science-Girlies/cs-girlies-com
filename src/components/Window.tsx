@@ -19,9 +19,12 @@ const Window: React.FC<WindowProps> = ({ title, children, className, noPadding, 
           )}
         </div>
         <div className="flex space-x-1.5">
+          <div className="w-3 h-3 rounded-full bg-[#00ca4e]"></div>
+          <div className="w-3 h-3 rounded-full bg-[#ffbd44]"></div>
+          <div className="w-3 h-3 rounded-full bg-[#ff605c]"></div>
+          {/* <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div>
           <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div>
-          <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div>
-          <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div>
+          <div className="w-3 h-3 rounded-full bg-csgirlies-pink-light"></div> */}
         </div>
       </div>
       <div className={noPadding ? '' : 'p-4'}>
