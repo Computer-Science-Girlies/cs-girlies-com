@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import Window from "@/components/Window";
+import ScrambleText from "@/components/ScrambleText";
 
 const HackathonPromo = () => {
   return (
@@ -10,28 +11,43 @@ const HackathonPromo = () => {
           <Window title="july-hackathon-recap.txt">
             <div className="relative overflow-hidden">
               {/* Badge */}
-          
-              
+
               <div className="text-center mb-8">
                 <h2 className="text-3xl md:text-5xl font-extrabold text-csgirlies-pink mb-4">
-                  H.I. vs A.I. — CS Girlies Hackathon
+                  <ScrambleText
+                    text="H.I. vs A.I. — CS Girlies Hackathon"
+                    delay={500}
+                    triggerOnView={true}
+                  />
                 </h2>
                 <p className="text-xl md:text-2xl font-light">
-                  July 25–27, 2025 | Online | 48 hours | Global
+                  <ScrambleText
+                    text="July 25–27, 2025 | Online | 48 hours | Global"
+                    delay={1000}
+                    triggerOnView={true}
+                  />
                 </p>
               </div>
-              
-              <p className="text-lg md:text-xl text-center mb-8 max-w-3xl mx-auto">
-                Can human intelligence still outshine artificial intelligence? Join us for a two-day global hackathon exploring the beautifully chaotic intersection of raw human brilliance and machine intelligence.
+
+              <p className="text-sm md:text-lg text-center mb-8 max-w-3xl mx-auto leading-relaxed text-gray-300">
+                Can human intelligence still outshine artificial intelligence?
+                Join us for a two-day global hackathon exploring the beautifully
+                chaotic intersection of raw human brilliance and machine
+                intelligence.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Link to="/hackathon-recap">
                   <Button className="cs-button text-lg px-6 py-3 w-full sm:w-auto">
-                    How'd it go? Check it out!
+                    <span>
+                      <ScrambleText
+                        text="How'd it go? Check it out!"
+                        delay={1500}
+                        triggerOnView={true}
+                      />
+                    </span>
                   </Button>
                 </Link>
-               
               </div>
             </div>
           </Window>
