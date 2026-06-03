@@ -16,28 +16,38 @@ import { LINKS } from "@/lib/constants";
 
 const Index = () => {
   return (
-    <div className="bg-black min-h-screen">
-      <Navbar />
-      <HeroSection />
-      <StatsSection />
-      <WhatWeDoSection />
-      <SocialMediaStats />
-      <NovemberHackathonPromo />
-      <HackathonPromo />
-      <QuoteSection />
-      <WinsCarousel />
+    <div className="bg-black min-h-screen relative text-white">
+      <div
+        className="absolute inset-0 z-0 pointer-events-none"
+        style={{
+          backgroundImage: "radial-gradient(white 0.5px, transparent 0)",
+          backgroundSize: "15px 15px",
+        }}
+      ></div>
 
-      <div className="flex justify-center items-center py-8 md:py-12">  
-        <Button 
-          className="cs-button text-lg md:text-xl px-8 py-4 md:px-10 md:py-7 animate-fade-in"
-          style={{ animationDelay: "0.4s" }}
-          onClick={() => window.open(LINKS.DISCORD, "_blank")}
-        >
-          JOIN THE COMMUNITY
-        </Button>
+      <div className="relative z-10">
+        <Navbar />
+        <HeroSection />
+        <StatsSection />
+        <WhatWeDoSection />
+        <SocialMediaStats />
+        <NovemberHackathonPromo />
+        <HackathonPromo />
+        <QuoteSection />
+        <WinsCarousel />
+
+        <div className="flex justify-center items-center py-8 md:py-12">
+          <Button
+            className="cs-button text-lg md:text-xl px-8 py-4 md:px-10 md:py-7 animate-fade-in"
+            style={{ animationDelay: "0.4s" }}
+            onClick={() => window.open(LINKS.DISCORD, "_blank")}
+          >
+            JOIN THE COMMUNITY
+          </Button>
+        </div>
+
+        <Footer />
       </div>
-      
-      <Footer />
     </div>
   );
 };
