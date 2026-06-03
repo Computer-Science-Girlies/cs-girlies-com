@@ -5,7 +5,7 @@ import ScrambleText from "@/components/ScrambleText";
 
 const HackathonPromo = () => {
   return (
-    <section className="bg-black py-16 md:py-24">
+    <section className="py-16 md:py-24">
       <div className="cs-container">
         <div className="max-w-5xl mx-auto relative">
           <Window title="july-hackathon-recap.txt">
