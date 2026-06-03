@@ -36,6 +36,11 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+    /* Pink theme */
+    --pink: #ff477e;
+    --pink-light: #ff87a5;
+    --pink-dark: #c71b49;
   }
 
   .dark {
@@ -100,7 +105,7 @@
     border-radius: 12px;
     background: linear-gradient(145deg, #ffa5b9, #FF6384, #d14967);
     box-shadow: 
-      /* Top-left highlight */
+    /* Top-left highlight */
       inset 4px 4px 8px rgba(255, 255, 255, 0.3),
       /* Bottom-right shadow */
       inset -4px -4px 8px rgba(0, 0, 0, 0.3),
@@ -118,7 +123,7 @@
   .cs-retro-button:hover {
     transform: translateY(-4px) scale(1.15);
     box-shadow: 
-      /* Enhanced inner highlights/shadows on hover */
+    /* Enhanced inner highlights/shadows on hover */
       inset 3px 3px 6px rgba(255, 255, 255, 0.4),
       inset -3px -3px 6px rgba(0, 0, 0, 0.4),
       /* Larger outer shadow when lifted */
@@ -130,7 +135,7 @@
   .cs-retro-button:active {
     transform: translateY(-2px) scale(1.1);
     box-shadow: 
-      /* Pressed effect - reverse the highlights */
+    /* Pressed effect - reverse the highlights */
       inset -2px -2px 4px rgba(255, 255, 255, 0.2),
       inset 2px 2px 4px rgba(0, 0, 0, 0.4),
       /* Smaller shadow when pressed */
@@ -144,6 +149,93 @@
 }
 
 @layer components {
+  /* Dot-grid background — exact match to Hackathon page */
+  .dot-grid-bg {
+    background-color: #000;
+    background-image: radial-gradient(white 0.5px, transparent 0);
+    background-size: 15px 15px;
+  }
+
+  /* Stats text shimmer (same effect for stat numbers) */
+  .stat-shimmer {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(90deg, #fff 0%, #ff477e 40%, #ff87a5 60%, #fff 100%);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 100% 0;
+    cursor: default;
+  }
+
+  .stat-shimmer:hover {
+    background-position: 0% 0;
+    transition: background-position 0.5s ease;
+  }
+
+  /* What We Do reveal */
+  @keyframes slide-up-reveal {
+    0% { opacity: 0; transform: translateY(40px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes slide-down-reveal {
+    0% { opacity: 0; transform: translateY(-30px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pink-line-flash {
+    0% { transform: scaleX(0); opacity: 1; }
+    40% { transform: scaleX(1); opacity: 1; }
+    70% { transform: scaleX(1); opacity: 0.6; }
+    100% { transform: scaleX(1); opacity: 0; }
+  }
+
+  @keyframes shimmer-active {
+    0% { background-position: 200% 0; }
+    100% { background-position: 0% 0; }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+
+  @keyframes wins-fade-in {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  .what-we-do-revealed .wwd-title {
+    animation: slide-up-reveal 0.6s ease forwards;
+  }
+
+  .what-we-do-revealed .wwd-pink-line {
+    animation: pink-line-flash 3s ease forwards;
+  }
+
+  .wwd-card {
+    opacity: 0;
+  }
+  .what-we-do-revealed .wwd-card:nth-child(1) {
+    animation: slide-down-reveal 0.5s ease 0.3s forwards;
+  }
+  .what-we-do-revealed .wwd-card:nth-child(2) {
+    animation: slide-down-reveal 0.5s ease 0.5s forwards;
+  }
+  .what-we-do-revealed .wwd-card:nth-child(3) {
+    animation: slide-down-reveal 0.5s ease 0.7s forwards;
+  }
+
+  .quote-float {
+    animation: float 5s ease-in-out infinite;
+  }
+
+  .wins-fade {
+    animation: wins-fade-in 0.5s ease forwards;
+  }
+
   /* Custom scrollbar for webkit browsers */
   .custom-scrollbar::-webkit-scrollbar {
     width: 12px;
