@@ -1,80 +1,65 @@
-# cs-girlies-com
-Official CS Girlies website
+<div align="center">
+    <img src="./public/logo.png" height="150px">
+    <h1>CS Girlies</h1>
+    <p>The official website of the Computer Science Girlies community</p>
+    <p>
+        <a href="https://github.com/Computer-Science-Girlies/cs-girlies-com/stargazers">
+            <img src="https://img.shields.io/github/stars/Computer-Science-Girlies/cs-girlies-com?style=for-the-badge&labelColor=black&color=ff69b4">
+        </a>
+        <a href="https://github.com/Computer-Science-Girlies/cs-girlies-com/forks">
+            <img src="https://img.shields.io/github/forks/Computer-Science-Girlies/cs-girlies-com?style=for-the-badge&labelColor=black&color=ff69b4">
+        </a>
+        <a href="https://github.com/Computer-Science-Girlies/cs-girlies-com/graphs/contributors">
+            <img src="https://img.shields.io/github/contributors/Computer-Science-Girlies/cs-girlies-com?style=for-the-badge&labelColor=black&color=ff69b4">
+        </a>
+        <a href="https://github.com/Computer-Science-Girlies/cs-girlies-com/blob/main/LICENSE">
+            <img src="https://img.shields.io/github/license/Computer-Science-Girlies/cs-girlies-com?style=for-the-badge&labelColor=black&color=ff69b4">
+        </a>
+    </p>
+</div>
 
-## Setup Info
+## Setup
 
-### Access to the Code (CS Girlies Staff)
+First, clone the repository:
 
-First clone the Repository:
-```
+```sh
 git clone https://github.com/Computer-Science-Girlies/cs-girlies-com.git
+cd cs-girlies-com
 ```
 
- Add a new branch
- either over Github:
+Install dependencies and start the dev server:
 
- - click on the main branch icon
- - "show all Branches"
- - "new branch"
-
- and pull the newest changes
-
-```
-git pull
-git switch [branch-name]
+```sh
+npm install
+npm run dev
 ```
 
-or create a new branch locally and push the branch on main
+## Contributing
 
-```
-git chekout -b [branch-name]
-```
+### Staff Members
 
-after you make changes you can add them and the new branch to the repository
+1. create a new branch on GitHub or locally
+2. make your changes
+3. push your branch and open a pull request
 
-```
-git add -A; git commit -am "Description of Change"
+```sh
+git checkout -b [branch-name]
+git add -A; git commit -am "Description of changes"
 git push -u origin [branch-name]
 ```
 
-### No Access to the Code (everyone else)
+### External Contributors
 
-First fork the repository
-- click on the Fork Dropdown button on the Github Page of the Repository
-- click on "Create a new Fork"
-- change the name if needed and click on Create
+1. fork the repository on GitHub
+2. clone your fork locally
+3. make your changes and push them
+4. open a pull request using "compare across forks"
 
-Clone your fork locally:
-
-```
+```sh
 git clone https://github.com/[your-username]/[name-of-fork].git
-cd [name-of.fork]
-```
-
-Make your desired changes and push them to your fork:
-
-```
-git add -A; git commit -am "Description of Change"
+cd [name-of-fork]
+git add -A; git commit -am "Description of changes"
 git push origin main
 ```
 
-### Admit the Changes
-
-After your changes are either on the Branch or Fork you have to open a pull request in Github
-- Click on "Pull Request" and Make a new Pull Request
-- Either Select your Branch or click "compare across Fork" if you have Forked the repository
-- Add a Title and description and wait until Michelle has reviewed it hehe
-
-## Starting the website locally
-
-First download the Node Modules
-
-```git
-npm install
-```
-
-After the download u can run the Page locally
-
-```git
-npm run dev
-```
+After opening your pull request, add a clear title and description, then wait for a review.
