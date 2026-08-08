@@ -10,79 +10,80 @@ type Mentor = {
   bio: string;
   calendly: string;
   tags: string[];
-  avatar?: string;
+  profile?: string;
 };
 
 const mentors: Mentor[] = [
   {
-    name: 'Satyam Singh',
-    role: 'SWE @ Bree (YC) • 40x Hackathon Wins',
-    bio: '40x hackathon winner and SWE at Bree (YC) who helps you craft winning strategies, prototype fast, and deliver standout demos.',
-    calendly: 'https://calendly.com/klausss/30min',
-    tags: ['Hackathon Strategy', 'Rapid Prototyping', 'Startups & YC'],
+    name: 'Panje (PJ) Nambao',
+    role: 'Product Strategy • UX Design • Agile Practices',
+    bio: 'Helps teams refine ideas, define scope, improve user experience, and turn concepts into well-scoped, user-centered products using product strategy, UX design, systems thinking, and agile practices.',
+    calendly: 'https://calendly.com/panjenambao/meet-with-pj',
+    profile: 'https://linkedin.com/in/panje-nambao',
+    tags: ['Product Strategy', 'UX Design', 'Systems Thinking'],
   },
   {
-    name: 'Sai Baba Kotha',
-    role: 'AI/ML Engineer @ Optum',
-    bio: 'AI/ML engineer guiding you on practical ML, AWS workflows, and shipping clean web/app builds with clear technical writing.',
-    calendly: 'https://calendly.com/kothasaibaba460/cs-girlies-hackathon',
-    tags: ['AI/ML Basics', 'AWS & Cloud', 'Web/App Dev'],
+    name: 'Fedelika Maxmus',
+    role: 'AI & Machine Learning Expert',
+    bio: 'AI and machine learning expert, problem solver, and data-driven innovator passionate about helping teams build intelligent solutions that create real-world impact.',
+    calendly: 'https://calendly.com/maxfede656/new-meeting',
+    profile: 'https://www.linkedin.com/in/fedelika-maxmus/',
+    tags: ['AI', 'Machine Learning', 'Data-Driven Solutions'],
   },
   {
-    name: 'Samhita Kolluri',
-    role: 'Generative AI • Agentic LLMs • Data Engineering',
-    bio: 'GenAI practitioner specializing in agentic LLMs and RAG with strong data engineering—get your AI stack production‑ready.',
-    calendly: 'https://calendly.com/samhita-kolluri/30min',
-    tags: ['Agentic AI & LLMs', 'RAG & Retrieval', 'Data Engineering'],
+    name: 'Blandina Kakore',
+    role: 'Data Analytics • AI • Machine Learning',
+    bio: 'Specializes in data analytics, artificial intelligence, and machine learning, helping teams turn ideas into impactful, end-to-end data-driven solutions.',
+    calendly: 'https://calendly.com/blandina-kakore/new-meeting',
+    tags: ['Data Analytics', 'AI', 'Machine Learning'],
   },
   {
-    name: 'Demi Oshin',
-    role: 'PhD Researcher • Engineer • Musician',
-    bio: 'Researcher‑engineer who helps you turn ideas into compelling products and pitches through storytelling and user‑centered design.',
-    calendly: 'https://calendly.com/demiaoshin/cs-girlies-hackathon-mentoring',
-    tags: ['Storytelling & Pitch', 'Product Design/UX', 'Research Methods'],
+    name: 'Rachael Favour Adebanwo',
+    role: 'Software Engineer • Women in Tech Advocate • Community Leader',
+    bio: 'Passionate about helping students and beginner developers with web development, project ideation, debugging, and turning ideas into impactful projects.',
+    calendly: 'https://calendly.com/rachaelcodesss/cs-girlies-hackathon-2026',
+    profile: 'https://www.linkedin.com/in/rachaelcodesss/',
+    tags: ['Web Development', 'Project Ideation', 'Debugging'],
   },
   {
-    name: 'Mirza Abdullah Tariq',
-    role: 'Hackathon Winner • Entrepreneurial Coach',
-    bio: 'Startup‑minded engineer who shapes ideas into clear value props and demos that resonate with judges.',
-    calendly: 'https://calendly.com/mirzaabdullaht1/',
-    tags: ['Startup & PMF', 'Hackathon Judging', 'AI Product Strategy'],
+    name: 'Amanda Ekata',
+    role: 'Full-Stack Mobile Application Developer',
+    bio: 'Full-stack mobile application developer specializing in building applications with Flutter and Golang.',
+    calendly: 'https://calendly.com/amandaekata/30min',
+    profile: 'https://www.linkedin.com/in/amanda-ekata/',
+    tags: ['Flutter', 'Golang', 'Mobile Development'],
   },
   {
-    name: 'Blessing Okogeri',
-    role: 'Product Leader • Startup Builder • Pitch Winner',
-    bio: 'Startup‑savvy product leader who helps teams craft standout pitches, user‑driven MVPs, and communicate a vision that wins judges.',
-    calendly: 'https://calendly.com/ug-okogeri/blessing-cs-girlies-hackathon',
-    tags: ['Pitch Storytelling', 'Product Vision & Strategy', 'MVP Prototyping'],
+    name: 'Rue Chaba',
+    role: 'Full-Stack Engineer • Production AI Systems',
+    bio: 'A full-stack engineer who grew into building production AI systems without a formal ML background. Mentors on multi-agent architecture, GCP infrastructure, and what that growth path actually looks like.',
+    calendly: 'https://calendly.com/rgrmatchaba/mentorship-session-cs-girlies-hackathon-rue',
+    profile: 'https://rumbidzaimatchaba.netlify.app/',
+    tags: ['Multi-Agent Architecture', 'GCP', 'Production AI'],
   },
   {
-    name: 'Pranitha Ramaswamy',
-    role: 'Cybersecurity • SWE Intern @ ALEgION • GDG Organizer',
-    bio: 'Final‑year CSE student and SWE intern focused on cybersecurity—helps with Python/Flask, web dev, and getting started in security.',
-    calendly: 'https://calendly.com/rpranitha0512/cs-girlies-hackathon',
-    tags: ['Cybersecurity Basics', 'Python & Flask', 'Web Development'],
+    name: 'Nichole Smith',
+    role: 'AI Prototyping • Product & Systems Design',
+    bio: 'Helps teams turn ambitious AI and software ideas into clear, buildable prototypes, drawing on a background in mathematics, philosophy, teaching, and product and systems design.',
+    calendly: 'https://calendly.com/nichiyes/mentor-session',
+    profile: 'https://www.linkedin.com/in/nicholesuomi/',
+    tags: ['AI Prototyping', 'Product Design', 'Systems Design'],
   },
   {
-    name: 'Ryan Ning',
-    role: 'SWE Intern @ Shopify | CS & AI Research @ UofT | 7x Hackathon Winner',
-    bio: 'SWE intern and 7× hackathon winner who helps you sharpen ideas and craft clear, compelling pitches and demos.',
-    calendly: 'https://calendly.com/ryan-ning/new-meeting?month=2025-11&fbclid=PARlRTSAN8zI5leHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafEe1mrpZzvCSUe_iokT80EL_oQ07zOXP1mnX_oNJpZbQyiPqsv7_oHEICNAA_aem_N7nJUAazzBsfvy5XVt1Iyg',
-    tags: ['Pitch Storytelling', 'Idea Review', 'Presentation Feedback'],
+    name: 'Onyeka Okafor',
+    role: 'Software Engineering • Data Science • IT',
+    bio: "Holds a bachelor's degree in computer science and a master's degree in data science, with professional experience spanning IT, software engineering, and data science.",
+    calendly: 'https://calendly.com/0nyeka',
+    profile: 'https://www.linkedin.com/in/onyekachukwu-okafor-56406b196/',
+    tags: ['Software Engineering', 'Data Science', 'IT'],
   },
   {
-    name: 'Pratik Gupta',
-    role: 'Senior Engineering Leader @ Stripe',
-    bio: 'Engineering leader building commerce platforms; advises on system design, scalable architectures, and career growth.',
-    calendly: 'https://calendly.com/pratik-gupta1088/30min',
-    tags: ['System Design', 'Distributed Systems', 'Career & Leadership'],
-  },
-  {
-    name: 'Kriti Saxena',
-    role: 'Strategy & Operations @ Uber',
-    bio: 'Data and strategy professional focused on analytics, GTM operations, and building scalable processes.',
-    calendly: 'https://calendly.com/kriti_saxena/30min',
-    tags: ['Data Strategy', 'GTM & Ops', 'Analytics'],
+    name: 'Hana Abbasian',
+    role: 'Rapid AI Prototyping • User-Centered Product Development',
+    bio: 'Specializes in rapid AI prototyping, helping teams transform ideas into functional MVPs through vibe coding, no-code tools, user-centered design, and iterative product development.',
+    calendly: 'https://calendly.com/hanaabbasian82/30min',
+    profile: 'https://www.linkedin.com/in/hana-abbasian-139094265/',
+    tags: ['Rapid AI Prototyping', 'No-Code Tools', 'MVP Development'],
   },
 ];
 
@@ -151,14 +152,26 @@ const MentorsPage: React.FC = () => {
                         ))}
                       </div>
                     </div>
-                    <a
-                      href={m.calendly}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-2 inline-flex items-center justify-center px-4 py-2 rounded-full bg-csgirlies-pink-dark hover:bg-csgirlies-pink text-white font-bold text-sm transition-all duration-300 transform hover:scale-105"
-                    >
-                      Schedule on Calendly
-                    </a>
+                    <div className="mt-4 flex flex-col sm:flex-row gap-2">
+                      {m.profile && (
+                        <a
+                          href={m.profile}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center justify-center px-4 py-2 rounded-full border border-csgirlies-pink text-csgirlies-pink hover:bg-csgirlies-pink/10 font-bold text-sm transition-colors"
+                        >
+                          View Profile
+                        </a>
+                      )}
+                      <a
+                        href={m.calendly}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex flex-1 items-center justify-center px-4 py-2 rounded-full bg-csgirlies-pink-dark hover:bg-csgirlies-pink text-white font-bold text-sm transition-all duration-300 transform hover:scale-105"
+                      >
+                        Schedule on Calendly
+                      </a>
+                    </div>
                   </div>
                 ))}
               </div>
